@@ -21,6 +21,8 @@ INCLUDE "engine/battle/move_effects/defense_curl.asm"
 INCLUDE "engine/battle/move_effects/destiny_bond.asm"
 INCLUDE "engine/battle/move_effects/dream_eater.asm"
 INCLUDE "engine/battle/move_effects/encore_disable.asm"
+INCLUDE "engine/battle/move_effects/field_moves.asm"
+INCLUDE "engine/battle/mental_effects.asm"
 INCLUDE "engine/battle/move_effects/endure.asm"
 INCLUDE "engine/battle/move_effects/explosion.asm"
 INCLUDE "engine/battle/move_effects/false_swipe.asm"
@@ -60,6 +62,7 @@ INCLUDE "engine/battle/move_effects/spikes.asm"
 INCLUDE "engine/battle/move_effects/splash.asm"
 INCLUDE "engine/battle/move_effects/substitute.asm"
 INCLUDE "engine/battle/move_effects/sucker_punch.asm"
+INCLUDE "engine/battle/move_effects/taunt_torment.asm"
 INCLUDE "engine/battle/move_effects/teleport.asm"
 INCLUDE "engine/battle/move_effects/thief.asm"
 INCLUDE "engine/battle/move_effects/thunder.asm"
@@ -325,11 +328,9 @@ endc
 	bit FRZ, [hl]
 	jr z, .not_frozen
 
-	; Sacred Fire, Scald, and Flare Blitz thaw the user.
+	; Scald and Flare Blitz thaw the user.
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp SACRED_FIRE
-	jr z, .thaw
 	cp SCALD
 	jr z, .thaw
 	cp FLARE_BLITZ
@@ -2184,6 +2185,17 @@ BattleCommand_checkhit:
 
 .Protect:
 ; Return nz if the opponent is protected.
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVar
+	cp FEINT
+	jr nz, .not_feint
+; Feint breaks through Protect.
+	ld a, BATTLE_VARS_SUBSTATUS1_OPP
+	call GetBattleVarAddr
+	res SUBSTATUS_PROTECT, [hl]
+	xor a
+	ret
+.not_feint:
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVar
 	bit SUBSTATUS_PROTECT, a
@@ -4301,6 +4313,8 @@ BattleCommand_damagecalc:
 	call GetBattleVar
 	cp EFFECT_PSYSTRIKE
 	jr z, .psystrike_mod
+	cp EFFECT_SACRED_SWORD
+	jr z, .sacredsword_mod
 	ld a, BATTLE_VARS_MOVE_CATEGORY
 	call GetBattleVar
 	cp SPECIAL
@@ -4315,6 +4329,10 @@ BattleCommand_damagecalc:
 .psystrike_mod
 	call ApplySpecialAttackBoosts
 	call ApplyDefenseBoosts
+	jr .stat_boosts_done
+.sacredsword_mod
+	call ApplyAttackBoosts
+	call ApplySacredSwordDefenseBoost
 
 .stat_boosts_done
 	pop de
@@ -5559,6 +5577,8 @@ HandleRampage_ConfuseUser:
 	call GetTrueUserIgnorableAbility
 	cp OWN_TEMPO
 	ret z
+	cp BUSHIDO
+	ret z
 
 	set SUBSTATUS_CONFUSED, [hl]
 	inc de ; ConfuseCount
@@ -5567,6 +5587,12 @@ HandleRampage_ConfuseUser:
 	inc a
 	inc a
 	ld [de], a
+	ldh a, [hBattleTurn]
+	and a
+	jr nz, .rampage_confuse_done
+	ld a, MENTAL_F_CONFUSED_F
+	call RegisterPlayerMentalEffect
+.rampage_confuse_done
 	call StackCallOpponentTurn
 	ld hl, BecameConfusedDueToFatigueText
 	jmp FinishConfusingTargetAnim
@@ -5989,6 +6015,8 @@ BattleCommand_confusetarget:
 	call GetOpponentIgnorableAbility
 	cp OWN_TEMPO
 	ret z
+	cp BUSHIDO
+	ret z
 	ld a, [wEffectFailed]
 	and a
 	ret nz
@@ -6026,6 +6054,16 @@ BattleCommand_confuse:
 	farjp EndAbility
 
 .no_ability_protection
+	call GetOpponentIgnorableAbility
+	cp BUSHIDO
+	jr nz, .no_bushido_protection
+	farcall BeginAbility
+	farcall ShowEnemyAbilityActivation
+	ld hl, DoesntAffectText
+	call StdBattleTextbox
+	farjp EndAbility
+
+.no_bushido_protection
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
@@ -6054,6 +6092,13 @@ FinishConfusingTarget:
 	inc a
 	inc a
 	ld [bc], a
+
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .mental_done
+	ld a, MENTAL_F_CONFUSED_F
+	call RegisterPlayerMentalEffect
+.mental_done
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
@@ -6120,6 +6165,8 @@ BattleCommand_resetstats:
 	ret
 
 BattleCommand_heal:
+	call CheckHealBlocked
+	jr c, .heal_blocked
 	farcall CheckFullHP
 	jr z, .hp_full
 	ld a, BATTLE_VARS_MOVE_ANIM
@@ -6168,6 +6215,11 @@ BattleCommand_heal:
 	farcall ShowAbilityActivation
 	call AnimateFailedMove
 	farjp EndAbility
+
+.heal_blocked
+	call AnimateFailedMove
+	ld hl, HealBlockedText
+	jmp StdBattleTextbox
 
 .hp_full
 	call AnimateFailedMove

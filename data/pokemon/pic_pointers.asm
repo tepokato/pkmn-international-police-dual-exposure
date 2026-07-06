@@ -295,7 +295,64 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
-	assert_table_length NUM_SPECIES
+	pics Madame
+	pics Ralts
+	pics Kirlia
+	pics Gardevoir
+	pics Gallade
+	pics Poochyena
+	pics Mightyena
+	pics Zigzagoon
+	pics Linoone
+	pics Aron
+	pics Lairon
+	pics Aggron
+	pics Trapinch
+	pics Vibrava
+	pics Flygon
+	pics Cacnea
+	pics Cacturne
+	pics Baltoy
+	pics Claydol
+	pics Absol
+	pics Bagon
+	pics Shelgon
+	pics Salamence
+	pics Beldum
+	pics Metang
+	pics Metagross
+	pics Shinx
+	pics Luxio
+	pics Luxray
+	pics Stunky
+	pics Skuntank
+	pics Bronzor
+	pics Bronzong
+	pics Riolu
+	pics Lucario
+	pics Skorupi
+	pics Drapion
+	pics Croagunk
+	pics Toxicroak
+	pics Rotom
+	pics Lillipup
+	pics Herdier
+	pics Stoutland
+	pics Purrloin
+	pics Liepard
+	pics Audino
+	pics Trubbish
+	pics Garbodor
+	pics Klink
+	pics Klang
+	pics Klinklang
+	pics Elgyem
+	pics Beheeyem
+	pics Pawniard
+	pics Bisharp
+	pics Kingambit
+	pics Hawlucha
+assert_table_length NUM_SPECIES
 
 	pics UnownB
 	pics UnownC
@@ -330,12 +387,6 @@ PokemonPicPointers::
 	pics ArbokKoga
 	pics ArbokAgatha
 	pics ArbokAriana
-
-	pics PikachuFly
-	pics PikachuSurf
-	pics PikachuPika
-	pics PikachuChuchu
-	pics PikachuSpark
 
 	pics PichuSpiky
 

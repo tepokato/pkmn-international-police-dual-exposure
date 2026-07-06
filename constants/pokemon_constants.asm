@@ -314,8 +314,65 @@
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
-DEF NUM_SPECIES EQU const_value - 1 ; 123
-DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
+	const MADAME       ; 124
+	const RALTS
+	const KIRLIA
+	const GARDEVOIR
+	const GALLADE
+	const POOCHYENA
+	const MIGHTYENA
+	const ZIGZAGOON
+	const LINOONE
+	const ARON
+	const LAIRON
+	const AGGRON
+	const TRAPINCH
+	const VIBRAVA
+	const FLYGON
+	const CACNEA
+	const CACTURNE
+	const BALTOY
+	const CLAYDOL
+	const ABSOL
+	const BAGON
+	const SHELGON
+	const SALAMENCE
+	const BELDUM
+	const METANG
+	const METAGROSS
+	const SHINX
+	const LUXIO
+	const LUXRAY
+	const STUNKY
+	const SKUNTANK
+	const BRONZOR
+	const BRONZONG
+	const RIOLU
+	const LUCARIO
+	const SKORUPI
+	const DRAPION
+	const CROAGUNK
+	const TOXICROAK
+	const ROTOM
+	const LILLIPUP
+	const HERDIER
+	const STOUTLAND
+	const PURRLOIN
+	const LIEPARD
+	const AUDINO
+	const TRUBBISH
+	const GARBODOR
+	const KLINK
+	const KLANG
+	const KLINKLANG
+	const ELGYEM
+	const BEHEEYEM
+	const PAWNIARD
+	const BISHARP
+	const KINGAMBIT
+	const HAWLUCHA
+DEF NUM_SPECIES EQU const_value - 1 ; 180
+DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 178
 
 DEF CANCEL EQU -1
 
@@ -387,15 +444,6 @@ DEF NUM_UNOWN EQU ext_const_value - 1
 	ext_const ARBOK_ARIANA_FORM   ; 143 (6)
 DEF NUM_ARBOK EQU ext_const_value - 1
 
-; pikachu
-	ext_const_def 2
-	ext_const PIKACHU_FLY_FORM    ; 144 (2)
-	ext_const PIKACHU_SURF_FORM   ; 145 (3)
-	ext_const PIKACHU_RED_FORM    ; 146 (4)
-	ext_const PIKACHU_YELLOW_FORM ; 147 (5)
-	ext_const PIKACHU_SPARK_FORM  ; 148 (6)
-DEF NUM_PIKACHU EQU ext_const_value - 1
-
 ; pichu
 	ext_const_def 2
 	ext_const PICHU_SPIKY_EARED_FORM ; 149 (2)
@@ -423,7 +471,7 @@ DEF NUM_PIKACHU EQU ext_const_value - 1
 	ext_const MAGIKARP_RAINDROP_FORM  ; 15c (14)
 DEF NUM_MAGIKARP EQU ext_const_value - 1 ; 14
 
-DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
+DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 33
 
 DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15d
 

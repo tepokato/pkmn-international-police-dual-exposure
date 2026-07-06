@@ -1,0 +1,71 @@
+{
+  "regional_dex_species": 239,
+  "rom_species_in_dex_table": 238,
+  "rom_species_not_in_regional_dex": 110,
+  "non_dex_species_files_sample": [
+    "bulbasaur.asm",
+    "ivysaur.asm",
+    "venusaur.asm",
+    "charmander.asm",
+    "charmeleon.asm",
+    "charizard.asm",
+    "squirtle.asm",
+    "wartortle.asm",
+    "blastoise.asm",
+    "caterpie.asm",
+    "metapod.asm",
+    "butterfree.asm",
+    "weedle.asm",
+    "kakuna.asm",
+    "beedrill.asm",
+    "pidgey.asm",
+    "pidgeotto.asm",
+    "pidgeot.asm",
+    "spearow.asm",
+    "fearow.asm",
+    "sandshrew_plain.asm",
+    "sandslash_plain.asm",
+    "jigglypuff.asm",
+    "wigglytuff.asm",
+    "paras.asm",
+    "parasect.asm",
+    "psyduck.asm",
+    "golduck.asm",
+    "mankey.asm",
+    "primeape.asm",
+    "poliwag.asm",
+    "poliwhirl.asm",
+    "poliwrath.asm",
+    "abra.asm",
+    "kadabra.asm",
+    "alakazam.asm",
+    "bellsprout.asm",
+    "weepinbell.asm",
+    "victreebel.asm",
+    "cubone.asm"
+  ],
+  "total_attack_moves_in_rom": 255,
+  "moves_used_by_regional_dex": 257,
+  "moves_not_learned_by_regional_dex": 1,
+  "moves_only_non_dex_species": 1,
+  "non_dex_exclusive_moves": [
+    "SPORE"
+  ],
+  "orphan_moves_no_species": [],
+  "likely_removable": [],
+  "keep_due_to_hardcoded_refs": {
+    "SPORE": [
+      "data/battle_tower/parties.asm",
+      "data/moves/powder_moves.asm",
+      "data/trainers/parties.asm"
+    ]
+  },
+  "tm_tutor_unused_by_regional_dex": [
+    "ROCK_SMASH",
+    "TAUNT",
+    "TORMENT"
+  ],
+  "dex_unused_moves": [
+    "SPORE"
+  ]
+}

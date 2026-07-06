@@ -373,8 +373,14 @@ wPlayerConfuseCount:: db
 wPlayerToxicCount:: db
 wPlayerDisableCount:: db
 wPlayerEncoreCount:: db ; also for choice-locking
+wPlayerTauntCount:: db
+wPlayerTormentCount:: db
+wPlayerTormentLastMove:: db
 wPlayerPerishCount:: db
 wPlayerProtectCount:: db
+wPlayerYawnCount:: db
+wPlayerTailwindCount:: db
+wPlayerHealBlockCount:: db
 
 wEnemyAbility:: db
 wEnemyRolloutCount:: db
@@ -382,10 +388,17 @@ wEnemyConfuseCount:: db
 wEnemyToxicCount:: db
 wEnemyDisableCount:: db
 wEnemyEncoreCount:: db
+wEnemyTauntCount:: db
+wEnemyTormentCount:: db
+wEnemyTormentLastMove:: db
 wEnemyPerishCount:: db
 wEnemyProtectCount:: db
+wEnemyYawnCount:: db
+wEnemyTailwindCount:: db
+wEnemyHealBlockCount:: db
 
 wCriticalCount:: ds PARTY_LENGTH ; for g-Farfetch'd evolution
+wMentalEffectFlags:: ds PARTY_LENGTH ; for Farfetch'd → Madame evolution
 wBattleSubStatusWRAMEnd::
 
 wDamageTaken::
@@ -497,7 +510,8 @@ wPlayerHazards::
 ; bit
 ; 6-7 toxic spikes
 ; 4-5 spikes
-; 0-3 unused
+; 0   stealth rock
+; 1-3 unused
 	db
 
 wEnemyHazards::

@@ -295,7 +295,64 @@ EvosAttacksPointers::
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
-	assert_table_length NUM_SPECIES
+	dw MadameEvosAttacks
+	dw RaltsEvosAttacks
+	dw KirliaEvosAttacks
+	dw GardevoirEvosAttacks
+	dw GalladeEvosAttacks
+	dw PoochyenaEvosAttacks
+	dw MightyenaEvosAttacks
+	dw ZigzagoonEvosAttacks
+	dw LinooneEvosAttacks
+	dw AronEvosAttacks
+	dw LaironEvosAttacks
+	dw AggronEvosAttacks
+	dw TrapinchEvosAttacks
+	dw VibravaEvosAttacks
+	dw FlygonEvosAttacks
+	dw CacneaEvosAttacks
+	dw CacturneEvosAttacks
+	dw BaltoyEvosAttacks
+	dw ClaydolEvosAttacks
+	dw AbsolEvosAttacks
+	dw BagonEvosAttacks
+	dw ShelgonEvosAttacks
+	dw SalamenceEvosAttacks
+	dw BeldumEvosAttacks
+	dw MetangEvosAttacks
+	dw MetagrossEvosAttacks
+	dw ShinxEvosAttacks
+	dw LuxioEvosAttacks
+	dw LuxrayEvosAttacks
+	dw StunkyEvosAttacks
+	dw SkuntankEvosAttacks
+	dw BronzorEvosAttacks
+	dw BronzongEvosAttacks
+	dw RioluEvosAttacks
+	dw LucarioEvosAttacks
+	dw SkorupiEvosAttacks
+	dw DrapionEvosAttacks
+	dw CroagunkEvosAttacks
+	dw ToxicroakEvosAttacks
+	dw RotomEvosAttacks
+	dw LillipupEvosAttacks
+	dw HerdierEvosAttacks
+	dw StoutlandEvosAttacks
+	dw PurrloinEvosAttacks
+	dw LiepardEvosAttacks
+	dw AudinoEvosAttacks
+	dw TrubbishEvosAttacks
+	dw GarbodorEvosAttacks
+	dw KlinkEvosAttacks
+	dw KlangEvosAttacks
+	dw KlinklangEvosAttacks
+	dw ElgyemEvosAttacks
+	dw BeheeyemEvosAttacks
+	dw PawniardEvosAttacks
+	dw BisharpEvosAttacks
+	dw KingambitEvosAttacks
+	dw HawluchaEvosAttacks
+assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
 

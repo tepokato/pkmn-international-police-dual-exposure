@@ -74,6 +74,8 @@ BattleCommandPointers:
 	command constantdamage
 	command counter
 	command encore
+	command taunt
+	command torment
 	command painsplit
 	command sketch
 	command sleeptalk
@@ -144,6 +146,12 @@ BattleCommandPointers:
 	command lowkick
 	command brickbreak
 	command trickroom
+	command checkbushidoimmune
+	command stealthrock
+	command defog
+	command yawn
+	command tailwind
+	command healblock
 
 	; The following commands have an argument
 	; Argument: check if possible (false) vs perform the action (true)

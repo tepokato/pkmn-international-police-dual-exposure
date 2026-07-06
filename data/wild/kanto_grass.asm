@@ -33,7 +33,7 @@
 	; morn
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, SANDSLASH
+	wildmon 56, DUGTRIO
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
 	wildmon 58, CLEFAIRY
@@ -41,7 +41,7 @@
 	; day
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, SANDSLASH
+	wildmon 56, DUGTRIO
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
 	wildmon 58, CLEFAIRY
@@ -61,7 +61,7 @@
 	; morn
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, SANDSLASH
+	wildmon 56, DUGTRIO
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
 	wildmon 58, CLEFAIRY
@@ -69,7 +69,7 @@
 	; day
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, SANDSLASH
+	wildmon 56, DUGTRIO
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
 	wildmon 58, CLEFAIRY
@@ -89,7 +89,7 @@
 	; morn
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, SANDSLASH
+	wildmon 56, DUGTRIO
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
 	wildmon 58, CLEFAIRY
@@ -97,7 +97,7 @@
 	; day
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, SANDSLASH
+	wildmon 56, DUGTRIO
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
 	wildmon 58, CLEFAIRY
@@ -115,23 +115,23 @@
 	def_grass_wildmons ROCK_TUNNEL_1F
 	db 4 percent ; encounter rate
 	; morn
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, GRAVELER
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
 	wildmon 51, GOLBAT
 	wildmon 54, MACHOKE
-	wildmon 51, MAROWAK
+	wildmon 51, GEODUDE
 	; day
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, GRAVELER
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
 	wildmon 51, GOLBAT
 	wildmon 54, MACHOKE
-	wildmon 51, MAROWAK
+	wildmon 51, GEODUDE
 	; nite
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, GRAVELER
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
@@ -143,7 +143,7 @@
 	def_grass_wildmons ROCK_TUNNEL_B1F
 	db 4 percent ; encounter rate
 	; morn
-	wildmon 50, MAROWAK
+	wildmon 50, GEODUDE
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, GOLBAT
@@ -151,7 +151,7 @@
 	wildmon 52, GRAVELER
 	wildmon 52, STEELIX
 	; day
-	wildmon 50, MAROWAK
+	wildmon 50, GEODUDE
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, GOLBAT
@@ -159,7 +159,7 @@
 	wildmon 52, GRAVELER
 	wildmon 52, STEELIX
 	; nite
-	wildmon 50, MAROWAK
+	wildmon 50, GEODUDE
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, HAUNTER
@@ -171,7 +171,7 @@
 	def_grass_wildmons ROCK_TUNNEL_2F
 	db 4 percent ; encounter rate
 	; morn
-	wildmon 52, MAROWAK
+	wildmon 52, GEODUDE
 	wildmon 54, GRAVELER
 	wildmon 52, GOLBAT
 	wildmon 54, MACHOKE
@@ -179,7 +179,7 @@
 	wildmon 55, KANGASKHAN
 	wildmon 56, KANGASKHAN
 	; day
-	wildmon 52, MAROWAK
+	wildmon 52, GEODUDE
 	wildmon 54, GRAVELER
 	wildmon 52, GOLBAT
 	wildmon 54, MACHOKE
@@ -203,7 +203,7 @@
 	wildmon 42, RHYHORN
 	wildmon 41, ONIX
 	wildmon 42, GOLBAT
-	wildmon 44, SANDSLASH
+	wildmon 44, DUGTRIO
 	wildmon 46, RHYDON
 	wildmon 45, STEELIX
 	; day
@@ -211,7 +211,7 @@
 	wildmon 42, RHYHORN
 	wildmon 41, ONIX
 	wildmon 42, GOLBAT
-	wildmon 44, SANDSLASH
+	wildmon 44, DUGTRIO
 	wildmon 46, RHYDON
 	wildmon 45, STEELIX
 	; nite
@@ -231,7 +231,7 @@
 	wildmon 45, RHYHORN
 	wildmon 44, ONIX
 	wildmon 45, GOLBAT
-	wildmon 47, SANDSLASH
+	wildmon 47, DUGTRIO
 	wildmon 49, RHYDON
 	wildmon 48, STEELIX
 	; day
@@ -239,7 +239,7 @@
 	wildmon 45, RHYHORN
 	wildmon 44, ONIX
 	wildmon 45, GOLBAT
-	wildmon 47, SANDSLASH
+	wildmon 47, DUGTRIO
 	wildmon 49, RHYDON
 	wildmon 48, STEELIX
 	; nite
@@ -259,7 +259,7 @@
 	wildmon 47, RHYHORN
 	wildmon 46, ONIX
 	wildmon 47, GOLBAT
-	wildmon 48, SANDSLASH
+	wildmon 48, DUGTRIO
 	wildmon 51, RHYDON
 	wildmon 50, STEELIX
 	; day
@@ -267,7 +267,7 @@
 	wildmon 47, RHYHORN
 	wildmon 46, ONIX
 	wildmon 47, GOLBAT
-	wildmon 48, SANDSLASH
+	wildmon 48, DUGTRIO
 	wildmon 51, RHYDON
 	wildmon 50, STEELIX
 	; nite
@@ -311,21 +311,21 @@
 	def_grass_wildmons ROUTE_1
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 56, PIDGEOTTO
+	wildmon 56, HOOTHOOT
 	wildmon 56, RATICATE
 	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
+	wildmon 57, HOOTHOOT
 	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
+	wildmon 60, NOCTOWL
+	wildmon 60, NOCTOWL
 	; day
-	wildmon 56, PIDGEOTTO
+	wildmon 56, HOOTHOOT
 	wildmon 56, RATICATE
 	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
+	wildmon 57, HOOTHOOT
 	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
+	wildmon 60, NOCTOWL
+	wildmon 60, NOCTOWL
 	; nite
 	wildmon 56, NOCTOWL
 	wildmon 56, RATICATE
@@ -339,20 +339,20 @@
 	def_grass_wildmons ROUTE_2_NORTH
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 55, BUTTERFREE
+	wildmon 55, LEDIAN
 	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
+	wildmon 57, HOOTHOOT
+	wildmon 57, LEDIAN
 	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
+	wildmon 58, HOOTHOOT
 	wildmon 59, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
+	wildmon 55, LEDIAN
+	wildmon 54, HOOTHOOT
+	wildmon 57, HOOTHOOT
+	wildmon 57, LEDIAN
+	wildmon 56, HOOTHOOT
+	wildmon 58, HOOTHOOT
 	wildmon 59, PIKACHU
 	; nite
 	wildmon 55, NOCTOWL
@@ -367,20 +367,20 @@
 	def_grass_wildmons ROUTE_2_SOUTH
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 55, BUTTERFREE
+	wildmon 55, LEDIAN
 	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
+	wildmon 57, HOOTHOOT
+	wildmon 57, LEDIAN
 	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
+	wildmon 58, HOOTHOOT
 	wildmon 59, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
+	wildmon 55, LEDIAN
+	wildmon 54, HOOTHOOT
+	wildmon 57, HOOTHOOT
+	wildmon 57, LEDIAN
+	wildmon 56, HOOTHOOT
+	wildmon 58, HOOTHOOT
 	wildmon 59, PIKACHU
 	; nite
 	wildmon 55, NOCTOWL
@@ -395,19 +395,19 @@
 	def_grass_wildmons VIRIDIAN_FOREST
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 57, BUTTERFREE
-	wildmon 57, BEEDRILL
-	wildmon 55, KAKUNA
-	wildmon 55, METAPOD
-	wildmon 56, METAPOD
+	wildmon 57, LEDIAN
+	wildmon 57, LEDIAN
+	wildmon 55, SPINARAK
+	wildmon 55, SPINARAK
+	wildmon 56, SPINARAK
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; day
-	wildmon 57, BUTTERFREE
-	wildmon 57, BEEDRILL
-	wildmon 55, METAPOD
-	wildmon 55, KAKUNA
-	wildmon 56, KAKUNA
+	wildmon 57, LEDIAN
+	wildmon 57, LEDIAN
+	wildmon 55, SPINARAK
+	wildmon 55, SPINARAK
+	wildmon 56, SPINARAK
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; nite
@@ -423,21 +423,21 @@
 	def_grass_wildmons ROUTE_3
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 52, RATICATE
 	wildmon 54, ARBOK, ARBOK_KANTO_FORM
-	wildmon 55, SANDSLASH
+	wildmon 55, DUGTRIO
 	wildmon 55, ARBOK, ARBOK_KANTO_FORM
-	wildmon 57, JIGGLYPUFF
-	wildmon 55, WIGGLYTUFF
+	wildmon 57, CLEFFA
+	wildmon 55, CLEFABLE
 	; day
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 52, RATICATE
 	wildmon 54, ARBOK, ARBOK_KANTO_FORM
-	wildmon 55, SANDSLASH
+	wildmon 55, DUGTRIO
 	wildmon 55, ARBOK, ARBOK_KANTO_FORM
-	wildmon 57, JIGGLYPUFF
-	wildmon 55, WIGGLYTUFF
+	wildmon 57, CLEFFA
+	wildmon 55, CLEFABLE
 	; nite
 	wildmon 52, RATICATE
 	wildmon 52, RATICATE
@@ -451,21 +451,21 @@
 	def_grass_wildmons ROUTE_4
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 54, FEAROW
+	wildmon 54, NOCTOWL
 	wildmon 54, RATICATE
 	wildmon 56, ARBOK, ARBOK_KANTO_FORM
-	wildmon 57, SANDSLASH
+	wildmon 57, DUGTRIO
 	wildmon 57, ARBOK, ARBOK_KANTO_FORM
-	wildmon 58, PRIMEAPE
-	wildmon 59, PRIMEAPE
+	wildmon 58, MACHOP
+	wildmon 59, MACHOP
 	; day
-	wildmon 54, FEAROW
+	wildmon 54, NOCTOWL
 	wildmon 54, RATICATE
 	wildmon 56, ARBOK, ARBOK_KANTO_FORM
-	wildmon 57, SANDSLASH
+	wildmon 57, DUGTRIO
 	wildmon 57, ARBOK, ARBOK_KANTO_FORM
-	wildmon 58, PRIMEAPE
-	wildmon 59, PRIMEAPE
+	wildmon 58, MACHOP
+	wildmon 59, MACHOP
 	; nite
 	wildmon 54, RATICATE
 	wildmon 54, RATICATE
@@ -479,29 +479,29 @@
 	def_grass_wildmons ROUTE_5
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 46, PIDGEOTTO
+	wildmon 46, HOOTHOOT
 	wildmon 46, GRANBULL
 	wildmon 51, BELLSPROUT
 	wildmon 47, WEEPINBELL
-	wildmon 48, KADABRA
-	wildmon 51, JIGGLYPUFF
-	wildmon 47, WIGGLYTUFF
+	wildmon 48, KIRLIA
+	wildmon 51, CLEFFA
+	wildmon 47, CLEFABLE
 	; day
-	wildmon 46, PIDGEOTTO
+	wildmon 46, HOOTHOOT
 	wildmon 46, GRANBULL
 	wildmon 51, BELLSPROUT
 	wildmon 47, WEEPINBELL
-	wildmon 48, KADABRA
-	wildmon 51, JIGGLYPUFF
-	wildmon 47, WIGGLYTUFF
+	wildmon 48, KIRLIA
+	wildmon 51, CLEFFA
+	wildmon 47, CLEFABLE
 	; nite
 	wildmon 46, NOCTOWL
 	wildmon 46, PERSIAN
 	wildmon 51, ODDISH
 	wildmon 47, GLOOM
-	wildmon 48, KADABRA
-	wildmon 51, JIGGLYPUFF
-	wildmon 47, WIGGLYTUFF
+	wildmon 48, KIRLIA
+	wildmon 51, CLEFFA
+	wildmon 47, CLEFABLE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_6
@@ -510,128 +510,128 @@
 	wildmon 45, RATICATE
 	wildmon 45, GRANBULL
 	wildmon 46, MAGNETON
-	wildmon 47, PRIMEAPE
-	wildmon 50, JIGGLYPUFF
+	wildmon 47, MACHOP
+	wildmon 50, CLEFFA
 	wildmon 47, GRANBULL
-	wildmon 47, WIGGLYTUFF
+	wildmon 47, CLEFABLE
 	; day
 	wildmon 45, RATICATE
 	wildmon 45, GRANBULL
 	wildmon 46, MAGNETON
-	wildmon 47, PRIMEAPE
-	wildmon 50, JIGGLYPUFF
+	wildmon 47, MACHOP
+	wildmon 50, CLEFFA
 	wildmon 47, GRANBULL
-	wildmon 47, WIGGLYTUFF
+	wildmon 47, CLEFABLE
 	; nite
 	wildmon 45, PERSIAN
 	wildmon 45, HYPNO
 	wildmon 46, MAGNETON
-	wildmon 47, PSYDUCK
-	wildmon 50, JIGGLYPUFF
+	wildmon 47, SLOWPOKE
+	wildmon 50, CLEFFA
 	wildmon 47, RATICATE
-	wildmon 47, WIGGLYTUFF
+	wildmon 47, CLEFABLE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_7
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 49, RATICATE
-	wildmon 49, FEAROW
+	wildmon 49, NOCTOWL
 	wildmon 51, GRANBULL
 	wildmon 54, VULPIX
-	wildmon 54, JIGGLYPUFF
+	wildmon 54, CLEFFA
 	wildmon 52, RATICATE
-	wildmon 51, WIGGLYTUFF
+	wildmon 51, CLEFABLE
 	; day
 	wildmon 49, RATICATE
-	wildmon 49, FEAROW
+	wildmon 49, NOCTOWL
 	wildmon 51, GRANBULL
 	wildmon 54, VULPIX
-	wildmon 54, JIGGLYPUFF
+	wildmon 54, CLEFFA
 	wildmon 52, RATICATE
-	wildmon 51, WIGGLYTUFF
+	wildmon 51, CLEFABLE
 	; nite
 	wildmon 49, PERSIAN
 	wildmon 49, MURKROW
 	wildmon 51, HOUNDOUR
 	wildmon 54, VULPIX
-	wildmon 54, JIGGLYPUFF
+	wildmon 54, CLEFFA
 	wildmon 52, PERSIAN
-	wildmon 51, WIGGLYTUFF
+	wildmon 51, CLEFABLE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_8
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 48, PIDGEOTTO
+	wildmon 48, HOOTHOOT
 	wildmon 51, ARBOK, ARBOK_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
-	wildmon 53, JIGGLYPUFF
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
+	wildmon 53, CLEFFA
+	wildmon 50, KIRLIA
+	wildmon 50, KIRLIA
 	; day
-	wildmon 48, PIDGEOTTO
+	wildmon 48, HOOTHOOT
 	wildmon 51, ARBOK, ARBOK_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
-	wildmon 53, JIGGLYPUFF
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
+	wildmon 53, CLEFFA
+	wildmon 50, KIRLIA
+	wildmon 50, KIRLIA
 	; nite
 	wildmon 48, PERSIAN
 	wildmon 51, NOCTOWL
-	wildmon 53, KADABRA
+	wildmon 53, KIRLIA
 	wildmon 53, HAUNTER
 	wildmon 53, VULPIX
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
+	wildmon 50, KIRLIA
+	wildmon 50, KIRLIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_9
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 48, RATICATE
-	wildmon 47, FEAROW
-	wildmon 49, PRIMEAPE
+	wildmon 47, NOCTOWL
+	wildmon 49, MACHOP
 	wildmon 50, NIDORINA
 	wildmon 50, NIDORINO
-	wildmon 52, MAROWAK
-	wildmon 52, PRIMEAPE
+	wildmon 52, GEODUDE
+	wildmon 52, MACHOP
 	; day
 	wildmon 48, RATICATE
-	wildmon 47, FEAROW
-	wildmon 49, PRIMEAPE
+	wildmon 47, NOCTOWL
+	wildmon 49, MACHOP
 	wildmon 50, NIDORINA
 	wildmon 50, NIDORINO
-	wildmon 52, MAROWAK
-	wildmon 52, PRIMEAPE
+	wildmon 52, GEODUDE
+	wildmon 52, MACHOP
 	; nite
 	wildmon 48, RATICATE
 	wildmon 47, VENOMOTH
 	wildmon 49, RATICATE
 	wildmon 50, VENOMOTH
 	wildmon 50, GOLBAT
-	wildmon 52, MAROWAK
+	wildmon 52, GEODUDE
 	wildmon 52, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_10_NORTH
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 47, FEAROW
+	wildmon 47, NOCTOWL
 	wildmon 49, ELECTRODE
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; day
-	wildmon 47, FEAROW
+	wildmon 47, NOCTOWL
 	wildmon 49, ELECTRODE
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; nite
@@ -650,16 +650,16 @@
 	wildmon 53, SKIPLOOM
 	wildmon 48, RATICATE
 	wildmon 50, MAGNETON
-	wildmon 51, PIDGEOTTO
-	wildmon 51, SANDSLASH
+	wildmon 51, HOOTHOOT
+	wildmon 51, DUGTRIO
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
 	; day
 	wildmon 53, SKIPLOOM
 	wildmon 48, RATICATE
 	wildmon 50, MAGNETON
-	wildmon 51, PIDGEOTTO
-	wildmon 51, SANDSLASH
+	wildmon 51, HOOTHOOT
+	wildmon 51, DUGTRIO
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
 	; nite
@@ -677,7 +677,7 @@
 	; morn
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 50, PIDGEOTTO
+	wildmon 50, HOOTHOOT
 	wildmon 51, WEEPINBELL
 	wildmon 53, WEEPINBELL
 	wildmon 52, FARFETCH_D
@@ -685,7 +685,7 @@
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 50, PIDGEOTTO
+	wildmon 50, HOOTHOOT
 	wildmon 51, WEEPINBELL
 	wildmon 53, WEEPINBELL
 	wildmon 52, FARFETCH_D
@@ -705,7 +705,7 @@
 	; morn
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, HOOTHOOT
 	wildmon 52, WEEPINBELL
 	wildmon 54, WEEPINBELL
 	wildmon 53, SUNFLORA
@@ -713,7 +713,7 @@
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, HOOTHOOT
 	wildmon 52, WEEPINBELL
 	wildmon 54, WEEPINBELL
 	wildmon 53, SUNFLORA
@@ -733,7 +733,7 @@
 	; morn
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 53, PIDGEOTTO
+	wildmon 53, HOOTHOOT
 	wildmon 51, WEEPINBELL
 	wildmon 56, WEEPINBELL
 	wildmon 54, SUNFLORA
@@ -741,7 +741,7 @@
 	; day
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 53, PIDGEOTTO
+	wildmon 53, HOOTHOOT
 	wildmon 51, WEEPINBELL
 	wildmon 56, WEEPINBELL
 	wildmon 54, SUNFLORA
@@ -789,7 +789,7 @@
 	; morn
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 54, PIDGEOTTO
+	wildmon 54, HOOTHOOT
 	wildmon 54, WEEPINBELL
 	wildmon 57, WEEPINBELL
 	wildmon 55, SUNFLORA
@@ -797,7 +797,7 @@
 	; day
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 54, PIDGEOTTO
+	wildmon 54, HOOTHOOT
 	wildmon 54, WEEPINBELL
 	wildmon 57, WEEPINBELL
 	wildmon 55, SUNFLORA
@@ -816,17 +816,17 @@
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, NOCTOWL
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; day
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, NOCTOWL
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
@@ -844,17 +844,17 @@
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, NOCTOWL
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; day
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, NOCTOWL
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
@@ -871,17 +871,17 @@
 	def_grass_wildmons ROUTE_18_EAST
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, NOCTOWL
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, NOCTOWL
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
@@ -899,17 +899,17 @@
 	def_grass_wildmons ROUTE_18_WEST
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, NOCTOWL
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
-	wildmon 52, FEAROW
+	wildmon 52, NOCTOWL
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, NOCTOWL
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
@@ -931,17 +931,17 @@
 	wildmon 55, RATICATE
 	wildmon 58, TANGELA
 	wildmon 56, RATICATE
-	wildmon 58, MR__MIME
-	wildmon 59, MR__MIME
-	wildmon 60, MR__MIME
+	wildmon 58, HYPNO
+	wildmon 59, HYPNO
+	wildmon 60, HYPNO
 	; day
 	wildmon 57, TANGELA
 	wildmon 55, RATICATE
 	wildmon 58, TANGELA
 	wildmon 56, RATICATE
-	wildmon 58, MR__MIME
-	wildmon 59, MR__MIME
-	wildmon 60, MR__MIME
+	wildmon 58, HYPNO
+	wildmon 59, HYPNO
+	wildmon 60, HYPNO
 	; nite
 	wildmon 57, TANGELA
 	wildmon 55, RATICATE
@@ -956,7 +956,7 @@
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 56, RATICATE
-	wildmon 56, FEAROW
+	wildmon 56, NOCTOWL
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
 	wildmon 59, PONYTA
@@ -964,7 +964,7 @@
 	wildmon 60, PONYTA
 	; day
 	wildmon 56, RATICATE
-	wildmon 56, FEAROW
+	wildmon 56, NOCTOWL
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
 	wildmon 59, PONYTA
@@ -972,31 +972,31 @@
 	wildmon 60, PONYTA
 	; nite
 	wildmon 56, RATICATE
-	wildmon 56, POLIWHIRL
+	wildmon 56, KINGLER
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
 	wildmon 59, RATICATE
 	wildmon 59, RATICATE
-	wildmon 60, POLIWHIRL
+	wildmon 60, KINGLER
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_23_NORTH
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 37, DODRIO
-	wildmon 38, SANDSLASH
+	wildmon 38, DUGTRIO
 	wildmon 38, ARBOK, ARBOK_KANTO_FORM
-	wildmon 39, PRIMEAPE
-	wildmon 39, SANDSLASH
-	wildmon 40, SANDSLASH
+	wildmon 39, MACHOP
+	wildmon 39, DUGTRIO
+	wildmon 40, DUGTRIO
 	wildmon 42, DITTO
 	; day
 	wildmon 37, DODRIO
-	wildmon 38, SANDSLASH
+	wildmon 38, DUGTRIO
 	wildmon 38, ARBOK, ARBOK_KANTO_FORM
-	wildmon 39, PRIMEAPE
-	wildmon 39, SANDSLASH
-	wildmon 40, SANDSLASH
+	wildmon 39, MACHOP
+	wildmon 39, DUGTRIO
+	wildmon 40, DUGTRIO
 	wildmon 42, DITTO
 	; nite
 	wildmon 37, NOCTOWL
@@ -1011,64 +1011,64 @@
 	def_grass_wildmons ROUTE_24
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
+	wildmon 48, LEDIAN
+	wildmon 48, LEDIAN
+	wildmon 51, HOOTHOOT
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 49, HOOTHOOT
+	wildmon 53, KIRLIA
+	wildmon 52, KIRLIA
 	; day
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
+	wildmon 48, LEDIAN
+	wildmon 48, LEDIAN
+	wildmon 51, HOOTHOOT
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 49, HOOTHOOT
+	wildmon 53, KIRLIA
+	wildmon 52, KIRLIA
 	; nite
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
 	wildmon 50, GLOOM
 	wildmon 49, GLOOM
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, KIRLIA
+	wildmon 52, KIRLIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_25
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
+	wildmon 48, LEDIAN
+	wildmon 48, LEDIAN
+	wildmon 51, HOOTHOOT
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 49, HOOTHOOT
+	wildmon 53, KIRLIA
+	wildmon 52, KIRLIA
 	; day
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
+	wildmon 48, LEDIAN
+	wildmon 48, LEDIAN
+	wildmon 51, HOOTHOOT
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 49, HOOTHOOT
+	wildmon 53, KIRLIA
+	wildmon 52, KIRLIA
 	; nite
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
 	wildmon 50, GLOOM
 	wildmon 49, GLOOM
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, KIRLIA
+	wildmon 52, KIRLIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26
 	db 10 percent ; encounter rate
 	; morn
 	wildmon 38, DODUO
-	wildmon 38, SANDSLASH
+	wildmon 38, DUGTRIO
 	wildmon 41, PONYTA
 	wildmon 40, RATICATE
 	wildmon 39, DODUO
@@ -1076,7 +1076,7 @@
 	wildmon 41, ARBOK, ARBOK_KANTO_FORM
 	; day
 	wildmon 38, DODUO
-	wildmon 38, SANDSLASH
+	wildmon 38, DUGTRIO
 	wildmon 41, PONYTA
 	wildmon 40, RATICATE
 	wildmon 39, DODUO
@@ -1129,7 +1129,7 @@
 	wildmon 70, RAPIDASH
 	wildmon 68, DODRIO
 	wildmon 71, SKARMORY
-	wildmon 71, URSARING
+	wildmon 71, PHANPY
 	; day
 	wildmon 66, TANGELA
 	wildmon 67, PONYTA
@@ -1137,12 +1137,12 @@
 	wildmon 70, RAPIDASH
 	wildmon 68, DODRIO
 	wildmon 71, SKARMORY
-	wildmon 71, URSARING
+	wildmon 71, PHANPY
 	; nite
 	wildmon 66, TANGELA
-	wildmon 67, POLIWHIRL
+	wildmon 67, KINGLER
 	wildmon 67, GOLBAT
-	wildmon 70, POLIWHIRL
+	wildmon 70, KINGLER
 	wildmon 68, HOUNDOOM
 	wildmon 71, SNEASEL
 	wildmon 71, SNEASEL
@@ -1151,19 +1151,19 @@
 	def_grass_wildmons CERULEAN_CAPE
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
+	wildmon 48, LEDIAN
+	wildmon 48, LEDIAN
+	wildmon 51, HOOTHOOT
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, HOOTHOOT
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; day
-	wildmon 48, BUTTERFREE
-	wildmon 48, BEEDRILL
-	wildmon 51, PIDGEOTTO
+	wildmon 48, LEDIAN
+	wildmon 48, LEDIAN
+	wildmon 51, HOOTHOOT
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, HOOTHOOT
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; nite
@@ -1181,7 +1181,7 @@
 	; morn
 	wildmon 65, CROBAT
 	wildmon 65, PARASECT
-	wildmon 66, PRIMEAPE
+	wildmon 66, MACHOP
 	wildmon 67, TANGROWTH
 	wildmon 68, MACHAMP
 	wildmon 67, ELECTRODE
@@ -1189,7 +1189,7 @@
 	; day
 	wildmon 65, CROBAT
 	wildmon 65, PARASECT
-	wildmon 66, PRIMEAPE
+	wildmon 66, MACHOP
 	wildmon 67, TANGROWTH
 	wildmon 68, MACHAMP
 	wildmon 67, ELECTRODE
@@ -1197,7 +1197,7 @@
 	; nite
 	wildmon 65, CROBAT
 	wildmon 65, PARASECT
-	wildmon 66, PRIMEAPE
+	wildmon 66, MACHOP
 	wildmon 67, TANGROWTH
 	wildmon 68, MACHAMP
 	wildmon 67, ELECTRODE
@@ -1211,7 +1211,7 @@
 	wildmon 67, PARASECT
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
-	wildmon 70, ALAKAZAM
+	wildmon 70, GARDEVOIR
 	wildmon 69, ELECTRODE
 	wildmon 72, DITTO
 	; day
@@ -1219,7 +1219,7 @@
 	wildmon 67, PARASECT
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
-	wildmon 70, ALAKAZAM
+	wildmon 70, GARDEVOIR
 	wildmon 69, ELECTRODE
 	wildmon 72, DITTO
 	; nite
@@ -1239,7 +1239,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
-	wildmon 72, ALAKAZAM
+	wildmon 72, GARDEVOIR
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
 	; day
@@ -1247,7 +1247,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
-	wildmon 72, ALAKAZAM
+	wildmon 72, GARDEVOIR
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
 	; nite
@@ -1408,7 +1408,7 @@
 	wildmon 48, HAUNTER
 	wildmon 49, HAUNTER
 	wildmon 49, MISDREAVUS
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, MISMAGIUS
 	; day
 	wildmon 47, GASTLY
@@ -1416,7 +1416,7 @@
 	wildmon 48, HAUNTER
 	wildmon 49, HAUNTER
 	wildmon 49, MISDREAVUS
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, MISMAGIUS
 	; nite
 	wildmon 47, GASTLY
@@ -1424,7 +1424,7 @@
 	wildmon 48, HAUNTER
 	wildmon 49, HAUNTER
 	wildmon 49, MISDREAVUS
-	wildmon 49, MAROWAK
+	wildmon 49, GEODUDE
 	wildmon 50, MISMAGIUS
 	end_grass_wildmons
 
@@ -1436,7 +1436,7 @@
 	wildmon 49, HAUNTER
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 50, MAROWAK
+	wildmon 50, GEODUDE
 	wildmon 51, MISMAGIUS
 	; day
 	wildmon 48, GASTLY
@@ -1444,7 +1444,7 @@
 	wildmon 49, HAUNTER
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 50, MAROWAK
+	wildmon 50, GEODUDE
 	wildmon 51, MISMAGIUS
 	; nite
 	wildmon 48, GASTLY
@@ -1452,7 +1452,7 @@
 	wildmon 49, HAUNTER
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 50, MAROWAK
+	wildmon 50, GEODUDE
 	wildmon 51, MISMAGIUS
 	end_grass_wildmons
 
@@ -1463,7 +1463,7 @@
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
 	wildmon 49, VULPIX
-	wildmon 51, MAROWAK
+	wildmon 51, GEODUDE
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
 	; day
@@ -1471,7 +1471,7 @@
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
 	wildmon 49, VULPIX
-	wildmon 51, MAROWAK
+	wildmon 51, GEODUDE
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
 	; nite
@@ -1479,7 +1479,7 @@
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
 	wildmon 49, VULPIX
-	wildmon 51, MAROWAK
+	wildmon 51, GEODUDE
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
 	end_grass_wildmons
@@ -1493,7 +1493,7 @@
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
-	wildmon 50, SCYTHER
+	wildmon 50, PAWNIARD
 	; day
 	wildmon 55, DODUO
 	wildmon 58, DODRIO
@@ -1501,7 +1501,7 @@
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
-	wildmon 50, SCYTHER
+	wildmon 50, PAWNIARD
 	; nite
 	wildmon 55, DODUO
 	wildmon 58, DODRIO
@@ -1509,7 +1509,7 @@
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
-	wildmon 50, SCYTHER
+	wildmon 50, PAWNIARD
 	end_grass_wildmons
 
 	def_grass_wildmons SAFARI_ZONE_EAST
@@ -1577,7 +1577,7 @@
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, VENOMOTH
 	wildmon 60, KANGASKHAN
-	wildmon 60, MAROWAK
+	wildmon 60, GEODUDE
 	; day
 	wildmon 55, VENONAT
 	wildmon 58, NIDORINA
@@ -1585,7 +1585,7 @@
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, VENOMOTH
 	wildmon 60, KANGASKHAN
-	wildmon 60, MAROWAK
+	wildmon 60, GEODUDE
 	; nite
 	wildmon 55, VENONAT
 	wildmon 58, NIDORINO
@@ -1593,7 +1593,7 @@
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, VENOMOTH
 	wildmon 60, KANGASKHAN
-	wildmon 60, MAROWAK
+	wildmon 60, GEODUDE
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_1F
@@ -1602,26 +1602,26 @@
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
 	wildmon 57, KRABBY
-	wildmon 58, CORSOLA, GALARIAN_FORM
+	wildmon 58, SHELLDER, GALARIAN_FORM
 	wildmon 60, KINGLER
 	wildmon 61, KINGLER
-	wildmon 62, CORSOLA, GALARIAN_FORM
+	wildmon 62, SHELLDER, GALARIAN_FORM
 	; day
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
 	wildmon 57, KRABBY
-	wildmon 58, CORSOLA, GALARIAN_FORM
+	wildmon 58, SHELLDER, GALARIAN_FORM
 	wildmon 60, KINGLER
 	wildmon 61, KINGLER
-	wildmon 62, CORSOLA, GALARIAN_FORM
+	wildmon 62, SHELLDER, GALARIAN_FORM
 	; nite
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
 	wildmon 57, KRABBY
-	wildmon 58, CORSOLA, GALARIAN_FORM
+	wildmon 58, SHELLDER, GALARIAN_FORM
 	wildmon 60, KINGLER
 	wildmon 61, KINGLER
-	wildmon 62, CORSOLA, GALARIAN_FORM
+	wildmon 62, SHELLDER, GALARIAN_FORM
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_B1F
@@ -1629,24 +1629,24 @@
 	; morn
 	wildmon 57, GOLBAT
 	wildmon 60, KINGLER
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 59, CORSOLA, GALARIAN_FORM
+	wildmon 58, SHELLDER, GALARIAN_FORM
+	wildmon 59, SHELLDER, GALARIAN_FORM
 	wildmon 59, HAUNTER
 	wildmon 61, KINGLER
 	wildmon 62, KINGLER
 	; day
 	wildmon 57, GOLBAT
 	wildmon 60, KINGLER
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 59, CORSOLA, GALARIAN_FORM
+	wildmon 58, SHELLDER, GALARIAN_FORM
+	wildmon 59, SHELLDER, GALARIAN_FORM
 	wildmon 59, HAUNTER
 	wildmon 61, KINGLER
 	wildmon 62, KINGLER
 	; nite
 	wildmon 57, GOLBAT
 	wildmon 60, KINGLER
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 59, CORSOLA, GALARIAN_FORM
+	wildmon 58, SHELLDER, GALARIAN_FORM
+	wildmon 59, SHELLDER, GALARIAN_FORM
 	wildmon 59, HAUNTER
 	wildmon 61, KINGLER
 	wildmon 62, KINGLER
@@ -1656,28 +1656,28 @@
 	db 4 percent ; encounter rate
 	; morn
 	wildmon 57, MISDREAVUS
-	wildmon 60, CORSOLA, GALARIAN_FORM
+	wildmon 60, SHELLDER, GALARIAN_FORM
 	wildmon 58, HAUNTER
 	wildmon 59, GOLBAT
 	wildmon 61, GOLBAT
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
+	wildmon 62, GASTLY
+	wildmon 63, GASTLY
 	; day
 	wildmon 57, MISDREAVUS
-	wildmon 60, CORSOLA, GALARIAN_FORM
+	wildmon 60, SHELLDER, GALARIAN_FORM
 	wildmon 58, HAUNTER
 	wildmon 59, GOLBAT
 	wildmon 61, GOLBAT
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
+	wildmon 62, GASTLY
+	wildmon 63, GASTLY
 	; nite
 	wildmon 57, MISDREAVUS
-	wildmon 60, CORSOLA, GALARIAN_FORM
+	wildmon 60, SHELLDER, GALARIAN_FORM
 	wildmon 58, HAUNTER
 	wildmon 59, GOLBAT
 	wildmon 61, GOLBAT
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
+	wildmon 62, GASTLY
+	wildmon 63, GASTLY
 	end_grass_wildmons
 
 	def_grass_wildmons SEAFOAM_ISLANDS_1F
@@ -1685,27 +1685,27 @@
 	; morn
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
-	wildmon 57, PSYDUCK
-	wildmon 58, SANDSHREW, ALOLAN_FORM
-	wildmon 60, GOLDUCK
-	wildmon 61, GOLDUCK
-	wildmon 62, SANDSLASH, ALOLAN_FORM
+	wildmon 57, SLOWPOKE
+	wildmon 58, DIGLETT, ALOLAN_FORM
+	wildmon 60, SLOWBRO
+	wildmon 61, SLOWBRO
+	wildmon 62, DUGTRIO, ALOLAN_FORM
 	; day
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
-	wildmon 57, PSYDUCK
-	wildmon 58, SANDSHREW, ALOLAN_FORM
-	wildmon 60, GOLDUCK
-	wildmon 61, GOLDUCK
-	wildmon 62, SANDSLASH, ALOLAN_FORM
+	wildmon 57, SLOWPOKE
+	wildmon 58, DIGLETT, ALOLAN_FORM
+	wildmon 60, SLOWBRO
+	wildmon 61, SLOWBRO
+	wildmon 62, DUGTRIO, ALOLAN_FORM
 	; nite
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
-	wildmon 57, PSYDUCK
-	wildmon 58, SANDSHREW, ALOLAN_FORM
-	wildmon 60, GOLDUCK
-	wildmon 61, GOLDUCK
-	wildmon 62, SANDSLASH, ALOLAN_FORM
+	wildmon 57, SLOWPOKE
+	wildmon 58, DIGLETT, ALOLAN_FORM
+	wildmon 60, SLOWBRO
+	wildmon 61, SLOWBRO
+	wildmon 62, DUGTRIO, ALOLAN_FORM
 	end_grass_wildmons
 
 	def_grass_wildmons SEAFOAM_ISLANDS_B1F
@@ -1713,24 +1713,24 @@
 	; morn
 	wildmon 57, SEEL
 	wildmon 60, GOLBAT
-	wildmon 58, SANDSHREW, ALOLAN_FORM
-	wildmon 59, SANDSLASH, ALOLAN_FORM
+	wildmon 58, DIGLETT, ALOLAN_FORM
+	wildmon 59, DUGTRIO, ALOLAN_FORM
 	wildmon 61, ZUBAT
 	wildmon 62, GOLBAT
 	wildmon 63, GOLBAT
 	; day
 	wildmon 57, SEEL
 	wildmon 60, GOLBAT
-	wildmon 58, SANDSHREW, ALOLAN_FORM
-	wildmon 59, SANDSLASH, ALOLAN_FORM
+	wildmon 58, DIGLETT, ALOLAN_FORM
+	wildmon 59, DUGTRIO, ALOLAN_FORM
 	wildmon 61, ZUBAT
 	wildmon 62, GOLBAT
 	wildmon 63, GOLBAT
 	; nite
 	wildmon 57, SEEL
 	wildmon 60, GOLBAT
-	wildmon 58, SANDSHREW, ALOLAN_FORM
-	wildmon 59, SANDSLASH, ALOLAN_FORM
+	wildmon 58, DIGLETT, ALOLAN_FORM
+	wildmon 59, DUGTRIO, ALOLAN_FORM
 	wildmon 61, ZUBAT
 	wildmon 62, GOLBAT
 	wildmon 63, GOLBAT
@@ -1741,24 +1741,24 @@
 	; morn
 	wildmon 58, SEEL
 	wildmon 61, GOLBAT
-	wildmon 59, PSYDUCK
-	wildmon 60, GOLDUCK
+	wildmon 59, SLOWPOKE
+	wildmon 60, SLOWBRO
 	wildmon 62, ZUBAT
 	wildmon 63, GOLBAT
 	wildmon 64, GOLBAT
 	; day
 	wildmon 58, SEEL
 	wildmon 61, GOLBAT
-	wildmon 59, PSYDUCK
-	wildmon 60, GOLDUCK
+	wildmon 59, SLOWPOKE
+	wildmon 60, SLOWBRO
 	wildmon 62, ZUBAT
 	wildmon 63, GOLBAT
 	wildmon 64, GOLBAT
 	; nite
 	wildmon 58, SEEL
 	wildmon 61, GOLBAT
-	wildmon 59, PSYDUCK
-	wildmon 60, GOLDUCK
+	wildmon 59, SLOWPOKE
+	wildmon 60, SLOWBRO
 	wildmon 62, ZUBAT
 	wildmon 63, GOLBAT
 	wildmon 64, GOLBAT
@@ -1769,24 +1769,24 @@
 	; morn
 	wildmon 59, GOLBAT
 	wildmon 62, DEWGONG
-	wildmon 60, GOLDUCK
-	wildmon 61, PSYDUCK
+	wildmon 60, SLOWBRO
+	wildmon 61, SLOWPOKE
 	wildmon 63, ZUBAT
 	wildmon 64, SEEL
 	wildmon 65, DEWGONG
 	; day
 	wildmon 59, GOLBAT
 	wildmon 62, DEWGONG
-	wildmon 60, GOLDUCK
-	wildmon 61, PSYDUCK
+	wildmon 60, SLOWBRO
+	wildmon 61, SLOWPOKE
 	wildmon 63, ZUBAT
 	wildmon 64, SEEL
 	wildmon 65, SEEL
 	; nite
 	wildmon 59, GOLBAT
 	wildmon 62, DEWGONG
-	wildmon 60, GOLDUCK
-	wildmon 61, PSYDUCK
+	wildmon 60, SLOWBRO
+	wildmon 61, SLOWPOKE
 	wildmon 63, ZUBAT
 	wildmon 64, SEEL
 	wildmon 65, SEEL
@@ -1797,25 +1797,25 @@
 	; morn
 	wildmon 60, GOLBAT
 	wildmon 63, DEWGONG
-	wildmon 61, GOLDUCK
-	wildmon 62, JYNX
-	wildmon 64, PSYDUCK
+	wildmon 61, SLOWBRO
+	wildmon 62, HYPNO
+	wildmon 64, SLOWPOKE
 	wildmon 65, SEEL
 	wildmon 66, DEWGONG
 	; day
 	wildmon 60, GOLBAT
 	wildmon 63, DEWGONG
-	wildmon 61, GOLDUCK
-	wildmon 62, JYNX
-	wildmon 64, PSYDUCK
+	wildmon 61, SLOWBRO
+	wildmon 62, HYPNO
+	wildmon 64, SLOWPOKE
 	wildmon 65, SEEL
 	wildmon 66, DEWGONG
 	; nite
 	wildmon 60, GOLBAT
 	wildmon 63, DEWGONG
-	wildmon 61, GOLDUCK
-	wildmon 62, JYNX
-	wildmon 64, PSYDUCK
+	wildmon 61, SLOWBRO
+	wildmon 62, HYPNO
+	wildmon 64, SLOWPOKE
 	wildmon 65, SEEL
 	wildmon 66, DEWGONG
 	end_grass_wildmons

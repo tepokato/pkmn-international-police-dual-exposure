@@ -321,7 +321,7 @@ MACRO end_trainer
 			redef _tr_pk{d:p}_dvs EQUS "{DVS_{_tr_pk{d:p}_hp_type}}"
 		endc
 		db _tr_pk{d:p}_level
-		dp _tr_pk{d:p}_species, _tr_pk{d:p}_form
+		dp RATTATA{d:p}_species, _tr_pk{d:p}_form
 
 		if _tr_flags & TRAINERTYPE_ITEM
 			db _tr_pk{d:p}_item

@@ -291,7 +291,64 @@ BitmasksPointers:
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
-	assert_table_length NUM_SPECIES
+	dw MadameBitmasks
+	dw RaltsBitmasks
+	dw KirliaBitmasks
+	dw GardevoirBitmasks
+	dw GalladeBitmasks
+	dw PoochyenaBitmasks
+	dw MightyenaBitmasks
+	dw ZigzagoonBitmasks
+	dw LinooneBitmasks
+	dw AronBitmasks
+	dw LaironBitmasks
+	dw AggronBitmasks
+	dw TrapinchBitmasks
+	dw VibravaBitmasks
+	dw FlygonBitmasks
+	dw CacneaBitmasks
+	dw CacturneBitmasks
+	dw BaltoyBitmasks
+	dw ClaydolBitmasks
+	dw AbsolBitmasks
+	dw BagonBitmasks
+	dw ShelgonBitmasks
+	dw SalamenceBitmasks
+	dw BeldumBitmasks
+	dw MetangBitmasks
+	dw MetagrossBitmasks
+	dw ShinxBitmasks
+	dw LuxioBitmasks
+	dw LuxrayBitmasks
+	dw StunkyBitmasks
+	dw SkuntankBitmasks
+	dw BronzorBitmasks
+	dw BronzongBitmasks
+	dw RioluBitmasks
+	dw LucarioBitmasks
+	dw SkorupiBitmasks
+	dw DrapionBitmasks
+	dw CroagunkBitmasks
+	dw ToxicroakBitmasks
+	dw RotomBitmasks
+	dw LillipupBitmasks
+	dw HerdierBitmasks
+	dw StoutlandBitmasks
+	dw PurrloinBitmasks
+	dw LiepardBitmasks
+	dw AudinoBitmasks
+	dw TrubbishBitmasks
+	dw GarbodorBitmasks
+	dw KlinkBitmasks
+	dw KlangBitmasks
+	dw KlinklangBitmasks
+	dw ElgyemBitmasks
+	dw BeheeyemBitmasks
+	dw PawniardBitmasks
+	dw BisharpBitmasks
+	dw KingambitBitmasks
+	dw HawluchaBitmasks
+assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
 	dw UnownCBitmasks
@@ -326,12 +383,6 @@ BitmasksPointers:
 	dw ArbokKogaBitmasks
 	dw ArbokAgathaBitmasks
 	dw ArbokArianaBitmasks
-
-	dw PikachuFlyBitmasks
-	dw PikachuSurfBitmasks
-	dw PikachuPikaBitmasks
-	dw PikachuChuchuBitmasks
-	dw PikachuSparkBitmasks
 
 	dw PichuSpikyBitmasks
 

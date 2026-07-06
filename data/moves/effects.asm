@@ -1443,6 +1443,30 @@ Encore:
 	encore
 	endmove
 
+Taunt:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	bounceback
+	failuretext
+	taunt
+	endmove
+
+Torment:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	bounceback
+	failuretext
+	torment
+	endmove
+
 PainSplit:
 	checkobedience
 	usedmovetext
@@ -1650,6 +1674,7 @@ Rollout:
 	endmove
 
 Swagger:
+	checkbushidoimmune
 	checkobedience
 	usedmovetext
 	doturn
@@ -2099,5 +2124,68 @@ FlareBlitz:
 	postfainteffects
 	effectchance
 	burntarget
+	posthiteffects
+	endmove
+
+StealthRock:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	bounceback
+	stealthrock
+	endmove
+
+Defog:
+	checkobedience
+	usedmovetext
+	doturn
+	defog
+	endmove
+
+Yawn:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkpriority
+	bounceback
+	yawn
+	endmove
+
+Tailwind:
+	checkobedience
+	usedmovetext
+	doturn
+	tailwind
+	endmove
+
+HealBlock:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	bounceback
+	healblock
+	endmove
+
+SacredSword:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
 	posthiteffects
 	endmove

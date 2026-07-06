@@ -295,7 +295,64 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
-	assert_table_length NUM_SPECIES
+	mini_icon Madame
+		mini_icon Ralts
+	mini_icon Kirlia
+	mini_icon Gardevoir
+	mini_icon Gallade
+	mini_icon Poochyena
+	mini_icon Mightyena
+	mini_icon Zigzagoon
+	mini_icon Linoone
+	mini_icon Aron
+	mini_icon Lairon
+	mini_icon Aggron
+	mini_icon Trapinch
+	mini_icon Vibrava
+	mini_icon Flygon
+	mini_icon Cacnea
+	mini_icon Cacturne
+	mini_icon Baltoy
+	mini_icon Claydol
+	mini_icon Absol
+	mini_icon Bagon
+	mini_icon Shelgon
+	mini_icon Salamence
+	mini_icon Beldum
+	mini_icon Metang
+	mini_icon Metagross
+	mini_icon Shinx
+	mini_icon Luxio
+	mini_icon Luxray
+	mini_icon Stunky
+	mini_icon Skuntank
+	mini_icon Bronzor
+	mini_icon Bronzong
+	mini_icon Riolu
+	mini_icon Lucario
+	mini_icon Skorupi
+	mini_icon Drapion
+	mini_icon Croagunk
+	mini_icon Toxicroak
+	mini_icon Rotom
+	mini_icon Lillipup
+	mini_icon Herdier
+	mini_icon Stoutland
+	mini_icon Purrloin
+	mini_icon Liepard
+	mini_icon Audino
+	mini_icon Trubbish
+	mini_icon Garbodor
+	mini_icon Klink
+	mini_icon Klang
+	mini_icon Klinklang
+	mini_icon Elgyem
+	mini_icon Beheeyem
+	mini_icon Pawniard
+	mini_icon Bisharp
+	mini_icon Kingambit
+	mini_icon Hawlucha
+assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
 	mini_icon UnownC
@@ -330,12 +387,6 @@ MiniIconPointers:
 	mini_icon Arbok ; Koga
 	mini_icon Arbok ; Agatha
 	mini_icon Arbok ; Ariana
-
-	mini_icon PikachuFly ; Fly
-	mini_icon PikachuSurf ; Surf
-	mini_icon Pikachu ; Pika
-	mini_icon Pikachu ; Chuchu
-	mini_icon Pikachu ; Spark
 
 	mini_icon Pichu ; Spiky
 

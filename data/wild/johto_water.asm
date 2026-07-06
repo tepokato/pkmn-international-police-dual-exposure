@@ -51,9 +51,9 @@
 
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
-	wildmon 15, PSYDUCK
-	wildmon 10, PSYDUCK
-	wildmon 15, GOLDUCK
+	wildmon 15, SLOWPOKE
+	wildmon 10, SLOWPOKE
+	wildmon 15, SLOWBRO
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -81,27 +81,27 @@
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
 	wildmon 25, TENTACOOL
-	wildmon 30, OCTILLERY
+	wildmon 30, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
 	wildmon 25, TENTACRUEL
-	wildmon 30, OCTILLERY
+	wildmon 30, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
 	wildmon 25, HORSEA
 	wildmon 30, SEADRA
-	wildmon 30, OCTILLERY
+	wildmon 30, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
 	wildmon 75, SEADRA
-	wildmon 75, GOLDUCK
+	wildmon 75, SLOWBRO
 	wildmon 75, KINGDRA
 	end_water_wildmons
 
@@ -121,9 +121,9 @@
 
 	def_water_wildmons GOLDENROD_HARBOR
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, GOLDUCK
+	wildmon LEVEL_FROM_BADGES + 0, SLOWPOKE
+	wildmon LEVEL_FROM_BADGES - 5, SLOWPOKE
+	wildmon LEVEL_FROM_BADGES + 0, SLOWBRO
 	end_water_wildmons
 
 	def_water_wildmons DRAGONS_DEN_B1F
@@ -142,16 +142,16 @@
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KRABBY
+	wildmon 15, KRABBY
+	wildmon 20, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KRABBY
+	wildmon 15, KRABBY
+	wildmon 20, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32
@@ -170,9 +170,9 @@
 
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
-	wildmon 20, PSYDUCK
-	wildmon 15, PSYDUCK
-	wildmon 20, GOLDUCK
+	wildmon 20, SLOWPOKE
+	wildmon 15, SLOWPOKE
+	wildmon 20, SLOWBRO
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_40
@@ -185,8 +185,8 @@
 	def_water_wildmons ROUTE_41
 	db 3 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 20, MANTINE
-	wildmon 20, REMORAID
+	wildmon 20, TENTACRUEL
+	wildmon 20, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
@@ -205,9 +205,9 @@
 
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
-	wildmon 25, POLIWAG
-	wildmon 30, POLIWAG
-	wildmon 30, POLIWHIRL
+	wildmon 25, KRABBY
+	wildmon 30, KRABBY
+	wildmon 30, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_45
@@ -247,23 +247,23 @@
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KRABBY
+	wildmon 15, KRABBY
+	wildmon 20, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
 	wildmon 20, TENTACOOL
-	wildmon 20, MANTINE
-	wildmon 20, REMORAID
+	wildmon 20, TENTACRUEL
+	wildmon 20, GOLDEEN
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_CITY
 	db 4 percent ; encounter rate
-	wildmon 20, PSYDUCK
-	wildmon 15, PSYDUCK
-	wildmon 20, GOLDUCK
+	wildmon 20, SLOWPOKE
+	wildmon 15, SLOWPOKE
+	wildmon 20, SLOWBRO
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_CITY
@@ -275,16 +275,16 @@
 
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KRABBY
+	wildmon 15, KRABBY
+	wildmon 20, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, POLIWAG
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, POLIWHIRL
+	wildmon LEVEL_FROM_BADGES + 0, KRABBY
+	wildmon LEVEL_FROM_BADGES - 5, SLOWPOKE
+	wildmon LEVEL_FROM_BADGES + 0, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
@@ -303,23 +303,23 @@
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 70, POLIWHIRL
-	wildmon 75, POLIWRATH
-	wildmon 70, POLIWHIRL
+	wildmon 70, KINGLER
+	wildmon 75, MACHOKE
+	wildmon 70, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_BAY
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
 	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, SHELLDER
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32_COAST
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
 	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, SHELLDER
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34_COAST
@@ -340,21 +340,21 @@
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
 	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, SHELLDER
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_NORTH
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
 	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, SHELLDER
 	end_water_wildmons
 
 	def_water_wildmons YELLOW_FOREST
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU, PIKACHU_SURF_FORM
-	wildmon LEVEL_FROM_BADGES - 4, PSYDUCK
+	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
+	wildmon LEVEL_FROM_BADGES - 4, SLOWPOKE
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B1F
@@ -396,7 +396,7 @@
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 5, GOLDEEN
 	wildmon LEVEL_FROM_BADGES + 0, SEAKING
-	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
+	wildmon LEVEL_FROM_BADGES + 5, TENTACOOL, HISUIAN_FORM
 	end_water_wildmons
 
 	db -1 ; end

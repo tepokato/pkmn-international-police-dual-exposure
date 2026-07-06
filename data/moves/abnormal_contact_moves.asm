@@ -5,7 +5,7 @@ AbnormalContactMoves:
 	db DRAINING_KISS
 	db PETAL_DANCE
 	; Physical moves that don't make contact
-	db BONEMERANG
+	db EARTHQUAKE
 	db BULLDOZE
 	db EARTHQUAKE
 	db EXPLOSION
@@ -21,7 +21,6 @@ AbnormalContactMoves:
 	db ROCK_BLAST
 	db ROCK_SLIDE
 	db ROCK_THROW
-	db SACRED_FIRE
 	db SEED_BOMB
 	db STONE_EDGE
 	db -1 ; Terminator only, Struggle makes contact. Checked for directly.

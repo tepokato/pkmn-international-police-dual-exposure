@@ -292,7 +292,64 @@ PokedexDataPointerTable:
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
-	assert_table_length NUM_SPECIES
+	dba MadamePokedexEntry
+		dba RaltsPokedexEntry
+	dba KirliaPokedexEntry
+	dba GardevoirPokedexEntry
+	dba GalladePokedexEntry
+	dba PoochyenaPokedexEntry
+	dba MightyenaPokedexEntry
+	dba ZigzagoonPokedexEntry
+	dba LinoonePokedexEntry
+	dba AronPokedexEntry
+	dba LaironPokedexEntry
+	dba AggronPokedexEntry
+	dba TrapinchPokedexEntry
+	dba VibravaPokedexEntry
+	dba FlygonPokedexEntry
+	dba CacneaPokedexEntry
+	dba CacturnePokedexEntry
+	dba BaltoyPokedexEntry
+	dba ClaydolPokedexEntry
+	dba AbsolPokedexEntry
+	dba BagonPokedexEntry
+	dba ShelgonPokedexEntry
+	dba SalamencePokedexEntry
+	dba BeldumPokedexEntry
+	dba MetangPokedexEntry
+	dba MetagrossPokedexEntry
+	dba ShinxPokedexEntry
+	dba LuxioPokedexEntry
+	dba LuxrayPokedexEntry
+	dba StunkyPokedexEntry
+	dba SkuntankPokedexEntry
+	dba BronzorPokedexEntry
+	dba BronzongPokedexEntry
+	dba RioluPokedexEntry
+	dba LucarioPokedexEntry
+	dba SkorupiPokedexEntry
+	dba DrapionPokedexEntry
+	dba CroagunkPokedexEntry
+	dba ToxicroakPokedexEntry
+	dba RotomPokedexEntry
+	dba LillipupPokedexEntry
+	dba HerdierPokedexEntry
+	dba StoutlandPokedexEntry
+	dba PurrloinPokedexEntry
+	dba LiepardPokedexEntry
+	dba AudinoPokedexEntry
+	dba TrubbishPokedexEntry
+	dba GarbodorPokedexEntry
+	dba KlinkPokedexEntry
+	dba KlangPokedexEntry
+	dba KlinklangPokedexEntry
+	dba ElgyemPokedexEntry
+	dba BeheeyemPokedexEntry
+	dba PawniardPokedexEntry
+	dba BisharpPokedexEntry
+	dba KingambitPokedexEntry
+	dba HawluchaPokedexEntry
+assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
 

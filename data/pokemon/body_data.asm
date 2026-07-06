@@ -298,7 +298,64 @@ PokemonBodyData:
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
-	assert_table_length NUM_SPECIES
+	body_data   8, 1170, WINGS,        WHITE  ; MADAME
+		body_data   8,  200, BIPEDAL,      GRAY   ; RALTS
+	body_data   8,  200, BIPEDAL,      GRAY   ; KIRLIA
+	body_data   8,  200, BIPEDAL,      GRAY   ; GARDEVOIR
+	body_data   8,  200, BIPEDAL,      GRAY   ; GALLADE
+	body_data   8,  200, BIPEDAL,      GRAY   ; POOCHYENA
+	body_data   8,  200, BIPEDAL,      GRAY   ; MIGHTYENA
+	body_data   8,  200, BIPEDAL,      GRAY   ; ZIGZAGOON
+	body_data   8,  200, BIPEDAL,      GRAY   ; LINOONE
+	body_data   8,  200, BIPEDAL,      GRAY   ; ARON
+	body_data   8,  200, BIPEDAL,      GRAY   ; LAIRON
+	body_data   8,  200, BIPEDAL,      GRAY   ; AGGRON
+	body_data   8,  200, BIPEDAL,      GRAY   ; TRAPINCH
+	body_data   8,  200, BIPEDAL,      GRAY   ; VIBRAVA
+	body_data   8,  200, BIPEDAL,      GRAY   ; FLYGON
+	body_data   8,  200, BIPEDAL,      GRAY   ; CACNEA
+	body_data   8,  200, BIPEDAL,      GRAY   ; CACTURNE
+	body_data   8,  200, BIPEDAL,      GRAY   ; BALTOY
+	body_data   8,  200, BIPEDAL,      GRAY   ; CLAYDOL
+	body_data   8,  200, BIPEDAL,      GRAY   ; ABSOL
+	body_data   8,  200, BIPEDAL,      GRAY   ; BAGON
+	body_data   8,  200, BIPEDAL,      GRAY   ; SHELGON
+	body_data   8,  200, BIPEDAL,      GRAY   ; SALAMENCE
+	body_data   8,  200, BIPEDAL,      GRAY   ; BELDUM
+	body_data   8,  200, BIPEDAL,      GRAY   ; METANG
+	body_data   8,  200, BIPEDAL,      GRAY   ; METAGROSS
+	body_data   8,  200, BIPEDAL,      GRAY   ; SHINX
+	body_data   8,  200, BIPEDAL,      GRAY   ; LUXIO
+	body_data   8,  200, BIPEDAL,      GRAY   ; LUXRAY
+	body_data   8,  200, BIPEDAL,      GRAY   ; STUNKY
+	body_data   8,  200, BIPEDAL,      GRAY   ; SKUNTANK
+	body_data   8,  200, BIPEDAL,      GRAY   ; BRONZOR
+	body_data   8,  200, BIPEDAL,      GRAY   ; BRONZONG
+	body_data   8,  200, BIPEDAL,      GRAY   ; RIOLU
+	body_data   8,  200, BIPEDAL,      GRAY   ; LUCARIO
+	body_data   8,  200, BIPEDAL,      GRAY   ; SKORUPI
+	body_data   8,  200, BIPEDAL,      GRAY   ; DRAPION
+	body_data   8,  200, BIPEDAL,      GRAY   ; CROAGUNK
+	body_data   8,  200, BIPEDAL,      GRAY   ; TOXICROAK
+	body_data   8,  200, BIPEDAL,      GRAY   ; ROTOM
+	body_data   8,  200, BIPEDAL,      GRAY   ; LILLIPUP
+	body_data   8,  200, BIPEDAL,      GRAY   ; HERDIER
+	body_data   8,  200, BIPEDAL,      GRAY   ; STOUTLAND
+	body_data   8,  200, BIPEDAL,      GRAY   ; PURRLOIN
+	body_data   8,  200, BIPEDAL,      GRAY   ; LIEPARD
+	body_data   8,  200, BIPEDAL,      GRAY   ; AUDINO
+	body_data   8,  200, BIPEDAL,      GRAY   ; TRUBBISH
+	body_data   8,  200, BIPEDAL,      GRAY   ; GARBODOR
+	body_data   8,  200, BIPEDAL,      GRAY   ; KLINK
+	body_data   8,  200, BIPEDAL,      GRAY   ; KLANG
+	body_data   8,  200, BIPEDAL,      GRAY   ; KLINKLANG
+	body_data   8,  200, BIPEDAL,      GRAY   ; ELGYEM
+	body_data   8,  200, BIPEDAL,      GRAY   ; BEHEEYEM
+	body_data   8,  200, BIPEDAL,      GRAY   ; PAWNIARD
+	body_data   8,  200, BIPEDAL,      GRAY   ; BISHARP
+	body_data   8,  200, BIPEDAL,      GRAY   ; KINGAMBIT
+	body_data   8,  200, BIPEDAL,      GRAY   ; HAWLUCHA
+assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
 

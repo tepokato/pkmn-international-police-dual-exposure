@@ -28,9 +28,9 @@ Moves::
 	move AIR_SLASH,       EFFECT_FLINCH_HIT,         75, FLYING,     95, 15,  30, SPECIAL
 	move SWORDS_DANCE,    EFFECT_ATTACK_UP_2,         0, NORMAL,     -1, 20,   0, STATUS
 if DEF(FAITHFUL)
-	move CUT,             EFFECT_NORMAL_HIT,         50, NORMAL,     95, 30,   0, PHYSICAL
+	move TAUNT,           EFFECT_TAUNT,               0, DARK,      100, 20,   0, STATUS
 else
-	move CUT,             EFFECT_NORMAL_HIT,         60, STEEL,     100, 30,   0, PHYSICAL
+	move TAUNT,           EFFECT_TAUNT,               0, DARK,      100, 20,   0, STATUS
 endc
 	move GUST,            EFFECT_GUST,               40, FLYING,    100, 35,   0, SPECIAL
 	move WING_ATTACK,     EFFECT_NORMAL_HIT,         60, FLYING,    100, 35,   0, PHYSICAL
@@ -86,8 +86,7 @@ endc
 	move CALM_MIND,       EFFECT_CALM_MIND,           0, PSYCHIC,    -1, 20,   0, STATUS
 	move WATER_GUN,       EFFECT_NORMAL_HIT,         40, WATER,     100, 25,   0, SPECIAL
 	move HYDRO_PUMP,      EFFECT_NORMAL_HIT,        110, WATER,      80,  5,   0, SPECIAL
-	move SURF,            EFFECT_NORMAL_HIT,         90, WATER,     100, 15,   0, SPECIAL
-	move ICE_BEAM,        EFFECT_FREEZE_HIT,         90, ICE,       100, 10,  10, SPECIAL
+	move STEALTH_ROCK,    EFFECT_STEALTH_ROCK,        0, ROCK,       -1, 20,   0, STATUS
 	move BLIZZARD,        EFFECT_FREEZE_HIT,        110, ICE,        70,  5,  10, SPECIAL
 	move PSYBEAM,         EFFECT_CONFUSE_HIT,        65, PSYCHIC,   100, 20,  10, SPECIAL
 	move BUBBLE_BEAM,     EFFECT_SPEED_DOWN_HIT,     65, WATER,     100, 20,  10, SPECIAL
@@ -100,9 +99,9 @@ endc
 	move COUNTER,         EFFECT_COUNTER,             1, FIGHTING,   -1, 20,   0, PHYSICAL
 	move SEISMIC_TOSS,    EFFECT_LEVEL_DAMAGE,        1, FIGHTING,  100, 20,   0, PHYSICAL
 if DEF(FAITHFUL)
-	move STRENGTH,        EFFECT_NORMAL_HIT,         80, NORMAL,    100, 15,   0, PHYSICAL
+	move TORMENT,         EFFECT_TORMENT,             0, DARK,      100, 15,   0, STATUS
 else
-	move STRENGTH,        EFFECT_NORMAL_HIT,         80, FIGHTING,  100, 15,   0, PHYSICAL
+	move TORMENT,         EFFECT_TORMENT,             0, DARK,      100, 15,   0, STATUS
 endc
 	move ABSORB,          EFFECT_LEECH_HIT,          20, GRASS,     100, 25,   0, SPECIAL
 	move MEGA_DRAIN,      EFFECT_LEECH_HIT,          40, GRASS,     100, 15,   0, SPECIAL
@@ -157,8 +156,7 @@ endc
 	move LIGHT_SCREEN,    EFFECT_LIGHT_SCREEN,        0, PSYCHIC,    -1, 30,   0, STATUS
 	move HAZE,            EFFECT_HAZE,                0, ICE,        -1, 30,   0, STATUS
 	move REFLECT,         EFFECT_REFLECT,             0, PSYCHIC,    -1, 20,   0, STATUS
-	move FOCUS_ENERGY,    EFFECT_FOCUS_ENERGY,        0, NORMAL,     -1, 30,   0, STATUS
-	move FLASH_CANNON,    EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,     100, 10,  10, SPECIAL
+	move FAKE_OUT,        EFFECT_FLINCH_HIT,         40, NORMAL,    100, 10, 100, PHYSICAL
 if DEF(FAITHFUL)
 	move METRONOME,       EFFECT_METRONOME,           0, NORMAL,     -1, 10,   0, STATUS
 else
@@ -193,7 +191,7 @@ endc
 	move LEECH_LIFE,      EFFECT_LEECH_HIT,          80, BUG,       100, 10,   0, PHYSICAL
 	move DRAINING_KISS,   EFFECT_LEECH_HIT,          50, FAIRY,     100, 10,   0, SPECIAL
 	move BRAVE_BIRD,      EFFECT_RECOIL_HIT,        120, FLYING,    100, 15,   0, PHYSICAL
-	move TRANSFORM,       EFFECT_TRANSFORM,           0, NORMAL,     -1, 10,   0, STATUS
+	move FEINT,           EFFECT_ALWAYS_HIT,         30, NORMAL,    100, 10,   0, PHYSICAL
 	move WATER_PULSE,     EFFECT_CONFUSE_HIT,        60, WATER,     100, 20,  20, SPECIAL
 	move DIZZY_PUNCH,     EFFECT_CONFUSE_HIT,        70, NORMAL,    100, 10,  20, PHYSICAL
 	move SPORE,           EFFECT_SLEEP,               0, GRASS,     100, 15,   0, STATUS
@@ -201,17 +199,17 @@ endc
 	move EXTRASENSORY,    EFFECT_FLINCH_HIT,         80, PSYCHIC,   100, 20,  10, SPECIAL
 	move SPLASH,          EFFECT_SPLASH,              0, NORMAL,     -1, 40,   0, STATUS
 	move DRAGON_DANCE,    EFFECT_DRAGON_DANCE,        0, DRAGON,    100, 20,   0, STATUS
-	move CRABHAMMER,      EFFECT_NORMAL_HIT,        100, WATER,      95, 10,   0, PHYSICAL
+	move DEFOG,           EFFECT_DEFOG,               0, FLYING,     -1, 15,   0, STATUS
 	move EXPLOSION,       EFFECT_EXPLOSION,         250, NORMAL,    100,  5,   0, PHYSICAL
 if DEF(FAITHFUL)
 	move FURY_STRIKES,    EFFECT_MULTI_HIT,          18, NORMAL,     80, 15,   0, PHYSICAL
 else
 	move FURY_STRIKES,    EFFECT_MULTI_HIT,          20, NORMAL,     85, 15,   0, PHYSICAL
 endc
-	move BONEMERANG,      EFFECT_DOUBLE_HIT,         50, GROUND,     90, 10,   0, PHYSICAL
+	move YAWN,            EFFECT_YAWN,                0, NORMAL,     -1, 10,   0, STATUS
 	move REST,            EFFECT_HEAL,                0, PSYCHIC,    -1, 5,    0, STATUS
 	move ROCK_SLIDE,      EFFECT_FLINCH_HIT,         75, ROCK,       90, 10,  30, PHYSICAL
-	move HYPER_FANG,      EFFECT_FLINCH_HIT,         80, NORMAL,     90, 15,  10, PHYSICAL
+	move PAYBACK,         EFFECT_NORMAL_HIT,           50, DARK,      100, 10,   0, PHYSICAL
 	move BULK_UP,         EFFECT_BULK_UP,             0, FIGHTING,   -1, 20,   0, STATUS
 	move CONVERSION,      EFFECT_CONVERSION,          0, NORMAL,     -1, 30,   0, STATUS
 	move TRI_ATTACK,      EFFECT_TRI_ATTACK,         80, NORMAL,    100, 10,  20, SPECIAL
@@ -230,7 +228,7 @@ endc
 	move CURSE,           EFFECT_CURSE,               0, GHOST,      -1, 10,   0, STATUS
 	move GYRO_BALL,       EFFECT_GYRO_BALL,           1, STEEL,     100,  5,   0, PHYSICAL
 	move ENERGY_BALL,     EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,     100, 10,  10, SPECIAL
-	move AEROBLAST,       EFFECT_NORMAL_HIT,        100, FLYING,     95,  5,   0, SPECIAL
+	move BRICK_BREAK,     EFFECT_BRICK_BREAK,        75, FIGHTING,  100, 15,   0, PHYSICAL
 	move SEED_BOMB,       EFFECT_NORMAL_HIT,         80, GRASS,     100, 15,   0, PHYSICAL
 	move REVERSAL,        EFFECT_REVERSAL,            1, FIGHTING,  100, 15,   0, PHYSICAL
 	move ASTONISH,        EFFECT_FLINCH_HIT,         30, GHOST,     100, 15,  30, PHYSICAL
@@ -244,12 +242,12 @@ endc
 	move SLUDGE_BOMB,     EFFECT_POISON_HIT,         90, POISON,    100, 10,  30, SPECIAL
 	move MUD_SLAP,        EFFECT_ACCURACY_DOWN_HIT,  20, GROUND,    100, 10, 100, SPECIAL
 if DEF(FAITHFUL)
-	move OCTAZOOKA,       EFFECT_ACCURACY_DOWN_HIT,  65, WATER,      85, 10,  50, SPECIAL
+	move TAILWIND,        EFFECT_TAILWIND,            0, FLYING,     -1, 15,   0, STATUS
 else
-	move OCTAZOOKA,       EFFECT_ACCURACY_DOWN_HIT,  75, WATER,      95, 10,  30, SPECIAL
+	move TAILWIND,        EFFECT_TAILWIND,            0, FLYING,     -1, 15,   0, STATUS
 endc
 	move SPIKES,          EFFECT_SPIKES,              0, GROUND,     -1, 20,   0, STATUS
-	move ZAP_CANNON,      EFFECT_PARALYZE_HIT,      120, ELECTRIC,   50,  5, 100, SPECIAL
+	move HEAL_BLOCK,      EFFECT_HEAL_BLOCK,          0, PSYCHIC,   100, 15,   0, STATUS
 	move FORESIGHT,       EFFECT_FORESIGHT,           0, NORMAL,     -1, 40,   0, STATUS
 	move DESTINY_BOND,    EFFECT_DESTINY_BOND,        0, GHOST,      -1,  5,   0, STATUS
 	move PERISH_SONG,     EFFECT_PERISH_SONG,         0, NORMAL,     -1,  5,   0, STATUS
@@ -274,7 +272,7 @@ endc
 	move SLEEP_TALK,      EFFECT_SLEEP_TALK,          0, NORMAL,    100, 10,   0, STATUS
 	move HEAL_BELL,       EFFECT_HEAL_BELL,           0, NORMAL,     -1,  5,   0, STATUS
 	move RETURN,          EFFECT_RETURN,              1, NORMAL,    100, 20,   0, PHYSICAL
-	move PSYSTRIKE,       EFFECT_PSYSTRIKE,         100, PSYCHIC,   100, 10,   0, SPECIAL
+	move FOCUS_ENERGY,    EFFECT_FOCUS_ENERGY,        0, NORMAL,     -1, 30,   0, STATUS
 	move BUG_BUZZ,        EFFECT_SP_DEF_DOWN_HIT,    90, BUG,       100, 10,  10, SPECIAL
 	move SAFEGUARD,       EFFECT_SAFEGUARD,           0, NORMAL,     -1, 25,   0, STATUS
 if DEF(FAITHFUL)
@@ -282,7 +280,7 @@ if DEF(FAITHFUL)
 else
 	move PAIN_SPLIT,      EFFECT_PAIN_SPLIT,          0, GHOST,      -1, 20,   0, STATUS
 endc
-	move SACRED_FIRE,     EFFECT_SACRED_FIRE,       100, FIRE,       95,  5,  50, PHYSICAL
+	move DISCHARGE,       EFFECT_PARALYZE_HIT,         80, ELECTRIC,  100, 15,  30, SPECIAL
 	move MAGNITUDE,       EFFECT_MAGNITUDE,           1, GROUND,    100, 30,   0, PHYSICAL
 	move DYNAMICPUNCH,    EFFECT_CONFUSE_HIT,       100, FIGHTING,   50,  5, 100, PHYSICAL
 	move MEGAHORN,        EFFECT_NORMAL_HIT,        120, BUG,        85, 10,   0, PHYSICAL
@@ -322,15 +320,11 @@ endc
 	move ANCIENTPOWER,    EFFECT_ALL_UP_HIT,         60, ROCK,      100,  5,  10, SPECIAL
 	move SHADOW_BALL,     EFFECT_SP_DEF_DOWN_HIT,    80, GHOST,     100, 15,  20, SPECIAL
 	move FUTURE_SIGHT,    EFFECT_FUTURE_SIGHT,      120, PSYCHIC,   100, 10,   0, SPECIAL
+	move ROCK_TOMB,       EFFECT_SPEED_DOWN_HIT,       60, ROCK,       95, 15,  30, PHYSICAL
 if DEF(FAITHFUL)
-	move ROCK_SMASH,      EFFECT_DEFENSE_DOWN_HIT,   40, FIGHTING,  100, 15,  50, PHYSICAL
+	move SACRED_SWORD,    EFFECT_SACRED_SWORD,         90, FIGHTING,  100, 15,   0, PHYSICAL
 else
-	move BRICK_BREAK,     EFFECT_BRICK_BREAK,        75, FIGHTING,  100, 15,   0, PHYSICAL
-endc
-if DEF(FAITHFUL)
-	move WHIRLPOOL,       EFFECT_TRAP,               35, WATER,      85, 15,   0, SPECIAL
-else
-	move WHIRLPOOL,       EFFECT_TRAP,               40, WATER,      90, 15,   0, SPECIAL
+	move SACRED_SWORD,    EFFECT_SACRED_SWORD,         90, FIGHTING,  100, 15,   0, PHYSICAL
 endc
 	move DARK_PULSE,      EFFECT_FLINCH_HIT,         80, DARK,      100, 15,  20, SPECIAL
 	move MOONBLAST,       EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,     100, 15,  10, SPECIAL

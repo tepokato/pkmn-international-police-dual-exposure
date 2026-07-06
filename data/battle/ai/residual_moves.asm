@@ -2,7 +2,7 @@
 
 ResidualMoves:
 	db CONVERSION
-	db FOCUS_ENERGY
+	db BULK_UP
 	db LEECH_SEED
 	db POISONPOWDER
 	db SPIKES
@@ -10,5 +10,4 @@ ResidualMoves:
 	db SUBSTITUTE
 	db THUNDER_WAVE
 	db TOXIC_SPIKES
-	db TRANSFORM
 	db -1 ; end

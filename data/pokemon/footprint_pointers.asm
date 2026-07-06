@@ -292,7 +292,64 @@ FootprintPointers::
 	fardw FarigirafFootprint
 	fardw ClodsireFootprint
 	fardw AnnihilapeFootprint
-	assert_table_length NUM_SPECIES
+	fardw MadameFootprint
+		fardw RaltsFootprint
+	fardw KirliaFootprint
+	fardw GardevoirFootprint
+	fardw GalladeFootprint
+	fardw PoochyenaFootprint
+	fardw MightyenaFootprint
+	fardw ZigzagoonFootprint
+	fardw LinooneFootprint
+	fardw AronFootprint
+	fardw LaironFootprint
+	fardw AggronFootprint
+	fardw TrapinchFootprint
+	fardw VibravaFootprint
+	fardw FlygonFootprint
+	fardw CacneaFootprint
+	fardw CacturneFootprint
+	fardw BaltoyFootprint
+	fardw ClaydolFootprint
+	fardw AbsolFootprint
+	fardw BagonFootprint
+	fardw ShelgonFootprint
+	fardw SalamenceFootprint
+	fardw BeldumFootprint
+	fardw MetangFootprint
+	fardw MetagrossFootprint
+	fardw ShinxFootprint
+	fardw LuxioFootprint
+	fardw LuxrayFootprint
+	fardw StunkyFootprint
+	fardw SkuntankFootprint
+	fardw BronzorFootprint
+	fardw BronzongFootprint
+	fardw RioluFootprint
+	fardw LucarioFootprint
+	fardw SkorupiFootprint
+	fardw DrapionFootprint
+	fardw CroagunkFootprint
+	fardw ToxicroakFootprint
+	fardw RotomFootprint
+	fardw LillipupFootprint
+	fardw HerdierFootprint
+	fardw StoutlandFootprint
+	fardw PurrloinFootprint
+	fardw LiepardFootprint
+	fardw AudinoFootprint
+	fardw TrubbishFootprint
+	fardw GarbodorFootprint
+	fardw KlinkFootprint
+	fardw KlangFootprint
+	fardw KlinklangFootprint
+	fardw ElgyemFootprint
+	fardw BeheeyemFootprint
+	fardw PawniardFootprint
+	fardw BisharpFootprint
+	fardw KingambitFootprint
+	fardw HawluchaFootprint
+assert_table_length NUM_SPECIES
 
 	fardw GyaradosFootprint
 

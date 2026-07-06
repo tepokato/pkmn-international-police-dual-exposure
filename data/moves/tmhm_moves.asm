@@ -31,7 +31,7 @@ TMHMMoves:
 	db DIG          ; TM28 (National Park)
 	db PSYCHIC_M    ; TM29 (Sabrina)
 	db SHADOW_BALL  ; TM30 (Morty)
-	db ROCK_SMASH   ; TM31 (Route 36)
+	db BRICK_BREAK  ; TM31 (Route 36)
 	db DOUBLE_TEAM  ; TM32 (Celadon Game Corner)
 	db REFLECT      ; TM33 (Goldenrod Dept. Store)
 	db FLASH_CANNON ; TM34 (Route 9)
@@ -76,14 +76,13 @@ TMHMMoves:
 	db THUNDER_WAVE ; TM73 (Rock Tunnel)
 	db GYRO_BALL    ; TM74 (Magnet Tunnel)
 	db SWORDS_DANCE ; TM75 (Celadon Dept. Store)
+	db TAUNT        ; TM76 (Ilex Forest, was HM01)
+	db FLY          ; TM77 (Yellow Forest, was HM02)
+	db AQUA_TAIL    ; TM78 (Ecruteak City, was HM03 Surf)
+	db TORMENT      ; TM79 (Cianwood City, was HM04)
+	db SACRED_SWORD ; TM80 (Route 42, was HM05)
+	db WATERFALL    ; TM81 (Ice Path, was HM06)
 	assert_table_length NUM_TMS
-	db CUT          ; HM01 (Ilex Forest)
-	db FLY          ; HM02 (Yellow Forest)
-	db SURF         ; HM03 (Ecruteak City)
-	db STRENGTH     ; HM04 (Cianwood City)
-	db WHIRLPOOL    ; HM05 (Route 42)
-	db WATERFALL    ; HM06 (Ice Path)
-	assert_table_length NUM_TMS + NUM_HMS
 	db AGILITY      ; MT01 (Mahogany Mart)
 	db AQUA_TAIL    ; MT02 (Route 4)
 	db BATON_PASS   ; MT03 (Goldenrod Museum)
@@ -113,7 +112,7 @@ TMHMMoves:
 	db THUNDERPUNCH ; MT27 (Goldenrod City)
 	db TRICK        ; MT28 (Battle Tower)
 	db TRICK_ROOM   ; MT29 (Route 17 North Gate)
-	db ZAP_CANNON   ; MT30 (Power Plant)
+	db THUNDERBOLT   ; MT30 (Power Plant)
 	db ZEN_HEADBUTT ; MT31 (Saffron City)
 	assert_table_length NUM_TM_HM_TUTOR
 	db 0 ; end

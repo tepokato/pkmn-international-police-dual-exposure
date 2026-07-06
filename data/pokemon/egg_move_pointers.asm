@@ -291,7 +291,64 @@ EggSpeciesMovesPointers::
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
-	assert_table_length NUM_SPECIES
+	dw FarfetchDPlainEggSpeciesMoves     ; Madame
+		dw AbraEggSpeciesMoves            ; RALTS
+	dw AbraEggSpeciesMoves            ; KIRLIA
+	dw AbraEggSpeciesMoves            ; GARDEVOIR
+	dw ScytherEggSpeciesMoves            ; GALLADE
+	dw HoundourEggSpeciesMoves            ; POOCHYENA
+	dw HoundourEggSpeciesMoves            ; MIGHTYENA
+	dw SentretEggSpeciesMoves            ; ZIGZAGOON
+	dw SentretEggSpeciesMoves            ; LINOONE
+	dw MagnemiteEggSpeciesMoves            ; ARON
+	dw MagnemiteEggSpeciesMoves            ; LAIRON
+	dw MagnemiteEggSpeciesMoves            ; AGGRON
+	dw LarvitarEggSpeciesMoves            ; TRAPINCH
+	dw LarvitarEggSpeciesMoves            ; VIBRAVA
+	dw LarvitarEggSpeciesMoves            ; FLYGON
+	dw OddishEggSpeciesMoves            ; CACNEA
+	dw OddishEggSpeciesMoves            ; CACTURNE
+	dw MagnemiteEggSpeciesMoves            ; BALTOY
+	dw MagnemiteEggSpeciesMoves            ; CLAYDOL
+	dw SneaselEggSpeciesMoves            ; ABSOL
+	dw DratiniEggSpeciesMoves            ; BAGON
+	dw DratiniEggSpeciesMoves            ; SHELGON
+	dw DratiniEggSpeciesMoves            ; SALAMENCE
+	dw MagnemiteEggSpeciesMoves            ; BELDUM
+	dw MagnemiteEggSpeciesMoves            ; METANG
+	dw MagnemiteEggSpeciesMoves            ; METAGROSS
+	dw PichuEggSpeciesMoves            ; SHINX
+	dw PichuEggSpeciesMoves            ; LUXIO
+	dw PichuEggSpeciesMoves            ; LUXRAY
+	dw KoffingEggSpeciesMoves            ; STUNKY
+	dw KoffingEggSpeciesMoves            ; SKUNTANK
+	dw MagnemiteEggSpeciesMoves            ; BRONZOR
+	dw MagnemiteEggSpeciesMoves            ; BRONZONG
+	dw MachopEggSpeciesMoves            ; RIOLU
+	dw MachopEggSpeciesMoves            ; LUCARIO
+	dw ParasEggSpeciesMoves            ; SKORUPI
+	dw ParasEggSpeciesMoves            ; DRAPION
+	dw MachopEggSpeciesMoves            ; CROAGUNK
+	dw MachopEggSpeciesMoves            ; TOXICROAK
+	dw PorygonEggSpeciesMoves            ; ROTOM
+	dw GrowlithePlainEggSpeciesMoves            ; LILLIPUP
+	dw GrowlithePlainEggSpeciesMoves            ; HERDIER
+	dw GrowlithePlainEggSpeciesMoves            ; STOUTLAND
+	dw MeowthPlainEggSpeciesMoves            ; PURRLOIN
+	dw MeowthPlainEggSpeciesMoves            ; LIEPARD
+	dw ChanseyEggSpeciesMoves            ; AUDINO
+	dw GrimerPlainEggSpeciesMoves            ; TRUBBISH
+	dw GrimerPlainEggSpeciesMoves            ; GARBODOR
+	dw MagnemiteEggSpeciesMoves            ; KLINK
+	dw MagnemiteEggSpeciesMoves            ; KLANG
+	dw MagnemiteEggSpeciesMoves            ; KLINKLANG
+	dw NatuEggSpeciesMoves            ; ELGYEM
+	dw NatuEggSpeciesMoves            ; BEHEEYEM
+	dw ScytherEggSpeciesMoves            ; PAWNIARD
+	dw ScytherEggSpeciesMoves            ; BISHARP
+	dw ScytherEggSpeciesMoves            ; KINGAMBIT
+	dw HitmonleeEggSpeciesMoves            ; HAWLUCHA
+assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
 

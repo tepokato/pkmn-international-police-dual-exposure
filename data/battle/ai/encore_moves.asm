@@ -5,7 +5,7 @@ EncoreMoves:
 	db CONVERSION
 	db DISABLE
 	db DREAM_EATER
-	db FOCUS_ENERGY
+	db BULK_UP
 	db GROWTH
 	db HAZE
 	db HONE_CLAWS

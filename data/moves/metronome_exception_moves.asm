@@ -11,5 +11,5 @@ MetronomeExcepts:
 	db SKETCH
 	db SLEEP_TALK
 	db THIEF
-	db TRANSFORM
+	db FEINT
 	db STRUGGLE ; -1

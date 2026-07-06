@@ -291,7 +291,64 @@ AnimationPointers:
 	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
-	assert_table_length NUM_SPECIES
+	dw MadameAnimation
+		dw RaltsAnimation
+	dw KirliaAnimation
+	dw GardevoirAnimation
+	dw GalladeAnimation
+	dw PoochyenaAnimation
+	dw MightyenaAnimation
+	dw ZigzagoonAnimation
+	dw LinooneAnimation
+	dw AronAnimation
+	dw LaironAnimation
+	dw AggronAnimation
+	dw TrapinchAnimation
+	dw VibravaAnimation
+	dw FlygonAnimation
+	dw CacneaAnimation
+	dw CacturneAnimation
+	dw BaltoyAnimation
+	dw ClaydolAnimation
+	dw AbsolAnimation
+	dw BagonAnimation
+	dw ShelgonAnimation
+	dw SalamenceAnimation
+	dw BeldumAnimation
+	dw MetangAnimation
+	dw MetagrossAnimation
+	dw ShinxAnimation
+	dw LuxioAnimation
+	dw LuxrayAnimation
+	dw StunkyAnimation
+	dw SkuntankAnimation
+	dw BronzorAnimation
+	dw BronzongAnimation
+	dw RioluAnimation
+	dw LucarioAnimation
+	dw SkorupiAnimation
+	dw DrapionAnimation
+	dw CroagunkAnimation
+	dw ToxicroakAnimation
+	dw RotomAnimation
+	dw LillipupAnimation
+	dw HerdierAnimation
+	dw StoutlandAnimation
+	dw PurrloinAnimation
+	dw LiepardAnimation
+	dw AudinoAnimation
+	dw TrubbishAnimation
+	dw GarbodorAnimation
+	dw KlinkAnimation
+	dw KlangAnimation
+	dw KlinklangAnimation
+	dw ElgyemAnimation
+	dw BeheeyemAnimation
+	dw PawniardAnimation
+	dw BisharpAnimation
+	dw KingambitAnimation
+	dw HawluchaAnimation
+assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
 	dw UnownCAnimation
@@ -326,12 +383,6 @@ AnimationPointers:
 	dw ArbokKogaAnimation
 	dw ArbokAgathaAnimation
 	dw ArbokArianaAnimation
-
-	dw PikachuFlyAnimation
-	dw PikachuSurfAnimation
-	dw PikachuPikaAnimation
-	dw PikachuChuchuAnimation
-	dw PikachuSparkAnimation
 
 	dw PichuSpikyAnimation
 

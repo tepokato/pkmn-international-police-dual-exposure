@@ -383,6 +383,19 @@ GetSpeed::
 .paralyze_done
 	farcall ApplySpeedAbilities
 
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerTailwindCount
+	jr z, .got_tailwind
+	ld hl, wEnemyTailwindCount
+.got_tailwind
+	ld a, [hl]
+	and a
+	jr z, .no_tailwind
+	ln a, 2, 1 ; x2
+	call MultiplyAndDivide
+.no_tailwind
+
 	; Apply item effects
 	farcall GetUserItemAfterUnnerve
 	ld a, b
@@ -1187,6 +1200,20 @@ SendInUserPkmn:
 	ld [hl], a
 	ld [de], a
 	ld [bc], a
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerTauntCount
+	ld de, wPlayerTormentCount
+	ld bc, wPlayerTormentLastMove
+	jr z, .clear_taunt_torment
+	ld hl, wEnemyTauntCount
+	ld de, wEnemyTormentCount
+	ld bc, wEnemyTormentLastMove
+.clear_taunt_torment
+	xor a
+	ld [hl], a
+	ld [de], a
+	ld [bc], a
 
 	ldh a, [hBattleTurn]
 	and a
@@ -1973,6 +2000,8 @@ _SubtractHP:
 	ret
 
 RestoreHP:
+	call CheckHealBlocked
+	jr c, .blocked
 	ld hl, wBattleMonMaxHP
 	ldh a, [hBattleTurn]
 	and a
@@ -2011,6 +2040,9 @@ RestoreHP:
 	ld [hl], a
 	ld [wHPBuffer3], a
 	; fallthrough
+
+.blocked
+	ret
 
 UpdateHPBarBattleHuds:
 	call UpdateHPBar
@@ -3058,9 +3090,13 @@ NewEnemyMonStatus:
 	ld [hl], a
 	ld [wEnemyDisableCount], a
 	ld [wEnemyEncoreCount], a
+	ld [wEnemyTauntCount], a
+	ld [wEnemyTormentCount], a
+	ld [wEnemyTormentLastMove], a
 	ld [wEnemyProtectCount], a
 	ld [wEnemyToxicCount], a
 	ld [wEnemyPerishCount], a
+	ld [wEnemyYawnCount], a
 	ld [wPlayerWrapCount], a
 	ld [wEnemyWrapCount], a
 	ld [wEnemyTurnsTaken], a
@@ -3238,9 +3274,13 @@ endr
 	ld [hl], a
 	ld [wPlayerDisableCount], a
 	ld [wPlayerEncoreCount], a
+	ld [wPlayerTauntCount], a
+	ld [wPlayerTormentCount], a
+	ld [wPlayerTormentLastMove], a
 	ld [wPlayerProtectCount], a
 	ld [wPlayerToxicCount], a
 	ld [wPlayerPerishCount], a
+	ld [wPlayerYawnCount], a
 	ld [wEnemyWrapCount], a
 	ld [wPlayerWrapCount], a
 	ld [wPlayerTurnsTaken], a
@@ -3379,6 +3419,7 @@ SpikesDamage_GotAbility:
 	call .Spikes
 	pop hl
 	call .ToxicSpikes
+	call StealthRockDamage
 .end_hazards
 	jmp HandleEntryItems
 
@@ -5149,7 +5190,11 @@ MoveSelectionScreen:
 	jr z, .choiced
 	dec a
 	jr z, .assault_vest
-	sub 3 ; 5 or 6 gives the same message
+	dec a
+	jr z, .taunted
+	dec a
+	jr z, .tormented
+	sub 3 ; 7 or 8 gives the same message
 	jr c, .encore_or_gorilla_tactics
 	ld b, 0
 	ld hl, wBattleMonMoves
@@ -5160,6 +5205,7 @@ MoveSelectionScreen:
 	; Lock in the used move as last move
 	call SetPlayerTurn
 	call SetChoiceLock
+	call UpdateTormentLastMove
 	call LoadTempTileMapToTileMap
 	ld a, CGB_BATTLE_COLORS
 	call GetCGBLayout
@@ -5206,6 +5252,14 @@ MoveSelectionScreen:
 	call GetItemName
 
 	ld hl, BattleText_ItemPreventsStatusMoves
+	jr .place_textbox_start_over
+
+.taunted
+	ld hl, BattleText_TauntPreventsStatusMove
+	jr .place_textbox_start_over
+
+.tormented
+	ld hl, BattleText_TormentPreventsRepeatMove
 	jr .place_textbox_start_over
 
 .no_pp_left
@@ -5632,8 +5686,10 @@ CheckUsableMove:
 ; 2 - disabled
 ; 3 - choiced item
 ; 4 - assault vest on status move
-; 5 - encored
-; 6 - choiced ability
+; 5 - taunted
+; 6 - tormented
+; 7 - encored
+; 8 - choiced ability
 	push hl
 	push de
 	push bc
@@ -5643,6 +5699,8 @@ CheckUsableMove:
 	call nz, .CheckDisabled
 	call nz, .CheckChoiceItem
 	call nz, .CheckAssaultVest
+	call nz, .CheckTaunt
+	call nz, .CheckTorment
 	call nz, .CheckEncored
 	call nz, .CheckChoiceAbility
 
@@ -5704,11 +5762,63 @@ CheckUsableMove:
 	ld a, 4
 	ret
 
+.CheckTaunt:
+	ld b, 5
+	ldh a, [hBattleTurn]
+	and a
+	ld a, [wPlayerTauntCount]
+	jr z, .GotTauntCount
+	ld a, [wEnemyTauntCount]
+.GotTauntCount:
+	and a
+	ret z
+	ld hl, wBattleMonMoves
+	call GetUserMonAttr
+	ld b, 0
+	add hl, bc
+	ld a, [hl]
+	push bc
+	call GetMoveFixedCategory
+	pop bc
+	cp STATUS
+	ld a, 5
+	ret
+
+.CheckTorment:
+	ld b, 6
+	ldh a, [hBattleTurn]
+	and a
+	ld a, [wPlayerTormentCount]
+	jr z, .GotTormentCount
+	ld a, [wEnemyTormentCount]
+.GotTormentCount:
+	and a
+	ret z
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerTormentLastMove
+	jr z, .GotTormentLastMove
+	ld hl, wEnemyTormentLastMove
+.GotTormentLastMove:
+	ld a, [hl]
+	and a
+	ret z
+	ld d, a
+	ld hl, wBattleMonMoves
+	call GetUserMonAttr
+	ld b, 0
+	add hl, bc
+	ld a, [hl]
+	cp d
+	ret nz
+	ld a, 6
+	ret
+
 .CheckEncored:
 	call .GetEncoreCount
 	and $f
 	jr z, .RetNZ
-	ld b, 5
+	ld b, 7
 	; fallthrough
 .CheckEncoreVar:
 	call .GetEncoreCount
@@ -5723,9 +5833,11 @@ CheckUsableMove:
 	ret
 
 .CheckChoiceAbility:
-	ld b, 6
+	ld b, 8
 	call GetTrueUserIgnorableAbility
 	cp GORILLA_TACTICS
+	jr z, .CheckEncoreVar
+	cp BUSHIDO
 	ret nz
 	jr .CheckEncoreVar
 
@@ -5845,6 +5957,7 @@ ParseEnemyAction:
 .skip_load
 	call SetEnemyTurn
 	farcall UpdateMoveData
+	call UpdateTormentLastMove
 	call CheckLockedIn
 	jr nz, .raging
 	xor a

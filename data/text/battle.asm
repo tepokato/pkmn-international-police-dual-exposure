@@ -469,6 +469,12 @@ BattleText_UserHurtBySpikes:
 	line "hurt by spikes!"
 	prompt
 
+BattleText_UserHurtByStealthRock:
+	text "<USER> is"
+	line "hurt by Stealth"
+	cont "Rock!"
+	prompt
+
 RecoveredUsingText:
 	text "<USER>"
 	line "recovered using a"
@@ -896,6 +902,29 @@ GotAnEncoreText:
 	line "got an encore!"
 	prompt
 
+GotTauntedText:
+	text "<TARGET>"
+	line "fell for the taunt!"
+	prompt
+
+GotTormentedText:
+	text "<TARGET>"
+	line "was subjected to"
+	cont "torment!"
+	prompt
+
+BattleText_TauntPreventsStatusMove:
+	text "<USER> can't use"
+	line "status moves due"
+	cont "to the taunt!"
+	prompt
+
+BattleText_TormentPreventsRepeatMove:
+	text "<USER> can't use"
+	line "the same move in"
+	cont "a row!"
+	prompt
+
 SharedPainText:
 	text "The battlers"
 	line "shared pain!"
@@ -1321,6 +1350,57 @@ ToxicSpikesText:
 	text "Toxic spikes"
 	line "scattered around"
 	cont "<TARGET>!"
+	prompt
+
+StealthRockText:
+	text "Pointed stones"
+	line "float around"
+	cont "<TARGET>!"
+	prompt
+
+DefogText:
+	text "The area was"
+	line "blown clear!"
+	prompt
+
+YawnText:
+	text "<USER>"
+	line "made a yawning"
+	cont "face at <TARGET>!"
+	prompt
+
+YawnSleepText:
+	text "<USER>"
+	line "grew drowsy!"
+	prompt
+
+TailwindText:
+	text "The Tailwind"
+	line "blew from behind"
+	cont "<USER>!"
+	prompt
+
+TailwindEndedText:
+	text "The Tailwind"
+	line "petered out!"
+	prompt
+
+HealBlockText:
+	text "<TARGET>"
+	line "was prevented"
+	cont "from healing!"
+	prompt
+
+HealBlockEndedText:
+	text "The effects of"
+	line "Heal Block wore"
+	cont "off!"
+	prompt
+
+HealBlockedText:
+	text "But it failed"
+	line "due to Heal"
+	cont "Block!"
 	prompt
 
 IdentifiedText:

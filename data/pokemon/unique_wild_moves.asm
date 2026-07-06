@@ -85,5 +85,5 @@ UniqueWildMoves:
 	unique_moves ROUTE_44,         AIPOM,      ROCK_BLAST   ; new move
 	unique_moves ROUTE_49,         PARASECT,   CONFUSE_RAY  ; Prism tutor move
 	unique_moves YELLOW_FOREST,    PIKACHU,    PLAIN_FORM,        FLY  ; Yellow special move, assumed only Pikachu can learn Fly
-	unique_moves YELLOW_FOREST,    PIKACHU,    PIKACHU_SURF_FORM, SURF ; Yellow special move, assumed only Pikachu can learn Surf
+	unique_moves YELLOW_FOREST,    PIKACHU,    PLAIN_FORM, AQUA_TAIL ; Yellow special move
 	db -1

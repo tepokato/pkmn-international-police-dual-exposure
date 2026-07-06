@@ -291,7 +291,64 @@ AnimationExtraPointers:
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
-	assert_table_length NUM_SPECIES
+	dw MadameAnimationExtra
+		dw RaltsAnimationExtra
+	dw KirliaAnimationExtra
+	dw GardevoirAnimationExtra
+	dw GalladeAnimationExtra
+	dw PoochyenaAnimationExtra
+	dw MightyenaAnimationExtra
+	dw ZigzagoonAnimationExtra
+	dw LinooneAnimationExtra
+	dw AronAnimationExtra
+	dw LaironAnimationExtra
+	dw AggronAnimationExtra
+	dw TrapinchAnimationExtra
+	dw VibravaAnimationExtra
+	dw FlygonAnimationExtra
+	dw CacneaAnimationExtra
+	dw CacturneAnimationExtra
+	dw BaltoyAnimationExtra
+	dw ClaydolAnimationExtra
+	dw AbsolAnimationExtra
+	dw BagonAnimationExtra
+	dw ShelgonAnimationExtra
+	dw SalamenceAnimationExtra
+	dw BeldumAnimationExtra
+	dw MetangAnimationExtra
+	dw MetagrossAnimationExtra
+	dw ShinxAnimationExtra
+	dw LuxioAnimationExtra
+	dw LuxrayAnimationExtra
+	dw StunkyAnimationExtra
+	dw SkuntankAnimationExtra
+	dw BronzorAnimationExtra
+	dw BronzongAnimationExtra
+	dw RioluAnimationExtra
+	dw LucarioAnimationExtra
+	dw SkorupiAnimationExtra
+	dw DrapionAnimationExtra
+	dw CroagunkAnimationExtra
+	dw ToxicroakAnimationExtra
+	dw RotomAnimationExtra
+	dw LillipupAnimationExtra
+	dw HerdierAnimationExtra
+	dw StoutlandAnimationExtra
+	dw PurrloinAnimationExtra
+	dw LiepardAnimationExtra
+	dw AudinoAnimationExtra
+	dw TrubbishAnimationExtra
+	dw GarbodorAnimationExtra
+	dw KlinkAnimationExtra
+	dw KlangAnimationExtra
+	dw KlinklangAnimationExtra
+	dw ElgyemAnimationExtra
+	dw BeheeyemAnimationExtra
+	dw PawniardAnimationExtra
+	dw BisharpAnimationExtra
+	dw KingambitAnimationExtra
+	dw HawluchaAnimationExtra
+assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
 	dw UnownCAnimationExtra
@@ -326,12 +383,6 @@ AnimationExtraPointers:
 	dw ArbokKogaAnimationExtra
 	dw ArbokAgathaAnimationExtra
 	dw ArbokArianaAnimationExtra
-
-	dw PikachuFlyAnimationExtra
-	dw PikachuSurfAnimationExtra
-	dw PikachuPikaAnimationExtra
-	dw PikachuChuchuAnimationExtra
-	dw PikachuSparkAnimationExtra
 
 	dw PichuSpikyAnimationExtra
 

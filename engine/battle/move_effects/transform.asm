@@ -139,7 +139,7 @@ BattleCommand_transform:
 	jr c, .mimic_anims
 	; Animation is done "raw" to allow Imposter
 	; to use the correct animation
-	ld de, TRANSFORM
+	ld de, ANIM_GHOST_TRANSFORM
 	call FarPlayBattleAnimation
 	jr .after_anim
 

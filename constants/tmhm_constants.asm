@@ -49,10 +49,8 @@ ENDM
 	add_tm PSYCHIC      ; $1c
 	add_tm SHADOW_BALL  ; $1d
 	add_tm ROCK_SMASH   ; $1e
-if !DEF(FAITHFUL)
 DEF TM_BRICK_BREAK    EQU TM_ROCK_SMASH
 DEF BRICK_BREAK_TMNUM EQU ROCK_SMASH_TMNUM
-endc
 	add_tm DOUBLE_TEAM  ; $1f
 	add_tm REFLECT      ; $20
 	add_tm FLASH_CANNON ; $21
@@ -97,23 +95,23 @@ endc
 	add_tm THUNDER_WAVE ; $48
 	add_tm GYRO_BALL    ; $49
 	add_tm SWORDS_DANCE ; $4a
+	add_tm TAUNT        ; $4b (was HM01 Cut)
+	add_tm FLY          ; $4c (was HM02)
+	add_tm AQUA_TAIL    ; $4d (was HM03 Surf)
+	add_tm TORMENT      ; $4e (was HM04 Strength)
+	add_tm SACRED_SWORD ; $4f (was HM05 Whirlpool)
+	add_tm WATERFALL    ; $50 (was HM06)
 DEF NUM_TMS = __tmhm_value__ - 1
+DEF NUM_HMS = 0
 
-MACRO add_hm
-	if !DEF(HM01)
-		DEF HM01 = const_value
-	endc
-	const HM_\1
-	add_tmnum \1
-ENDM
-
-	add_hm CUT          ; $4b
-	add_hm FLY          ; $4c
-	add_hm SURF         ; $4d
-	add_hm STRENGTH     ; $4e
-	add_hm WHIRLPOOL    ; $4f
-	add_hm WATERFALL    ; $50
-DEF NUM_HMS = __tmhm_value__ - NUM_TMS - 1
+; Legacy HM ids alias to their TM replacements (same slot index).
+DEF HM_CUT EQU TM_TAUNT
+DEF HM_FLY EQU TM_FLY
+DEF HM_SURF EQU TM_AQUA_TAIL
+DEF HM_STRENGTH EQU TM_TORMENT
+DEF HM_WHIRLPOOL EQU TM_SACRED_SWORD
+DEF HM_WATERFALL EQU TM_WATERFALL
+DEF HM01 EQU TM_TAUNT
 
 MACRO add_mt
 	if !DEF(MT01)
@@ -151,7 +149,7 @@ ENDM
 	add_mt THUNDERPUNCH ; $6b
 	add_mt TRICK        ; $6c
 	add_mt TRICK_ROOM   ; $6d
-	add_mt ZAP_CANNON   ; $6e
+	add_mt THUNDERBOLT   ; $6e
 	add_mt ZEN_HEADBUTT ; $6f
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 

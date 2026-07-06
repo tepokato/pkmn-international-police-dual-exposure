@@ -13,9 +13,24 @@ BattleCommand_attract:
 	jr nz, .failed
 	call GetOpponentIgnorableAbility
 	cp OBLIVIOUS
-	jr nz, .no_ability_protection
+	jr nz, .check_bushido
 
 	; don't display anything in case we're in cute charm
+	ld a, [wInAbility]
+	and a
+	ret nz
+
+	farcall BeginAbility
+	farcall ShowEnemyAbilityActivation
+	ld hl, DoesntAffectText
+	call StdBattleTextbox
+	farjp EndAbility
+
+.check_bushido
+	call GetOpponentIgnorableAbility
+	cp BUSHIDO
+	jr nz, .no_ability_protection
+
 	ld a, [wInAbility]
 	and a
 	ret nz
@@ -42,6 +57,13 @@ BattleCommand_attract:
 
 	ld hl, FellInLoveText
 	call StdBattleTextbox
+
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .mental_done
+	ld a, MENTAL_F_INFATUATED_F
+	call RegisterPlayerMentalEffect
+.mental_done
 
 	; Check Destiny Knot
 	call GetOpponentItemAfterUnnerve

@@ -45,8 +45,8 @@ CheckUniqueWildMove:
 	cp UNION_CAVE
 	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
 	ld a, b
-	cp SURF
-	jr z, .TeachMove ; assume only Pikachu can learn Surf
+	cp AQUA_TAIL
+	jr z, .TeachMove ; assume only Pikachu can learn Surf (legacy slot)
 
 	call Random
 	add a
@@ -68,10 +68,6 @@ CheckUniqueWildMove:
 .ok
 	ld a, b
 	ld [hl], a
-
-	; assume only Pikachu can learn Fly
-	cp FLY
-	jr z, .UseFlyingPikachu
 	ret
 
 .inc3andloop
@@ -81,14 +77,5 @@ CheckUniqueWildMove:
 .inc1andloop
 	inc hl
 	jr .loop
-
-.UseFlyingPikachu
-	ld a, [wOTPartyMon1Form]
-	and ~FORM_MASK
-	or PIKACHU_FLY_FORM
-	ld [wCurForm], a
-	ld [wOTPartyMon1Form], a
-	ld [wEnemyMonForm], a
-	ret
 
 INCLUDE "data/pokemon/unique_wild_moves.asm"

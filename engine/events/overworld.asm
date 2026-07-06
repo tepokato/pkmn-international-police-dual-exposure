@@ -137,8 +137,9 @@ CheckPartyMove:
 	ret
 
 CheckForSurfingPikachu:
-	lb de, SURF, HM_SURF
-	call CheckPartyMove
+	ld a, HM_SURF
+	ld [wCurTMHM], a
+	call CheckTMHM
 	jr c, .no
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
@@ -555,21 +556,6 @@ CantSurfText:
 AlreadySurfingText:
 	text_farend _AlreadySurfingText
 GetSurfType:
-; Surfing on Pikachu uses an alternate sprite.
-; This is done by using a separate movement type.
-
-	ld a, MON_SPECIES
-	call GetPartyParamLocationAndValue
-	cp LOW(PIKACHU)
-	jr nz, .not_pikachu
-	assert !HIGH(PIKACHU)
-	ld de, MON_EXTSPECIES - MON_SPECIES
-	add hl, de
-	ld a, [hl]
-	and 1 << MON_EXTSPECIES_F
-	ld a, PLAYER_SURF_PIKA
-	ret z
-.not_pikachu
 	ld a, PLAYER_SURF
 	ret
 
@@ -629,8 +615,9 @@ TrySurfOW::
 	call CheckEngineFlag
 	jr c, .quit
 
-	lb de, SURF, HM_SURF
-	call CheckPartyMove
+	ld a, HM_SURF
+	ld [wCurTMHM], a
+	call CheckTMHM
 	jr c, .quit
 
 	ld hl, wOWState
@@ -1566,7 +1553,7 @@ AskRockSmashScript:
 	farjumptext _MaySmashText
 
 HasRockSmash:
-	lb de, ROCK_SMASH, TM_ROCK_SMASH
+	lb de, BRICK_BREAK, TM_BRICK_BREAK
 	call CheckPartyMove
 	; a = carry ? 1 : 0
 	sbc a

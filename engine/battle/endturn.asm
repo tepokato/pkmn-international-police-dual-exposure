@@ -34,14 +34,17 @@ HandleBetweenTurnEffects:
 	call HandleWrap
 	call CheckFaint
 	ret c
-	; taunt
+	call HandleTaunt
 	call HandleEncore
 	call HandleDisable
 	; magnet rise
 	; telekinesis
 	; heal block
-	; embargo
+	call HandleHealBlock
 	; yawn
+	call HandleYawn
+	call CheckFaint
+	ret c
 	call HandlePerishSong
 	call CheckFaint
 	ret c
@@ -50,7 +53,7 @@ HandleBetweenTurnEffects:
 	call HandleLightScreen
 	call HandleSafeguard
 	call HandleMist
-	; tailwind
+	call HandleTailwind
 	; lucky chant
 	; rainbow dissipating (water+fire pledge)
 	; sea of fire dissipating (grass+fire pledge)
@@ -852,6 +855,26 @@ HandleDisable:
 	jr z, EndturnEncoreDisable
 	ld hl, wEnemyDisableCount
 	jr EndturnEncoreDisable
+
+HandleTaunt:
+	call SetFastestTurn
+	call .do_it
+	call SwitchTurn
+
+.do_it
+	call HasUserFainted
+	ret z
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerTauntCount
+	jr z, .got_taunt_count
+	ld hl, wEnemyTauntCount
+.got_taunt_count
+	ld a, [hl]
+	and a
+	ret z
+	dec [hl]
+	ret
 
 HandlePerishSong:
 	call SetFastestTurn

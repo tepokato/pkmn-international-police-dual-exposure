@@ -15,7 +15,7 @@ MoveDescriptions::
 	dw NightSlashDescription
 	dw AirSlashDescription
 	dw SwordsDanceDescription
-	dw CutDescription
+	dw TauntDescription
 	dw GustDescription
 	dw WingAttackDescription
 	dw SuckerPunchDescription
@@ -57,7 +57,7 @@ MoveDescriptions::
 	dw CalmMindDescription
 	dw WaterGunDescription
 	dw HydroPumpDescription
-	dw SurfDescription
+	dw StealthRockDescription
 	dw IceBeamDescription
 	dw BlizzardDescription
 	dw PsybeamDescription
@@ -70,7 +70,7 @@ MoveDescriptions::
 	dw LowKickDescription
 	dw CounterDescription
 	dw SeismicTossDescription
-	dw StrengthDescription
+	dw TormentDescription
 	dw AbsorbDescription
 	dw MegaDrainDescription
 	dw LeechSeedDescription
@@ -116,7 +116,7 @@ MoveDescriptions::
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
-	dw FocusEnergyDescription
+	dw FakeOutDescription
 	dw FlashCannonDescription
 	dw MetronomeDescription
 	dw ScaldDescription
@@ -144,7 +144,7 @@ MoveDescriptions::
 	dw LeechLifeDescription
 	dw DrainKissDescription
 	dw BraveBirdDescription
-	dw TransformDescription
+	dw FeintDescription
 	dw WaterPulseDescription
 	dw DizzyPunchDescription
 	dw SporeDescription
@@ -152,13 +152,13 @@ MoveDescriptions::
 	dw ExtrasensoryDescription
 	dw SplashDescription
 	dw DragonDanceDescription
-	dw CrabhammerDescription
+	dw DefogDescription
 	dw ExplosionDescription
 	dw FuryStrikesDescription
-	dw BonemerangDescription
+	dw YawnDescription
 	dw RestDescription
 	dw RockSlideDescription
-	dw HyperFangDescription
+	dw PaybackDescription
 	dw BulkUpDescription
 	dw ConversionDescription
 	dw TriAttackDescription
@@ -177,7 +177,7 @@ MoveDescriptions::
 	dw CurseDescription
 	dw GyroBallDescription
 	dw EnergyBallDescription
-	dw AeroblastDescription
+	dw BrickBreakDescription
 	dw SeedBombDescription
 	dw ReversalDescription
 	dw AstonishDescription
@@ -190,9 +190,9 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw OctazookaDescription
+	dw TailwindDescription
 	dw SpikesDescription
-	dw ZapCannonDescription
+	dw HealBlockDescription
 	dw ForesightDescription
 	dw DestinyBondDescription
 	dw PerishSongDescription
@@ -217,11 +217,11 @@ MoveDescriptions::
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
-	dw PsystrikeDescription
+	dw FocusEnergyDescription
 	dw BugBuzzDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
-	dw SacredFireDescription
+	dw DischargeDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
@@ -249,8 +249,8 @@ MoveDescriptions::
 	dw AncientpowerDescription
 	dw ShadowBallDescription
 	dw FutureSightDescription
-	dw RockSmashDescription
-	dw WhirlpoolDescription
+	dw RockTombDescription
+	dw SacredSwordDescription
 	dw DarkPulseDescription
 	dw MoonblastDescription
 	dw PlayRoughDescription
@@ -446,12 +446,25 @@ PlayRoughDescription:
 	next "lower Attack."
 	done
 
-RockSmashDescription:
-if !DEF(FAITHFUL)
-	text "Removes Reflect"
-	next "and Light Screen."
+RockTombDescription:
+	text "An attack that may"
+	next "lower Speed."
 	done
-endc
+
+BrickBreakDescription:
+	text "Breaks Reflect and"
+	next "Light Screen."
+	done
+
+PaybackDescription:
+	text "Power doubles if"
+	next "the user goes last."
+	done
+
+DischargeDescription:
+	text "An attack that may"
+	next "cause paralysis."
+	done
 CrunchDescription:
 IronTailDescription:
 	text "An attack that may"
@@ -493,6 +506,12 @@ FocusBlastDescription:
 MudSlapDescription:
 	text "An attack that"
 	next "lowers accuracy."
+	done
+
+SacredSwordDescription:
+	text "The user cuts with"
+	next "a honed blade."
+	next "Ignores stat changes."
 	done
 
 OctazookaDescription:
@@ -834,6 +853,36 @@ ToxicSpikesDescription:
 	next "they switch in."
 	done
 
+StealthRockDescription:
+	text "Hurts foes on"
+	next "switch-in with a"
+	cont "Rock-type jolt."
+	done
+
+DefogDescription:
+	text "Blows away hazards"
+	next "and screens. Also"
+	cont "lowers evasion."
+	done
+
+YawnDescription:
+	text "Makes the foe"
+	next "drowsy. It falls"
+	cont "asleep soon after."
+	done
+
+TailwindDescription:
+	text "Whips up a gust"
+	next "that doubles the"
+	cont "team's Speed."
+	done
+
+HealBlockDescription:
+	text "For 5 turns, the"
+	next "foe can't restore"
+	cont "HP by any means."
+	done
+
 QuickAttackDescription:
 	text "Lets the user get"
 	next "in the first hit."
@@ -884,9 +933,16 @@ DragonClawDescription:
 	next "with sharp claws."
 	done
 
-CutDescription:
-	text "Cuts using claws,"
-	next "scythes, etc."
+TauntDescription:
+	text "Taunts the foe"
+	next "into only using"
+	next "attack moves."
+	done
+
+TormentDescription:
+	text "Torments the foe,"
+	next "preventing repeat"
+	next "use of a move."
 	done
 
 if DEF(FAITHFUL)
@@ -966,11 +1022,6 @@ DrillPeckDescription:
 	next "ning-peck attack."
 	done
 
-StrengthDescription:
-	text "A powerful physi-"
-	next "cal attack."
-	done
-
 LeechSeedDescription:
 	text "Steals HP from the"
 	next "foe on every turn."
@@ -1026,9 +1077,14 @@ DreamEaterDescription:
 	next "sleeping victim."
 	done
 
-TransformDescription:
-	text "The user assumes"
-	next "the foe's guise."
+FakeOutDescription:
+	text "A quick attack that"
+	next "may cause flinching."
+	done
+
+FeintDescription:
+	text "Breaks through the"
+	next "foe's protection."
 	done
 
 SplashDescription:

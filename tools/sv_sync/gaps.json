@@ -1,0 +1,3716 @@
+{
+  "type_mismatches": [],
+  "type_order": [],
+  "missing_api": [
+    {
+      "file": "dudunsparce.asm",
+      "api": "dudunsparce",
+      "local": [
+        "NORMAL",
+        "NORMAL"
+      ]
+    },
+    {
+      "file": "dudunsparce.asm",
+      "api": "dudunsparce",
+      "local": [
+        "NORMAL",
+        "NORMAL"
+      ]
+    }
+  ],
+  "unmapped_sv_moves": [
+    "acid-armor",
+    "acid-spray",
+    "acupressure",
+    "after-you",
+    "air-cutter",
+    "aqua-cutter",
+    "aqua-ring",
+    "arm-thrust",
+    "aromatherapy",
+    "assurance",
+    "autotomize",
+    "axe-kick",
+    "baby-doll-eyes",
+    "beat-up",
+    "belch",
+    "bind",
+    "blaze-kick",
+    "block",
+    "bone-rush",
+    "boomburst",
+    "bounce",
+    "brick-break",
+    "brine",
+    "bullet-seed",
+    "charge",
+    "charge-beam",
+    "clear-smog",
+    "coil",
+    "comet-punch",
+    "comeuppance",
+    "conversion-2",
+    "copycat",
+    "cosmic-power",
+    "cotton-guard",
+    "cotton-spore",
+    "covet",
+    "crabhammer",
+    "cross-poison",
+    "cut",
+    "dazzling-gleam",
+    "detect",
+    "dire-claw",
+    "discharge",
+    "dive",
+    "double-hit",
+    "dragon-rush",
+    "dragon-tail",
+    "drill-run",
+    "dual-chop",
+    "dual-wingbeat",
+    "echoed-voice",
+    "eerie-impulse",
+    "electric-terrain",
+    "electro-ball",
+    "endeavor",
+    "entrainment",
+    "fairy-wind",
+    "fake-out",
+    "feather-dance",
+    "feint",
+    "fell-stinger",
+    "final-gambit",
+    "fire-fang",
+    "fissure",
+    "flail",
+    "flame-wheel",
+    "flatter",
+    "fling",
+    "flying-press",
+    "focus-energy",
+    "focus-punch",
+    "follow-me",
+    "force-palm",
+    "foul-play",
+    "freeze-dry",
+    "fury-attack",
+    "fury-cutter",
+    "gastro-acid",
+    "gear-grind",
+    "gear-up",
+    "grassy-terrain",
+    "gravity",
+    "guard-split",
+    "guard-swap",
+    "guillotine",
+    "hammer-arm",
+    "harden",
+    "heal-pulse",
+    "healing-wish",
+    "heat-wave",
+    "heavy-slam",
+    "helping-hand",
+    "high-horsepower",
+    "high-jump-kick",
+    "horn-drill",
+    "howl",
+    "hyper-drill",
+    "ice-fang",
+    "imprison",
+    "incinerate",
+    "inferno",
+    "infestation",
+    "ingrain",
+    "iron-defense",
+    "kowtow-cleave",
+    "last-resort",
+    "lava-plume",
+    "leaf-blade",
+    "leaf-storm",
+    "life-dew",
+    "liquidation",
+    "lock-on",
+    "low-sweep",
+    "magical-leaf",
+    "magnet-rise",
+    "magnetic-flux",
+    "mega-kick",
+    "mega-punch",
+    "memento",
+    "metal-burst",
+    "metal-sound",
+    "meteor-mash",
+    "milk-drink",
+    "mist",
+    "misty-terrain",
+    "moonlight",
+    "morning-sun",
+    "mud-shot",
+    "muddy-water",
+    "mystical-fire",
+    "nuzzle",
+    "payback",
+    "petal-blizzard",
+    "phantom-force",
+    "play-nice",
+    "pluck",
+    "poison-fang",
+    "poison-gas",
+    "poison-tail",
+    "pound",
+    "power-split",
+    "power-swap",
+    "power-trick",
+    "power-trip",
+    "psych-up",
+    "psychic-terrain",
+    "psycho-cut",
+    "psycho-shift",
+    "psyshock",
+    "quash",
+    "quick-guard",
+    "quiver-dance",
+    "rage-powder",
+    "raging-bull",
+    "razor-shell",
+    "recycle",
+    "reflect-type",
+    "retaliate",
+    "revenge",
+    "rock-polish",
+    "rock-tomb",
+    "rock-wrecker",
+    "sand-attack",
+    "sand-tomb",
+    "self-destruct",
+    "shadow-punch",
+    "shadow-sneak",
+    "sheer-cold",
+    "shift-gear",
+    "shock-wave",
+    "silver-wind",
+    "simple-beam",
+    "sky-attack",
+    "slack-off",
+    "slam",
+    "sludge",
+    "sludge-wave",
+    "smack-down",
+    "smart-strike",
+    "smog",
+    "snarl",
+    "snowscape",
+    "soak",
+    "soft-boiled",
+    "spiky-shield",
+    "spit-up",
+    "spite",
+    "sticky-web",
+    "stockpile",
+    "stomping-tantrum",
+    "stored-power",
+    "storm-throw",
+    "strength",
+    "submission",
+    "superpower",
+    "surf",
+    "swallow",
+    "sweet-scent",
+    "switcheroo",
+    "synthesis",
+    "tail-whip",
+    "throat-chop",
+    "thunder-fang",
+    "tickle",
+    "toxic-thread",
+    "triple-kick",
+    "twin-beam",
+    "twister",
+    "uproar",
+    "vacuum-wave",
+    "vice-grip",
+    "vital-throw",
+    "wave-crash",
+    "weather-ball",
+    "whirlpool",
+    "wide-guard",
+    "wish",
+    "withdraw",
+    "wonder-room",
+    "wood-hammer",
+    "work-up",
+    "worry-seed",
+    "zap-cannon"
+  ],
+  "learnset_diffs": [
+    {
+      "label": "RattataPlain",
+      "api": "rattata",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "focus-energy",
+        "assurance",
+        "endeavor"
+      ]
+    },
+    {
+      "label": "RaticatePlain",
+      "api": "raticate",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy",
+        "tail-whip",
+        "assurance",
+        "endeavor"
+      ]
+    },
+    {
+      "label": "Ekans",
+      "api": "ekans",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "spit-up",
+        "stockpile",
+        "swallow",
+        "acid-spray",
+        "gastro-acid",
+        "belch",
+        "coil"
+      ]
+    },
+    {
+      "label": "Arbok",
+      "api": "arbok",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "ice-fang",
+        "thunder-fang",
+        "spit-up",
+        "stockpile",
+        "swallow",
+        "acid-spray",
+        "gastro-acid",
+        "belch",
+        "coil"
+      ]
+    },
+    {
+      "label": "Pikachu",
+      "api": "pikachu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "nuzzle",
+        "play-nice",
+        "tail-whip",
+        "electro-ball",
+        "feint",
+        "discharge"
+      ]
+    },
+    {
+      "label": "RaichuPlain",
+      "api": "raichu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "discharge",
+        "electro-ball",
+        "feint",
+        "nuzzle",
+        "play-nice",
+        "tail-whip"
+      ]
+    },
+    {
+      "label": "NidoranF",
+      "api": "nidoran-f",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "helping-hand",
+        "flatter"
+      ]
+    },
+    {
+      "label": "Nidorina",
+      "api": "nidorina",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "helping-hand",
+        "flatter"
+      ]
+    },
+    {
+      "label": "Nidoqueen",
+      "api": "nidoqueen",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "superpower",
+        "flatter",
+        "helping-hand",
+        "tail-whip"
+      ]
+    },
+    {
+      "label": "NidoranM",
+      "api": "nidoran-m",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy",
+        "fury-attack",
+        "helping-hand",
+        "flatter"
+      ]
+    },
+    {
+      "label": "Nidorino",
+      "api": "nidorino",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy",
+        "fury-attack",
+        "helping-hand",
+        "flatter"
+      ]
+    },
+    {
+      "label": "Nidoking",
+      "api": "nidoking",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flatter",
+        "focus-energy",
+        "fury-attack",
+        "helping-hand"
+      ]
+    },
+    {
+      "label": "Clefairy",
+      "api": "clefairy",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "pound",
+        "stored-power",
+        "after-you",
+        "life-dew",
+        "moonlight",
+        "gravity",
+        "meteor-mash",
+        "follow-me",
+        "cosmic-power",
+        "healing-wish"
+      ]
+    },
+    {
+      "label": "Clefable",
+      "api": "clefable",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "life-dew",
+        "meteor-mash"
+      ]
+    },
+    {
+      "label": "VulpixPlain",
+      "api": "vulpix",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "spite",
+        "incinerate",
+        "imprison",
+        "inferno"
+      ]
+    },
+    {
+      "label": "NinetalesPlain",
+      "api": "ninetales",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip"
+      ]
+    },
+    {
+      "label": "Zubat",
+      "api": "zubat",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-fang",
+        "quick-guard",
+        "air-cutter"
+      ]
+    },
+    {
+      "label": "Golbat",
+      "api": "golbat",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-fang",
+        "quick-guard",
+        "air-cutter"
+      ]
+    },
+    {
+      "label": "Oddish",
+      "api": "oddish",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sweet-scent",
+        "grassy-terrain",
+        "moonlight"
+      ]
+    },
+    {
+      "label": "Gloom",
+      "api": "gloom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sweet-scent",
+        "grassy-terrain",
+        "moonlight"
+      ]
+    },
+    {
+      "label": "Vileplume",
+      "api": "vileplume",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "petal-blizzard",
+        "grassy-terrain",
+        "moonlight",
+        "sweet-scent"
+      ]
+    },
+    {
+      "label": "Paras",
+      "api": "paras",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fury-cutter",
+        "aromatherapy",
+        "rage-powder"
+      ]
+    },
+    {
+      "label": "Parasect",
+      "api": "parasect",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "cross-poison",
+        "fury-cutter",
+        "aromatherapy",
+        "rage-powder"
+      ]
+    },
+    {
+      "label": "Venonat",
+      "api": "venonat",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-fang"
+      ]
+    },
+    {
+      "label": "Venomoth",
+      "api": "venomoth",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "quiver-dance",
+        "poison-fang"
+      ]
+    },
+    {
+      "label": "DiglettPlain",
+      "api": "diglett",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "fissure"
+      ]
+    },
+    {
+      "label": "DugtrioPlain",
+      "api": "dugtrio",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-tomb",
+        "sand-attack",
+        "fissure"
+      ]
+    },
+    {
+      "label": "MeowthPlain",
+      "api": "meowth",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fake-out",
+        "feint",
+        "assurance"
+      ]
+    },
+    {
+      "label": "PersianPlain",
+      "api": "persian",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fake-out",
+        "feint",
+        "switcheroo",
+        "assurance"
+      ]
+    },
+    {
+      "label": "GrowlithePlain",
+      "api": "growlithe",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "howl",
+        "flame-wheel",
+        "helping-hand",
+        "fire-fang",
+        "retaliate"
+      ]
+    },
+    {
+      "label": "ArcaninePlain",
+      "api": "arcanine",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "flame-wheel",
+        "helping-hand",
+        "howl",
+        "retaliate"
+      ]
+    },
+    {
+      "label": "Machop",
+      "api": "machop",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy",
+        "revenge",
+        "low-sweep",
+        "vital-throw",
+        "strength",
+        "dual-chop"
+      ]
+    },
+    {
+      "label": "Machoke",
+      "api": "machoke",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy",
+        "revenge",
+        "low-sweep",
+        "vital-throw",
+        "strength",
+        "dual-chop"
+      ]
+    },
+    {
+      "label": "Machamp",
+      "api": "machamp",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy",
+        "revenge",
+        "wide-guard",
+        "low-sweep",
+        "vital-throw",
+        "strength",
+        "dual-chop"
+      ]
+    },
+    {
+      "label": "Bellsprout",
+      "api": "bellsprout",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sweet-scent",
+        "gastro-acid",
+        "slam"
+      ]
+    },
+    {
+      "label": "Weepinbell",
+      "api": "weepinbell",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sweet-scent",
+        "gastro-acid",
+        "slam"
+      ]
+    },
+    {
+      "label": "Victreebel",
+      "api": "victreebel",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "leaf-storm",
+        "sweet-scent",
+        "leaf-blade"
+      ]
+    },
+    {
+      "label": "Tentacool",
+      "api": "tentacool",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "acid-armor",
+        "surf",
+        "sludge-wave"
+      ]
+    },
+    {
+      "label": "Tentacruel",
+      "api": "tentacruel",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "reflect-type",
+        "acid-armor",
+        "surf",
+        "sludge-wave"
+      ]
+    },
+    {
+      "label": "GeodudePlain",
+      "api": "geodude",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "rock-polish",
+        "smack-down",
+        "self-destruct"
+      ]
+    },
+    {
+      "label": "GravelerPlain",
+      "api": "graveler",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "rock-polish",
+        "smack-down",
+        "self-destruct"
+      ]
+    },
+    {
+      "label": "GolemPlain",
+      "api": "golem",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "heavy-slam",
+        "rock-polish",
+        "smack-down",
+        "self-destruct"
+      ]
+    },
+    {
+      "label": "PonytaPlain",
+      "api": "ponyta",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "flame-wheel",
+        "inferno"
+      ]
+    },
+    {
+      "label": "RapidashPlain",
+      "api": "rapidash",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "smart-strike",
+        "tail-whip",
+        "flame-wheel",
+        "inferno"
+      ]
+    },
+    {
+      "label": "SlowpokePlain",
+      "api": "slowpoke",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "surf",
+        "slack-off",
+        "psych-up",
+        "heal-pulse"
+      ]
+    },
+    {
+      "label": "SlowbroPlain",
+      "api": "slowbro",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "withdraw",
+        "surf",
+        "slack-off",
+        "psych-up",
+        "heal-pulse"
+      ]
+    },
+    {
+      "label": "Magnemite",
+      "api": "magnemite",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "electro-ball",
+        "magnet-rise",
+        "discharge",
+        "metal-sound",
+        "lock-on",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Magneton",
+      "api": "magneton",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "electric-terrain",
+        "electro-ball",
+        "magnet-rise",
+        "discharge",
+        "metal-sound",
+        "lock-on",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "FarfetchDPlain",
+      "api": "farfetchd",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "fury-cutter",
+        "cut",
+        "air-cutter",
+        "leaf-blade"
+      ]
+    },
+    {
+      "label": "Doduo",
+      "api": "doduo",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fury-attack",
+        "pluck",
+        "double-hit",
+        "uproar",
+        "acupressure",
+        "endeavor"
+      ]
+    },
+    {
+      "label": "Dodrio",
+      "api": "dodrio",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fury-attack",
+        "pluck",
+        "double-hit",
+        "uproar",
+        "acupressure",
+        "endeavor"
+      ]
+    },
+    {
+      "label": "Seel",
+      "api": "seel",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "aqua-ring",
+        "brine",
+        "dive",
+        "snowscape"
+      ]
+    },
+    {
+      "label": "Dewgong",
+      "api": "dewgong",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sheer-cold",
+        "aqua-ring",
+        "brine",
+        "dive",
+        "snowscape"
+      ]
+    },
+    {
+      "label": "GrimerPlain",
+      "api": "grimer",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-gas",
+        "pound",
+        "harden",
+        "sludge",
+        "mud-shot",
+        "sludge-wave",
+        "acid-armor",
+        "belch",
+        "memento"
+      ]
+    },
+    {
+      "label": "MukPlain",
+      "api": "muk",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "poison-gas",
+        "pound",
+        "sludge",
+        "mud-shot",
+        "sludge-wave",
+        "acid-armor",
+        "belch",
+        "memento"
+      ]
+    },
+    {
+      "label": "Shellder",
+      "api": "shellder",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "withdraw",
+        "whirlpool",
+        "razor-shell",
+        "iron-defense"
+      ]
+    },
+    {
+      "label": "Cloyster",
+      "api": "cloyster",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "iron-defense",
+        "whirlpool",
+        "withdraw",
+        "razor-shell"
+      ]
+    },
+    {
+      "label": "Gastly",
+      "api": "gastly",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "payback",
+        "spite"
+      ]
+    },
+    {
+      "label": "Haunter",
+      "api": "haunter",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "shadow-punch",
+        "payback",
+        "spite"
+      ]
+    },
+    {
+      "label": "Gengar",
+      "api": "gengar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "reflect-type",
+        "shadow-punch",
+        "payback",
+        "spite"
+      ]
+    },
+    {
+      "label": "Onix",
+      "api": "onix",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "harden",
+        "smack-down",
+        "rock-polish",
+        "sand-tomb",
+        "slam"
+      ]
+    },
+    {
+      "label": "Drowzee",
+      "api": "drowzee",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "pound",
+        "poison-gas",
+        "psych-up",
+        "psyshock"
+      ]
+    },
+    {
+      "label": "Hypno",
+      "api": "hypno",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "pound",
+        "switcheroo",
+        "poison-gas",
+        "psych-up",
+        "psyshock"
+      ]
+    },
+    {
+      "label": "Krabby",
+      "api": "krabby",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "mud-shot",
+        "flail",
+        "razor-shell",
+        "slam",
+        "crabhammer",
+        "guillotine"
+      ]
+    },
+    {
+      "label": "Kingler",
+      "api": "kingler",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "hammer-arm",
+        "harden",
+        "wide-guard",
+        "mud-shot",
+        "flail",
+        "razor-shell",
+        "slam",
+        "crabhammer",
+        "guillotine"
+      ]
+    },
+    {
+      "label": "VoltorbPlain",
+      "api": "voltorb",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "eerie-impulse",
+        "charge-beam",
+        "electro-ball",
+        "self-destruct",
+        "magnet-rise",
+        "discharge"
+      ]
+    },
+    {
+      "label": "ElectrodePlain",
+      "api": "electrode",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "eerie-impulse",
+        "magnetic-flux",
+        "charge-beam",
+        "electro-ball",
+        "self-destruct",
+        "magnet-rise",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Exeggcute",
+      "api": "exeggcute",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "synthesis",
+        "bullet-seed",
+        "uproar",
+        "worry-seed"
+      ]
+    },
+    {
+      "label": "ExeggutorPlain",
+      "api": "exeggutor",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bullet-seed",
+        "leaf-storm",
+        "psyshock",
+        "synthesis",
+        "uproar",
+        "wood-hammer",
+        "worry-seed"
+      ]
+    },
+    {
+      "label": "Hitmonlee",
+      "api": "hitmonlee",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "brick-break",
+        "fake-out",
+        "focus-energy",
+        "helping-hand",
+        "low-sweep",
+        "wide-guard",
+        "blaze-kick",
+        "feint",
+        "mega-kick",
+        "high-jump-kick",
+        "axe-kick"
+      ]
+    },
+    {
+      "label": "Hitmonchan",
+      "api": "hitmonchan",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fake-out",
+        "feint",
+        "focus-energy",
+        "helping-hand",
+        "vacuum-wave",
+        "detect",
+        "quick-guard",
+        "mega-punch",
+        "focus-punch"
+      ]
+    },
+    {
+      "label": "Lickitung",
+      "api": "lickitung",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "slam"
+      ]
+    },
+    {
+      "label": "Koffing",
+      "api": "koffing",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-gas",
+        "smog",
+        "clear-smog",
+        "assurance",
+        "sludge",
+        "self-destruct",
+        "belch",
+        "memento"
+      ]
+    },
+    {
+      "label": "WeezingPlain",
+      "api": "weezing",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "double-hit",
+        "heat-wave",
+        "poison-gas",
+        "smog",
+        "clear-smog",
+        "assurance",
+        "sludge",
+        "self-destruct",
+        "belch",
+        "memento"
+      ]
+    },
+    {
+      "label": "Rhyhorn",
+      "api": "rhyhorn",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "smack-down",
+        "drill-run",
+        "horn-drill"
+      ]
+    },
+    {
+      "label": "Rhydon",
+      "api": "rhydon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "hammer-arm",
+        "smack-down",
+        "tail-whip",
+        "drill-run",
+        "horn-drill"
+      ]
+    },
+    {
+      "label": "Chansey",
+      "api": "chansey",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "pound",
+        "tail-whip",
+        "echoed-voice",
+        "life-dew",
+        "fling",
+        "heal-pulse",
+        "helping-hand",
+        "soft-boiled",
+        "last-resort",
+        "healing-wish"
+      ]
+    },
+    {
+      "label": "Tangela",
+      "api": "tangela",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "slam",
+        "tickle",
+        "ingrain",
+        "grassy-terrain"
+      ]
+    },
+    {
+      "label": "Kangaskhan",
+      "api": "kangaskhan",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "pound",
+        "tail-whip",
+        "fake-out",
+        "focus-energy",
+        "double-hit",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Horsea",
+      "api": "horsea",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "twister",
+        "focus-energy"
+      ]
+    },
+    {
+      "label": "Seadra",
+      "api": "seadra",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "twister",
+        "focus-energy"
+      ]
+    },
+    {
+      "label": "Goldeen",
+      "api": "goldeen",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "aqua-ring",
+        "flail",
+        "soak",
+        "horn-drill"
+      ]
+    },
+    {
+      "label": "Seaking",
+      "api": "seaking",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "aqua-ring",
+        "flail",
+        "soak",
+        "horn-drill"
+      ]
+    },
+    {
+      "label": "Staryu",
+      "api": "staryu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "brine",
+        "surf",
+        "cosmic-power"
+      ]
+    },
+    {
+      "label": "Starmie",
+      "api": "starmie",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "brine",
+        "cosmic-power",
+        "harden",
+        "surf"
+      ]
+    },
+    {
+      "label": "Electabuzz",
+      "api": "electabuzz",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "shock-wave",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Magmar",
+      "api": "magmar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "smog",
+        "clear-smog",
+        "flame-wheel",
+        "lava-plume"
+      ]
+    },
+    {
+      "label": "Pinsir",
+      "api": "pinsir",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "vice-grip",
+        "focus-energy",
+        "bind",
+        "storm-throw",
+        "double-hit",
+        "vital-throw",
+        "strength",
+        "submission",
+        "guillotine",
+        "superpower"
+      ]
+    },
+    {
+      "label": "TaurosPlain",
+      "api": "tauros",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "work-up",
+        "payback",
+        "assurance",
+        "raging-bull"
+      ]
+    },
+    {
+      "label": "Magikarp",
+      "api": "magikarp",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flail"
+      ]
+    },
+    {
+      "label": "Gyarados",
+      "api": "gyarados",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flail",
+        "twister",
+        "whirlpool",
+        "ice-fang",
+        "brine"
+      ]
+    },
+    {
+      "label": "Lapras",
+      "api": "lapras",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "mist",
+        "life-dew",
+        "brine",
+        "sheer-cold"
+      ]
+    },
+    {
+      "label": "Eevee",
+      "api": "eevee",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "copycat",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Vaporeon",
+      "api": "vaporeon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "aqua-ring",
+        "muddy-water",
+        "acid-armor",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Jolteon",
+      "api": "jolteon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "thunder-fang",
+        "discharge",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Flareon",
+      "api": "flareon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "smog",
+        "fire-fang",
+        "lava-plume",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Porygon",
+      "api": "porygon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "recycle",
+        "magnet-rise",
+        "conversion-2",
+        "discharge",
+        "lock-on",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Omanyte",
+      "api": "omanyte",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "withdraw",
+        "sand-attack",
+        "mud-shot",
+        "brine",
+        "surf"
+      ]
+    },
+    {
+      "label": "Omastar",
+      "api": "omastar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "sand-attack",
+        "withdraw",
+        "mud-shot",
+        "brine",
+        "surf"
+      ]
+    },
+    {
+      "label": "Kabuto",
+      "api": "kabuto",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "sand-attack",
+        "mud-shot",
+        "brine",
+        "liquidation",
+        "metal-sound"
+      ]
+    },
+    {
+      "label": "Kabutops",
+      "api": "kabutops",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "feint",
+        "harden",
+        "sand-attack",
+        "mud-shot",
+        "brine",
+        "liquidation",
+        "metal-sound"
+      ]
+    },
+    {
+      "label": "Dratini",
+      "api": "dratini",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "twister",
+        "dragon-tail",
+        "slam",
+        "dragon-rush"
+      ]
+    },
+    {
+      "label": "Dragonair",
+      "api": "dragonair",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "twister",
+        "dragon-tail",
+        "slam",
+        "dragon-rush"
+      ]
+    },
+    {
+      "label": "Dragonite",
+      "api": "dragonite",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "twister",
+        "dragon-tail",
+        "slam",
+        "dragon-rush"
+      ]
+    },
+    {
+      "label": "Sentret",
+      "api": "sentret",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "helping-hand",
+        "follow-me",
+        "slam"
+      ]
+    },
+    {
+      "label": "Furret",
+      "api": "furret",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "coil",
+        "helping-hand",
+        "follow-me",
+        "slam"
+      ]
+    },
+    {
+      "label": "Hoothoot",
+      "api": "hoothoot",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "echoed-voice",
+        "uproar"
+      ]
+    },
+    {
+      "label": "Noctowl",
+      "api": "noctowl",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "echoed-voice",
+        "sky-attack",
+        "uproar"
+      ]
+    },
+    {
+      "label": "Ledyba",
+      "api": "ledyba",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "silver-wind",
+        "comet-punch"
+      ]
+    },
+    {
+      "label": "Ledian",
+      "api": "ledian",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "silver-wind",
+        "comet-punch"
+      ]
+    },
+    {
+      "label": "Spinarak",
+      "api": "spinarak",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "infestation",
+        "shadow-sneak",
+        "cross-poison",
+        "sticky-web",
+        "toxic-thread"
+      ]
+    },
+    {
+      "label": "Ariados",
+      "api": "ariados",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fell-stinger",
+        "focus-energy",
+        "infestation",
+        "shadow-sneak",
+        "cross-poison",
+        "sticky-web",
+        "toxic-thread"
+      ]
+    },
+    {
+      "label": "Crobat",
+      "api": "crobat",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "cross-poison",
+        "poison-fang",
+        "quick-guard",
+        "air-cutter"
+      ]
+    },
+    {
+      "label": "Chinchou",
+      "api": "chinchou",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "electro-ball",
+        "charge",
+        "discharge",
+        "aqua-ring",
+        "flail"
+      ]
+    },
+    {
+      "label": "Lanturn",
+      "api": "lanturn",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "spit-up",
+        "stockpile",
+        "swallow",
+        "eerie-impulse",
+        "electro-ball",
+        "charge",
+        "discharge",
+        "aqua-ring",
+        "flail"
+      ]
+    },
+    {
+      "label": "Pichu",
+      "api": "pichu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "play-nice",
+        "nuzzle"
+      ]
+    },
+    {
+      "label": "Cleffa",
+      "api": "cleffa",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "pound"
+      ]
+    },
+    {
+      "label": "Togepi",
+      "api": "togepi",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "pound",
+        "life-dew",
+        "after-you",
+        "follow-me",
+        "last-resort",
+        "wish"
+      ]
+    },
+    {
+      "label": "Togetic",
+      "api": "togetic",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fairy-wind",
+        "life-dew",
+        "pound",
+        "after-you",
+        "follow-me",
+        "last-resort",
+        "wish"
+      ]
+    },
+    {
+      "label": "Natu",
+      "api": "natu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "stored-power",
+        "psycho-shift",
+        "power-swap",
+        "guard-swap",
+        "wish"
+      ]
+    },
+    {
+      "label": "Xatu",
+      "api": "xatu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "stored-power",
+        "psycho-shift",
+        "guard-swap",
+        "power-swap",
+        "wish"
+      ]
+    },
+    {
+      "label": "Mareep",
+      "api": "mareep",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "cotton-spore",
+        "charge",
+        "electro-ball",
+        "discharge",
+        "cotton-guard",
+        "dazzling-gleam"
+      ]
+    },
+    {
+      "label": "Flaaffy",
+      "api": "flaaffy",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "cotton-spore",
+        "charge",
+        "electro-ball",
+        "discharge",
+        "cotton-guard",
+        "dazzling-gleam"
+      ]
+    },
+    {
+      "label": "Ampharos",
+      "api": "ampharos",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "magnetic-flux",
+        "zap-cannon",
+        "cotton-spore",
+        "charge",
+        "electro-ball",
+        "discharge",
+        "cotton-guard",
+        "dazzling-gleam"
+      ]
+    },
+    {
+      "label": "Bellossom",
+      "api": "bellossom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "petal-blizzard",
+        "grassy-terrain",
+        "moonlight",
+        "quiver-dance",
+        "sweet-scent"
+      ]
+    },
+    {
+      "label": "Marill",
+      "api": "marill",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "helping-hand",
+        "tail-whip",
+        "slam",
+        "bounce",
+        "aqua-ring",
+        "superpower"
+      ]
+    },
+    {
+      "label": "Azumarill",
+      "api": "azumarill",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "helping-hand",
+        "tail-whip",
+        "slam",
+        "bounce",
+        "aqua-ring",
+        "superpower"
+      ]
+    },
+    {
+      "label": "Hoppip",
+      "api": "hoppip",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "fairy-wind",
+        "bullet-seed",
+        "synthesis",
+        "cotton-spore",
+        "bounce",
+        "memento"
+      ]
+    },
+    {
+      "label": "Skiploom",
+      "api": "skiploom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "synthesis",
+        "tail-whip",
+        "fairy-wind",
+        "bullet-seed",
+        "cotton-spore",
+        "bounce",
+        "memento"
+      ]
+    },
+    {
+      "label": "Jumpluff",
+      "api": "jumpluff",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "synthesis",
+        "tail-whip",
+        "fairy-wind",
+        "bullet-seed",
+        "cotton-spore",
+        "bounce",
+        "memento"
+      ]
+    },
+    {
+      "label": "Aipom",
+      "api": "aipom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "sand-attack",
+        "tickle",
+        "double-hit",
+        "fling",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Sunkern",
+      "api": "sunkern",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "worry-seed",
+        "endeavor",
+        "synthesis"
+      ]
+    },
+    {
+      "label": "Sunflora",
+      "api": "sunflora",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "pound",
+        "ingrain",
+        "worry-seed",
+        "bullet-seed",
+        "leaf-storm",
+        "petal-blizzard"
+      ]
+    },
+    {
+      "label": "WooperPlain",
+      "api": "wooper",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "mud-shot",
+        "mist",
+        "slam",
+        "muddy-water"
+      ]
+    },
+    {
+      "label": "Quagsire",
+      "api": "quagsire",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "mud-shot",
+        "tail-whip",
+        "mist",
+        "slam",
+        "muddy-water"
+      ]
+    },
+    {
+      "label": "Espeon",
+      "api": "espeon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "morning-sun",
+        "power-swap",
+        "psych-up",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Umbreon",
+      "api": "umbreon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "snarl",
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "assurance",
+        "moonlight",
+        "guard-swap",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Murkrow",
+      "api": "murkrow",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "assurance",
+        "foul-play",
+        "quash"
+      ]
+    },
+    {
+      "label": "SlowkingPlain",
+      "api": "slowking",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "surf",
+        "slack-off",
+        "psych-up",
+        "heal-pulse"
+      ]
+    },
+    {
+      "label": "Misdreavus",
+      "api": "misdreavus",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "payback"
+      ]
+    },
+    {
+      "label": "Girafarig",
+      "api": "girafarig",
+      "missing_in_rom": [],
+      "extra_in_rom": [
+        "L55 DARK_PULSE"
+      ],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "guard-swap",
+        "power-swap",
+        "assurance",
+        "double-hit",
+        "twin-beam"
+      ]
+    },
+    {
+      "label": "Dunsparce",
+      "api": "dunsparce",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flail",
+        "drill-run",
+        "hyper-drill",
+        "dragon-rush",
+        "coil",
+        "endeavor"
+      ]
+    },
+    {
+      "label": "Gligar",
+      "api": "gligar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "harden",
+        "fury-cutter",
+        "poison-tail",
+        "crabhammer"
+      ]
+    },
+    {
+      "label": "Steelix",
+      "api": "steelix",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "fire-fang",
+        "harden",
+        "ice-fang",
+        "rock-polish",
+        "thunder-fang",
+        "smack-down",
+        "autotomize",
+        "sand-tomb",
+        "slam",
+        "magnet-rise"
+      ]
+    },
+    {
+      "label": "Snubbull",
+      "api": "snubbull",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "ice-fang",
+        "tail-whip",
+        "thunder-fang",
+        "last-resort",
+        "payback"
+      ]
+    },
+    {
+      "label": "Granbull",
+      "api": "granbull",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "ice-fang",
+        "tail-whip",
+        "thunder-fang",
+        "last-resort",
+        "payback"
+      ]
+    },
+    {
+      "label": "Heracross",
+      "api": "heracross",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "arm-thrust",
+        "fury-attack",
+        "brick-break",
+        "throat-chop"
+      ]
+    },
+    {
+      "label": "SneaselPlain",
+      "api": "sneasel",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "beat-up"
+      ]
+    },
+    {
+      "label": "Slugma",
+      "api": "slugma",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "smog",
+        "harden",
+        "clear-smog",
+        "incinerate",
+        "lava-plume"
+      ]
+    },
+    {
+      "label": "Magcargo",
+      "api": "magcargo",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "smog",
+        "harden",
+        "clear-smog",
+        "incinerate",
+        "lava-plume"
+      ]
+    },
+    {
+      "label": "Skarmory",
+      "api": "skarmory",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "fury-attack",
+        "payback",
+        "metal-sound",
+        "iron-defense"
+      ]
+    },
+    {
+      "label": "Houndour",
+      "api": "houndour",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "howl",
+        "smog",
+        "incinerate",
+        "beat-up",
+        "fire-fang",
+        "comeuppance",
+        "foul-play",
+        "inferno"
+      ]
+    },
+    {
+      "label": "Houndoom",
+      "api": "houndoom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "howl",
+        "smog",
+        "thunder-fang",
+        "incinerate",
+        "beat-up",
+        "fire-fang",
+        "comeuppance",
+        "foul-play",
+        "inferno"
+      ]
+    },
+    {
+      "label": "Kingdra",
+      "api": "kingdra",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "twister",
+        "whirlpool",
+        "focus-energy",
+        "wave-crash"
+      ]
+    },
+    {
+      "label": "Phanpy",
+      "api": "phanpy",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flail",
+        "slam",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Donphan",
+      "api": "donphan",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fury-attack",
+        "fire-fang",
+        "thunder-fang",
+        "assurance",
+        "slam",
+        "stomping-tantrum"
+      ]
+    },
+    {
+      "label": "Porygon2",
+      "api": "porygon2",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "magnet-rise",
+        "recycle",
+        "conversion-2",
+        "discharge",
+        "lock-on",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Tyrogue",
+      "api": "tyrogue",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fake-out",
+        "focus-energy",
+        "helping-hand"
+      ]
+    },
+    {
+      "label": "Hitmontop",
+      "api": "hitmontop",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "triple-kick",
+        "fake-out",
+        "feint",
+        "focus-energy",
+        "helping-hand",
+        "detect",
+        "quick-guard",
+        "wide-guard",
+        "endeavor"
+      ]
+    },
+    {
+      "label": "Elekid",
+      "api": "elekid",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "shock-wave",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Magby",
+      "api": "magby",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "smog",
+        "clear-smog",
+        "flame-wheel",
+        "lava-plume"
+      ]
+    },
+    {
+      "label": "Miltank",
+      "api": "miltank",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "milk-drink",
+        "high-horsepower"
+      ]
+    },
+    {
+      "label": "Blissey",
+      "api": "blissey",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "pound",
+        "tail-whip",
+        "echoed-voice",
+        "life-dew",
+        "fling",
+        "heal-pulse",
+        "helping-hand",
+        "soft-boiled",
+        "last-resort",
+        "healing-wish"
+      ]
+    },
+    {
+      "label": "Larvitar",
+      "api": "larvitar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "payback",
+        "stomping-tantrum",
+        "smack-down"
+      ]
+    },
+    {
+      "label": "Pupitar",
+      "api": "pupitar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "iron-defense",
+        "payback",
+        "stomping-tantrum",
+        "smack-down"
+      ]
+    },
+    {
+      "label": "Tyranitar",
+      "api": "tyranitar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "ice-fang",
+        "iron-defense",
+        "payback",
+        "thunder-fang",
+        "stomping-tantrum",
+        "smack-down"
+      ]
+    },
+    {
+      "label": "Azurill",
+      "api": "azurill",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "tail-whip",
+        "helping-hand",
+        "slam",
+        "bounce"
+      ]
+    },
+    {
+      "label": "Ambipom",
+      "api": "ambipom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "tail-whip",
+        "tickle",
+        "double-hit",
+        "fling",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Mismagius",
+      "api": "mismagius",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "magical-leaf",
+        "mystical-fire",
+        "phantom-force",
+        "spite"
+      ]
+    },
+    {
+      "label": "Honchkrow",
+      "api": "honchkrow",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "quash",
+        "foul-play",
+        "comeuppance"
+      ]
+    },
+    {
+      "label": "Happiny",
+      "api": "happiny",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "pound",
+        "covet"
+      ]
+    },
+    {
+      "label": "Weavile",
+      "api": "weavile",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "assurance",
+        "beat-up",
+        "fling"
+      ]
+    },
+    {
+      "label": "Magnezone",
+      "api": "magnezone",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "electric-terrain",
+        "magnetic-flux",
+        "electro-ball",
+        "magnet-rise",
+        "discharge",
+        "metal-sound",
+        "lock-on",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Lickilicky",
+      "api": "lickilicky",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "slam"
+      ]
+    },
+    {
+      "label": "Rhyperior",
+      "api": "rhyperior",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "hammer-arm",
+        "smack-down",
+        "tail-whip",
+        "drill-run",
+        "horn-drill",
+        "rock-wrecker"
+      ]
+    },
+    {
+      "label": "Tangrowth",
+      "api": "tangrowth",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "block",
+        "slam",
+        "tickle",
+        "ingrain",
+        "grassy-terrain"
+      ]
+    },
+    {
+      "label": "Electivire",
+      "api": "electivire",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "shock-wave",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Magmortar",
+      "api": "magmortar",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "smog",
+        "clear-smog",
+        "flame-wheel",
+        "lava-plume"
+      ]
+    },
+    {
+      "label": "Togekiss",
+      "api": "togekiss",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "after-you",
+        "fairy-wind",
+        "follow-me",
+        "last-resort",
+        "life-dew",
+        "pound",
+        "sky-attack",
+        "wish"
+      ]
+    },
+    {
+      "label": "Leafeon",
+      "api": "leafeon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "magical-leaf",
+        "synthesis",
+        "leaf-blade",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Glaceon",
+      "api": "glaceon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "ice-fang",
+        "snowscape",
+        "freeze-dry",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Gliscor",
+      "api": "gliscor",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "harden",
+        "ice-fang",
+        "sand-attack",
+        "thunder-fang",
+        "fury-cutter",
+        "crabhammer"
+      ]
+    },
+    {
+      "label": "PorygonZ",
+      "api": "porygon-z",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "magnet-rise",
+        "recycle",
+        "conversion-2",
+        "discharge",
+        "lock-on",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Sylveon",
+      "api": "sylveon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "covet",
+        "helping-hand",
+        "tail-whip",
+        "sand-attack",
+        "baby-doll-eyes",
+        "misty-terrain",
+        "psych-up",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Sneasler",
+      "api": "sneasler",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "dire-claw",
+        "fling",
+        "brick-break"
+      ]
+    },
+    {
+      "label": "Farigiraf",
+      "api": "farigiraf",
+      "missing_in_rom": [],
+      "extra_in_rom": [
+        "L55 DARK_PULSE"
+      ],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "guard-swap",
+        "power-swap",
+        "assurance",
+        "double-hit",
+        "twin-beam"
+      ]
+    },
+    {
+      "label": "Ralts",
+      "api": "ralts",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "life-dew",
+        "heal-pulse"
+      ]
+    },
+    {
+      "label": "Kirlia",
+      "api": "kirlia",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "life-dew",
+        "heal-pulse"
+      ]
+    },
+    {
+      "label": "Gardevoir",
+      "api": "gardevoir",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "dazzling-gleam",
+        "heal-pulse",
+        "healing-wish",
+        "misty-terrain",
+        "mystical-fire",
+        "life-dew",
+        "wish"
+      ]
+    },
+    {
+      "label": "Gallade",
+      "api": "gallade",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "aqua-cutter",
+        "fury-cutter",
+        "imprison",
+        "leaf-blade",
+        "life-dew",
+        "helping-hand",
+        "feint",
+        "psycho-cut",
+        "heal-pulse",
+        "quick-guard",
+        "wide-guard"
+      ]
+    },
+    {
+      "label": "Poochyena",
+      "api": "poochyena",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "howl",
+        "sand-attack",
+        "assurance"
+      ]
+    },
+    {
+      "label": "Mightyena",
+      "api": "mightyena",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "snarl",
+        "fire-fang",
+        "ice-fang",
+        "sand-attack",
+        "thunder-fang",
+        "howl",
+        "assurance"
+      ]
+    },
+    {
+      "label": "Zigzagoon",
+      "api": "zigzagoon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "tail-whip",
+        "covet",
+        "baby-doll-eyes",
+        "fling",
+        "flail"
+      ]
+    },
+    {
+      "label": "Linoone",
+      "api": "linoone",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "baby-doll-eyes",
+        "sand-attack",
+        "switcheroo",
+        "tail-whip",
+        "covet",
+        "fling",
+        "flail"
+      ]
+    },
+    {
+      "label": "Aron",
+      "api": "aron",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "rock-tomb",
+        "metal-sound",
+        "autotomize",
+        "iron-defense",
+        "heavy-slam",
+        "metal-burst"
+      ]
+    },
+    {
+      "label": "Lairon",
+      "api": "lairon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "rock-tomb",
+        "metal-sound",
+        "autotomize",
+        "iron-defense",
+        "heavy-slam",
+        "metal-burst"
+      ]
+    },
+    {
+      "label": "Aggron",
+      "api": "aggron",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "rock-tomb",
+        "metal-sound",
+        "autotomize",
+        "iron-defense",
+        "heavy-slam",
+        "metal-burst"
+      ]
+    },
+    {
+      "label": "Trapinch",
+      "api": "trapinch",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "sand-tomb",
+        "superpower",
+        "fissure"
+      ]
+    },
+    {
+      "label": "Vibrava",
+      "api": "vibrava",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "sand-tomb",
+        "dragon-tail",
+        "uproar",
+        "dragon-rush",
+        "boomburst"
+      ]
+    },
+    {
+      "label": "Flygon",
+      "api": "flygon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "sand-tomb",
+        "dragon-tail",
+        "uproar",
+        "dragon-rush",
+        "boomburst"
+      ]
+    },
+    {
+      "label": "Cacnea",
+      "api": "cacnea",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "bullet-seed",
+        "power-trip",
+        "ingrain",
+        "payback",
+        "cotton-spore"
+      ]
+    },
+    {
+      "label": "Cacturne",
+      "api": "cacturne",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "spiky-shield",
+        "sand-attack",
+        "bullet-seed",
+        "power-trip",
+        "ingrain",
+        "payback",
+        "cotton-spore"
+      ]
+    },
+    {
+      "label": "Baltoy",
+      "api": "baltoy",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "rock-tomb",
+        "power-trick",
+        "imprison",
+        "cosmic-power",
+        "self-destruct",
+        "guard-split",
+        "power-split"
+      ]
+    },
+    {
+      "label": "Claydol",
+      "api": "claydol",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "harden",
+        "rock-tomb",
+        "power-trick",
+        "imprison",
+        "cosmic-power",
+        "self-destruct",
+        "guard-split",
+        "power-split"
+      ]
+    },
+    {
+      "label": "Absol",
+      "api": "absol",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "detect",
+        "focus-energy"
+      ]
+    },
+    {
+      "label": "Bagon",
+      "api": "bagon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy"
+      ]
+    },
+    {
+      "label": "Shelgon",
+      "api": "shelgon",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "focus-energy"
+      ]
+    },
+    {
+      "label": "Salamence",
+      "api": "salamence",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "dragon-tail",
+        "dual-wingbeat",
+        "focus-energy"
+      ]
+    },
+    {
+      "label": "Metang",
+      "api": "metang",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "magnet-rise",
+        "meteor-mash",
+        "iron-defense"
+      ]
+    },
+    {
+      "label": "Metagross",
+      "api": "metagross",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "hammer-arm",
+        "magnet-rise",
+        "meteor-mash",
+        "iron-defense"
+      ]
+    },
+    {
+      "label": "Shinx",
+      "api": "shinx",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Luxio",
+      "api": "luxio",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Luxray",
+      "api": "luxray",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "electric-terrain",
+        "discharge"
+      ]
+    },
+    {
+      "label": "Stunky",
+      "api": "stunky",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-gas",
+        "feint",
+        "acid-spray",
+        "focus-energy",
+        "memento",
+        "belch"
+      ]
+    },
+    {
+      "label": "Skuntank",
+      "api": "skuntank",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "feint",
+        "poison-gas",
+        "focus-energy",
+        "memento",
+        "belch"
+      ]
+    },
+    {
+      "label": "Bronzor",
+      "api": "bronzor",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "payback",
+        "imprison",
+        "heavy-slam",
+        "iron-defense",
+        "metal-sound"
+      ]
+    },
+    {
+      "label": "Bronzong",
+      "api": "bronzong",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "block",
+        "payback",
+        "weather-ball",
+        "imprison",
+        "heavy-slam",
+        "iron-defense",
+        "metal-sound"
+      ]
+    },
+    {
+      "label": "Riolu",
+      "api": "riolu",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "feint",
+        "work-up",
+        "vacuum-wave",
+        "quick-guard",
+        "force-palm",
+        "helping-hand",
+        "copycat",
+        "final-gambit"
+      ]
+    },
+    {
+      "label": "Lucario",
+      "api": "lucario",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "copycat",
+        "detect",
+        "feint",
+        "final-gambit",
+        "helping-hand",
+        "life-dew",
+        "vacuum-wave",
+        "work-up",
+        "force-palm",
+        "metal-sound",
+        "quick-guard",
+        "bone-rush",
+        "heal-pulse",
+        "meteor-mash"
+      ]
+    },
+    {
+      "label": "Skorupi",
+      "api": "skorupi",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fell-stinger",
+        "poison-fang",
+        "cross-poison",
+        "acupressure"
+      ]
+    },
+    {
+      "label": "Drapion",
+      "api": "drapion",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fell-stinger",
+        "fire-fang",
+        "ice-fang",
+        "thunder-fang",
+        "poison-fang",
+        "cross-poison",
+        "acupressure"
+      ]
+    },
+    {
+      "label": "Croagunk",
+      "api": "croagunk",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flatter",
+        "belch"
+      ]
+    },
+    {
+      "label": "Toxicroak",
+      "api": "toxicroak",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "flatter",
+        "belch"
+      ]
+    },
+    {
+      "label": "Rotom",
+      "api": "rotom",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "charge",
+        "electro-ball",
+        "shock-wave",
+        "discharge",
+        "uproar"
+      ]
+    },
+    {
+      "label": "Lillipup",
+      "api": "lillipup",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "work-up",
+        "retaliate",
+        "baby-doll-eyes",
+        "helping-hand",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Herdier",
+      "api": "herdier",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "work-up",
+        "retaliate",
+        "baby-doll-eyes",
+        "helping-hand",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Stoutland",
+      "api": "stoutland",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fire-fang",
+        "ice-fang",
+        "thunder-fang",
+        "work-up",
+        "retaliate",
+        "baby-doll-eyes",
+        "helping-hand",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Purrloin",
+      "api": "purrloin",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "sand-attack",
+        "fake-out",
+        "assurance"
+      ]
+    },
+    {
+      "label": "Liepard",
+      "api": "liepard",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fake-out",
+        "sand-attack",
+        "assurance"
+      ]
+    },
+    {
+      "label": "Audino",
+      "api": "audino",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "play-nice",
+        "pound",
+        "baby-doll-eyes",
+        "helping-hand",
+        "life-dew",
+        "after-you",
+        "simple-beam",
+        "heal-pulse",
+        "entrainment",
+        "misty-terrain",
+        "last-resort"
+      ]
+    },
+    {
+      "label": "Trubbish",
+      "api": "trubbish",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "poison-gas",
+        "pound",
+        "recycle",
+        "acid-spray",
+        "clear-smog",
+        "sludge",
+        "stockpile",
+        "swallow",
+        "belch"
+      ]
+    },
+    {
+      "label": "Garbodor",
+      "api": "garbodor",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "acid-spray",
+        "poison-gas",
+        "pound",
+        "recycle",
+        "clear-smog",
+        "sludge",
+        "stockpile",
+        "swallow",
+        "belch"
+      ]
+    },
+    {
+      "label": "Klink",
+      "api": "klink",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "vice-grip",
+        "bind",
+        "charge",
+        "charge-beam",
+        "metal-sound",
+        "autotomize",
+        "discharge",
+        "gear-grind",
+        "lock-on",
+        "shift-gear",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Klang",
+      "api": "klang",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "charge",
+        "vice-grip",
+        "charge-beam",
+        "metal-sound",
+        "autotomize",
+        "discharge",
+        "gear-grind",
+        "lock-on",
+        "shift-gear",
+        "zap-cannon"
+      ]
+    },
+    {
+      "label": "Klinklang",
+      "api": "klinklang",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "bind",
+        "charge",
+        "gear-up",
+        "magnetic-flux",
+        "vice-grip",
+        "charge-beam",
+        "metal-sound",
+        "autotomize",
+        "discharge",
+        "gear-grind",
+        "lock-on",
+        "shift-gear",
+        "zap-cannon",
+        "electric-terrain"
+      ]
+    },
+    {
+      "label": "Elgyem",
+      "api": "elgyem",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "imprison",
+        "guard-split",
+        "power-split",
+        "wonder-room"
+      ]
+    },
+    {
+      "label": "Beheeyem",
+      "api": "beheeyem",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "imprison",
+        "psychic-terrain",
+        "guard-split",
+        "power-split",
+        "wonder-room"
+      ]
+    },
+    {
+      "label": "Pawniard",
+      "api": "pawniard",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fury-cutter",
+        "assurance",
+        "metal-sound",
+        "iron-defense",
+        "retaliate",
+        "guillotine"
+      ]
+    },
+    {
+      "label": "Bisharp",
+      "api": "bisharp",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "fury-cutter",
+        "metal-burst",
+        "assurance",
+        "metal-sound",
+        "iron-defense",
+        "retaliate",
+        "guillotine"
+      ]
+    },
+    {
+      "label": "Kingambit",
+      "api": "kingambit",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "kowtow-cleave",
+        "fury-cutter",
+        "metal-burst",
+        "assurance",
+        "metal-sound",
+        "iron-defense",
+        "retaliate",
+        "guillotine"
+      ]
+    },
+    {
+      "label": "Hawlucha",
+      "api": "hawlucha",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "detect",
+        "feather-dance",
+        "brick-break",
+        "bounce",
+        "flying-press",
+        "high-jump-kick",
+        "endeavor",
+        "sky-attack"
+      ]
+    },
+    {
+      "label": "SneaselHisuian",
+      "api": "sneasel-hisui",
+      "missing_in_rom": [],
+      "extra_in_rom": [],
+      "level_mismatches": [],
+      "unmapped_sv_moves": [
+        "brick-break"
+      ]
+    }
+  ]
+}

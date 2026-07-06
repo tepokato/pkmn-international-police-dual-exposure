@@ -6,7 +6,7 @@ UsefulMoves:
 	db SING
 	db FLAMETHROWER
 	db HYDRO_PUMP
-	db SURF
+	db SCALD
 	db ICE_BEAM
 	db BLIZZARD
 	db HYPER_BEAM

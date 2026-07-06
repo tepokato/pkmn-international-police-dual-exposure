@@ -1457,6 +1457,291 @@ AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lzp"
 AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lzp"
 AnnihilapeIcon::     INCBIN "gfx/icons/annihilape.2bpp.lzp"
 
+SECTION "Ralts Mini Icon", ROMX
+RaltsMini::     INCBIN "gfx/minis/ralts.2bpp.lzp"
+RaltsMiniMask:: INCBIN "gfx/minis/ralts_mask.1bpp.lzp"
+RaltsIcon::     INCBIN "gfx/icons/ralts.2bpp.lzp"
+
+SECTION "Kirlia Mini Icon", ROMX
+KirliaMini::     INCBIN "gfx/minis/kirlia.2bpp.lzp"
+KirliaMiniMask:: INCBIN "gfx/minis/kirlia_mask.1bpp.lzp"
+KirliaIcon::     INCBIN "gfx/icons/kirlia.2bpp.lzp"
+
+SECTION "Gardevoir Mini Icon", ROMX
+GardevoirMini::     INCBIN "gfx/minis/gardevoir.2bpp.lzp"
+GardevoirMiniMask:: INCBIN "gfx/minis/gardevoir_mask.1bpp.lzp"
+GardevoirIcon::     INCBIN "gfx/icons/gardevoir.2bpp.lzp"
+
+SECTION "Gallade Mini Icon", ROMX
+GalladeMini::     INCBIN "gfx/minis/gallade.2bpp.lzp"
+GalladeMiniMask:: INCBIN "gfx/minis/gallade_mask.1bpp.lzp"
+GalladeIcon::     INCBIN "gfx/icons/gallade.2bpp.lzp"
+
+SECTION "Poochyena Mini Icon", ROMX
+PoochyenaMini::     INCBIN "gfx/minis/poochyena.2bpp.lzp"
+PoochyenaMiniMask:: INCBIN "gfx/minis/poochyena_mask.1bpp.lzp"
+PoochyenaIcon::     INCBIN "gfx/icons/poochyena.2bpp.lzp"
+
+SECTION "Mightyena Mini Icon", ROMX
+MightyenaMini::     INCBIN "gfx/minis/mightyena.2bpp.lzp"
+MightyenaMiniMask:: INCBIN "gfx/minis/mightyena_mask.1bpp.lzp"
+MightyenaIcon::     INCBIN "gfx/icons/mightyena.2bpp.lzp"
+
+SECTION "Zigzagoon Mini Icon", ROMX
+ZigzagoonMini::     INCBIN "gfx/minis/zigzagoon.2bpp.lzp"
+ZigzagoonMiniMask:: INCBIN "gfx/minis/zigzagoon_mask.1bpp.lzp"
+ZigzagoonIcon::     INCBIN "gfx/icons/zigzagoon.2bpp.lzp"
+
+SECTION "Linoone Mini Icon", ROMX
+LinooneMini::     INCBIN "gfx/minis/linoone.2bpp.lzp"
+LinooneMiniMask:: INCBIN "gfx/minis/linoone_mask.1bpp.lzp"
+LinooneIcon::     INCBIN "gfx/icons/linoone.2bpp.lzp"
+
+SECTION "Aron Mini Icon", ROMX
+AronMini::     INCBIN "gfx/minis/aron.2bpp.lzp"
+AronMiniMask:: INCBIN "gfx/minis/aron_mask.1bpp.lzp"
+AronIcon::     INCBIN "gfx/icons/aron.2bpp.lzp"
+
+SECTION "Lairon Mini Icon", ROMX
+LaironMini::     INCBIN "gfx/minis/lairon.2bpp.lzp"
+LaironMiniMask:: INCBIN "gfx/minis/lairon_mask.1bpp.lzp"
+LaironIcon::     INCBIN "gfx/icons/lairon.2bpp.lzp"
+
+SECTION "Aggron Mini Icon", ROMX
+AggronMini::     INCBIN "gfx/minis/aggron.2bpp.lzp"
+AggronMiniMask:: INCBIN "gfx/minis/aggron_mask.1bpp.lzp"
+AggronIcon::     INCBIN "gfx/icons/aggron.2bpp.lzp"
+
+SECTION "Trapinch Mini Icon", ROMX
+TrapinchMini::     INCBIN "gfx/minis/trapinch.2bpp.lzp"
+TrapinchMiniMask:: INCBIN "gfx/minis/trapinch_mask.1bpp.lzp"
+TrapinchIcon::     INCBIN "gfx/icons/trapinch.2bpp.lzp"
+
+SECTION "Vibrava Mini Icon", ROMX
+VibravaMini::     INCBIN "gfx/minis/vibrava.2bpp.lzp"
+VibravaMiniMask:: INCBIN "gfx/minis/vibrava_mask.1bpp.lzp"
+VibravaIcon::     INCBIN "gfx/icons/vibrava.2bpp.lzp"
+
+SECTION "Flygon Mini Icon", ROMX
+FlygonMini::     INCBIN "gfx/minis/flygon.2bpp.lzp"
+FlygonMiniMask:: INCBIN "gfx/minis/flygon_mask.1bpp.lzp"
+FlygonIcon::     INCBIN "gfx/icons/flygon.2bpp.lzp"
+
+SECTION "Cacnea Mini Icon", ROMX
+CacneaMini::     INCBIN "gfx/minis/cacnea.2bpp.lzp"
+CacneaMiniMask:: INCBIN "gfx/minis/cacnea_mask.1bpp.lzp"
+CacneaIcon::     INCBIN "gfx/icons/cacnea.2bpp.lzp"
+
+SECTION "Cacturne Mini Icon", ROMX
+CacturneMini::     INCBIN "gfx/minis/cacturne.2bpp.lzp"
+CacturneMiniMask:: INCBIN "gfx/minis/cacturne_mask.1bpp.lzp"
+CacturneIcon::     INCBIN "gfx/icons/cacturne.2bpp.lzp"
+
+SECTION "Baltoy Mini Icon", ROMX
+BaltoyMini::     INCBIN "gfx/minis/baltoy.2bpp.lzp"
+BaltoyMiniMask:: INCBIN "gfx/minis/baltoy_mask.1bpp.lzp"
+BaltoyIcon::     INCBIN "gfx/icons/baltoy.2bpp.lzp"
+
+SECTION "Claydol Mini Icon", ROMX
+ClaydolMini::     INCBIN "gfx/minis/claydol.2bpp.lzp"
+ClaydolMiniMask:: INCBIN "gfx/minis/claydol_mask.1bpp.lzp"
+ClaydolIcon::     INCBIN "gfx/icons/claydol.2bpp.lzp"
+
+SECTION "Absol Mini Icon", ROMX
+AbsolMini::     INCBIN "gfx/minis/absol.2bpp.lzp"
+AbsolMiniMask:: INCBIN "gfx/minis/absol_mask.1bpp.lzp"
+AbsolIcon::     INCBIN "gfx/icons/absol.2bpp.lzp"
+
+SECTION "Bagon Mini Icon", ROMX
+BagonMini::     INCBIN "gfx/minis/bagon.2bpp.lzp"
+BagonMiniMask:: INCBIN "gfx/minis/bagon_mask.1bpp.lzp"
+BagonIcon::     INCBIN "gfx/icons/bagon.2bpp.lzp"
+
+SECTION "Shelgon Mini Icon", ROMX
+ShelgonMini::     INCBIN "gfx/minis/shelgon.2bpp.lzp"
+ShelgonMiniMask:: INCBIN "gfx/minis/shelgon_mask.1bpp.lzp"
+ShelgonIcon::     INCBIN "gfx/icons/shelgon.2bpp.lzp"
+
+SECTION "Salamence Mini Icon", ROMX
+SalamenceMini::     INCBIN "gfx/minis/salamence.2bpp.lzp"
+SalamenceMiniMask:: INCBIN "gfx/minis/salamence_mask.1bpp.lzp"
+SalamenceIcon::     INCBIN "gfx/icons/salamence.2bpp.lzp"
+
+SECTION "Beldum Mini Icon", ROMX
+BeldumMini::     INCBIN "gfx/minis/beldum.2bpp.lzp"
+BeldumMiniMask:: INCBIN "gfx/minis/beldum_mask.1bpp.lzp"
+BeldumIcon::     INCBIN "gfx/icons/beldum.2bpp.lzp"
+
+SECTION "Metang Mini Icon", ROMX
+MetangMini::     INCBIN "gfx/minis/metang.2bpp.lzp"
+MetangMiniMask:: INCBIN "gfx/minis/metang_mask.1bpp.lzp"
+MetangIcon::     INCBIN "gfx/icons/metang.2bpp.lzp"
+
+SECTION "Metagross Mini Icon", ROMX
+MetagrossMini::     INCBIN "gfx/minis/metagross.2bpp.lzp"
+MetagrossMiniMask:: INCBIN "gfx/minis/metagross_mask.1bpp.lzp"
+MetagrossIcon::     INCBIN "gfx/icons/metagross.2bpp.lzp"
+
+SECTION "Shinx Mini Icon", ROMX
+ShinxMini::     INCBIN "gfx/minis/shinx.2bpp.lzp"
+ShinxMiniMask:: INCBIN "gfx/minis/shinx_mask.1bpp.lzp"
+ShinxIcon::     INCBIN "gfx/icons/shinx.2bpp.lzp"
+
+SECTION "Luxio Mini Icon", ROMX
+LuxioMini::     INCBIN "gfx/minis/luxio.2bpp.lzp"
+LuxioMiniMask:: INCBIN "gfx/minis/luxio_mask.1bpp.lzp"
+LuxioIcon::     INCBIN "gfx/icons/luxio.2bpp.lzp"
+
+SECTION "Luxray Mini Icon", ROMX
+LuxrayMini::     INCBIN "gfx/minis/luxray.2bpp.lzp"
+LuxrayMiniMask:: INCBIN "gfx/minis/luxray_mask.1bpp.lzp"
+LuxrayIcon::     INCBIN "gfx/icons/luxray.2bpp.lzp"
+
+SECTION "Stunky Mini Icon", ROMX
+StunkyMini::     INCBIN "gfx/minis/stunky.2bpp.lzp"
+StunkyMiniMask:: INCBIN "gfx/minis/stunky_mask.1bpp.lzp"
+StunkyIcon::     INCBIN "gfx/icons/stunky.2bpp.lzp"
+
+SECTION "Skuntank Mini Icon", ROMX
+SkuntankMini::     INCBIN "gfx/minis/skuntank.2bpp.lzp"
+SkuntankMiniMask:: INCBIN "gfx/minis/skuntank_mask.1bpp.lzp"
+SkuntankIcon::     INCBIN "gfx/icons/skuntank.2bpp.lzp"
+
+SECTION "Bronzor Mini Icon", ROMX
+BronzorMini::     INCBIN "gfx/minis/bronzor.2bpp.lzp"
+BronzorMiniMask:: INCBIN "gfx/minis/bronzor_mask.1bpp.lzp"
+BronzorIcon::     INCBIN "gfx/icons/bronzor.2bpp.lzp"
+
+SECTION "Bronzong Mini Icon", ROMX
+BronzongMini::     INCBIN "gfx/minis/bronzong.2bpp.lzp"
+BronzongMiniMask:: INCBIN "gfx/minis/bronzong_mask.1bpp.lzp"
+BronzongIcon::     INCBIN "gfx/icons/bronzong.2bpp.lzp"
+
+SECTION "Riolu Mini Icon", ROMX
+RioluMini::     INCBIN "gfx/minis/riolu.2bpp.lzp"
+RioluMiniMask:: INCBIN "gfx/minis/riolu_mask.1bpp.lzp"
+RioluIcon::     INCBIN "gfx/icons/riolu.2bpp.lzp"
+
+SECTION "Lucario Mini Icon", ROMX
+LucarioMini::     INCBIN "gfx/minis/lucario.2bpp.lzp"
+LucarioMiniMask:: INCBIN "gfx/minis/lucario_mask.1bpp.lzp"
+LucarioIcon::     INCBIN "gfx/icons/lucario.2bpp.lzp"
+
+SECTION "Skorupi Mini Icon", ROMX
+SkorupiMini::     INCBIN "gfx/minis/skorupi.2bpp.lzp"
+SkorupiMiniMask:: INCBIN "gfx/minis/skorupi_mask.1bpp.lzp"
+SkorupiIcon::     INCBIN "gfx/icons/skorupi.2bpp.lzp"
+
+SECTION "Drapion Mini Icon", ROMX
+DrapionMini::     INCBIN "gfx/minis/drapion.2bpp.lzp"
+DrapionMiniMask:: INCBIN "gfx/minis/drapion_mask.1bpp.lzp"
+DrapionIcon::     INCBIN "gfx/icons/drapion.2bpp.lzp"
+
+SECTION "Croagunk Mini Icon", ROMX
+CroagunkMini::     INCBIN "gfx/minis/croagunk.2bpp.lzp"
+CroagunkMiniMask:: INCBIN "gfx/minis/croagunk_mask.1bpp.lzp"
+CroagunkIcon::     INCBIN "gfx/icons/croagunk.2bpp.lzp"
+
+SECTION "Toxicroak Mini Icon", ROMX
+ToxicroakMini::     INCBIN "gfx/minis/toxicroak.2bpp.lzp"
+ToxicroakMiniMask:: INCBIN "gfx/minis/toxicroak_mask.1bpp.lzp"
+ToxicroakIcon::     INCBIN "gfx/icons/toxicroak.2bpp.lzp"
+
+SECTION "Rotom Mini Icon", ROMX
+RotomMini::     INCBIN "gfx/minis/rotom.2bpp.lzp"
+RotomMiniMask:: INCBIN "gfx/minis/rotom_mask.1bpp.lzp"
+RotomIcon::     INCBIN "gfx/icons/rotom.2bpp.lzp"
+
+SECTION "Lillipup Mini Icon", ROMX
+LillipupMini::     INCBIN "gfx/minis/lillipup.2bpp.lzp"
+LillipupMiniMask:: INCBIN "gfx/minis/lillipup_mask.1bpp.lzp"
+LillipupIcon::     INCBIN "gfx/icons/lillipup.2bpp.lzp"
+
+SECTION "Herdier Mini Icon", ROMX
+HerdierMini::     INCBIN "gfx/minis/herdier.2bpp.lzp"
+HerdierMiniMask:: INCBIN "gfx/minis/herdier_mask.1bpp.lzp"
+HerdierIcon::     INCBIN "gfx/icons/herdier.2bpp.lzp"
+
+SECTION "Stoutland Mini Icon", ROMX
+StoutlandMini::     INCBIN "gfx/minis/stoutland.2bpp.lzp"
+StoutlandMiniMask:: INCBIN "gfx/minis/stoutland_mask.1bpp.lzp"
+StoutlandIcon::     INCBIN "gfx/icons/stoutland.2bpp.lzp"
+
+SECTION "Purrloin Mini Icon", ROMX
+PurrloinMini::     INCBIN "gfx/minis/purrloin.2bpp.lzp"
+PurrloinMiniMask:: INCBIN "gfx/minis/purrloin_mask.1bpp.lzp"
+PurrloinIcon::     INCBIN "gfx/icons/purrloin.2bpp.lzp"
+
+SECTION "Liepard Mini Icon", ROMX
+LiepardMini::     INCBIN "gfx/minis/liepard.2bpp.lzp"
+LiepardMiniMask:: INCBIN "gfx/minis/liepard_mask.1bpp.lzp"
+LiepardIcon::     INCBIN "gfx/icons/liepard.2bpp.lzp"
+
+SECTION "Audino Mini Icon", ROMX
+AudinoMini::     INCBIN "gfx/minis/audino.2bpp.lzp"
+AudinoMiniMask:: INCBIN "gfx/minis/audino_mask.1bpp.lzp"
+AudinoIcon::     INCBIN "gfx/icons/audino.2bpp.lzp"
+
+SECTION "Trubbish Mini Icon", ROMX
+TrubbishMini::     INCBIN "gfx/minis/trubbish.2bpp.lzp"
+TrubbishMiniMask:: INCBIN "gfx/minis/trubbish_mask.1bpp.lzp"
+TrubbishIcon::     INCBIN "gfx/icons/trubbish.2bpp.lzp"
+
+SECTION "Garbodor Mini Icon", ROMX
+GarbodorMini::     INCBIN "gfx/minis/garbodor.2bpp.lzp"
+GarbodorMiniMask:: INCBIN "gfx/minis/garbodor_mask.1bpp.lzp"
+GarbodorIcon::     INCBIN "gfx/icons/garbodor.2bpp.lzp"
+
+SECTION "Klink Mini Icon", ROMX
+KlinkMini::     INCBIN "gfx/minis/klink.2bpp.lzp"
+KlinkMiniMask:: INCBIN "gfx/minis/klink_mask.1bpp.lzp"
+KlinkIcon::     INCBIN "gfx/icons/klink.2bpp.lzp"
+
+SECTION "Klang Mini Icon", ROMX
+KlangMini::     INCBIN "gfx/minis/klang.2bpp.lzp"
+KlangMiniMask:: INCBIN "gfx/minis/klang_mask.1bpp.lzp"
+KlangIcon::     INCBIN "gfx/icons/klang.2bpp.lzp"
+
+SECTION "Klinklang Mini Icon", ROMX
+KlinklangMini::     INCBIN "gfx/minis/klinklang.2bpp.lzp"
+KlinklangMiniMask:: INCBIN "gfx/minis/klinklang_mask.1bpp.lzp"
+KlinklangIcon::     INCBIN "gfx/icons/klinklang.2bpp.lzp"
+
+SECTION "Elgyem Mini Icon", ROMX
+ElgyemMini::     INCBIN "gfx/minis/elgyem.2bpp.lzp"
+ElgyemMiniMask:: INCBIN "gfx/minis/elgyem_mask.1bpp.lzp"
+ElgyemIcon::     INCBIN "gfx/icons/elgyem.2bpp.lzp"
+
+SECTION "Beheeyem Mini Icon", ROMX
+BeheeyemMini::     INCBIN "gfx/minis/beheeyem.2bpp.lzp"
+BeheeyemMiniMask:: INCBIN "gfx/minis/beheeyem_mask.1bpp.lzp"
+BeheeyemIcon::     INCBIN "gfx/icons/beheeyem.2bpp.lzp"
+
+SECTION "Pawniard Mini Icon", ROMX
+PawniardMini::     INCBIN "gfx/minis/pawniard.2bpp.lzp"
+PawniardMiniMask:: INCBIN "gfx/minis/pawniard_mask.1bpp.lzp"
+PawniardIcon::     INCBIN "gfx/icons/pawniard.2bpp.lzp"
+
+SECTION "Bisharp Mini Icon", ROMX
+BisharpMini::     INCBIN "gfx/minis/bisharp.2bpp.lzp"
+BisharpMiniMask:: INCBIN "gfx/minis/bisharp_mask.1bpp.lzp"
+BisharpIcon::     INCBIN "gfx/icons/bisharp.2bpp.lzp"
+
+SECTION "Kingambit Mini Icon", ROMX
+KingambitMini::     INCBIN "gfx/minis/kingambit.2bpp.lzp"
+KingambitMiniMask:: INCBIN "gfx/minis/kingambit_mask.1bpp.lzp"
+KingambitIcon::     INCBIN "gfx/icons/kingambit.2bpp.lzp"
+
+SECTION "Hawlucha Mini Icon", ROMX
+HawluchaMini::     INCBIN "gfx/minis/hawlucha.2bpp.lzp"
+HawluchaMiniMask:: INCBIN "gfx/minis/hawlucha_mask.1bpp.lzp"
+HawluchaIcon::     INCBIN "gfx/icons/hawlucha.2bpp.lzp"
+
+SECTION "Madame Mini Icon", ROMX
+MadameMini::     INCBIN "gfx/minis/madame.2bpp.lzp"
+MadameMiniMask:: INCBIN "gfx/minis/madame_mask.1bpp.lzp"
+MadameIcon::     INCBIN "gfx/icons/madame.2bpp.lzp"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lzp"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lzp"

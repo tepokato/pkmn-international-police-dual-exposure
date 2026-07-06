@@ -115,7 +115,7 @@ NidoranFEggSpeciesMoves:
 	dp NIDORAN_F, PLAIN_FORM
 	db CHARM
 	db DISABLE
-	db FOCUS_ENERGY
+	db BULK_UP
 	db PURSUIT
 	db SUPERSONIC
 	db TAKE_DOWN
@@ -574,7 +574,7 @@ TangelaEggSpeciesMoves:
 KangaskhanEggSpeciesMoves:
 	dp KANGASKHAN, PLAIN_FORM
 	db DISABLE
-	db FOCUS_ENERGY
+	db BULK_UP
 	db FORESIGHT
 	db STOMP
 	db SAFEGUARD
@@ -586,7 +586,7 @@ HorseaEggSpeciesMoves:
 	db DISABLE
 	db DRAGON_RAGE
 	db DRAGONBREATH
-	db OCTAZOOKA
+	db WATER_PULSE
 	db SPLASH
 	db HAZE
 	db WATER_PULSE
@@ -727,7 +727,7 @@ TotodileEggSpeciesMoves:
 SentretEggSpeciesMoves:
 	dp SENTRET, PLAIN_FORM
 	db CHARM
-	db FOCUS_ENERGY
+	db BULK_UP
 	db PURSUIT
 	db REVERSAL
 	db SLASH
@@ -1003,7 +1003,7 @@ TeddiursaEggSpeciesMoves:
 	db BELLY_DRUM
 	db CROSS_CHOP
 	db CRUNCH
-	db FOCUS_ENERGY
+	db BULK_UP
 	db METAL_CLAW
 	db PLAY_ROUGH
 	db TAKE_DOWN
@@ -1064,7 +1064,7 @@ RemoraidEggSpeciesMoves:
 	dp REMORAID, PLAIN_FORM
 	db SPLASH
 	db HAZE
-	db OCTAZOOKA
+	db WATER_PULSE
 	db ROCK_BLAST
 	db SCREECH
 	db SUPERSONIC
@@ -1104,7 +1104,7 @@ HoundourEggSpeciesMoves:
 
 PhanpyEggSpeciesMoves:
 	dp PHANPY, PLAIN_FORM
-	db FOCUS_ENERGY
+	db BULK_UP
 	db PLAY_ROUGH
 	db WATER_GUN
 	db BODY_SLAM
@@ -1151,7 +1151,7 @@ MagbyEggSpeciesMoves:
 	db BELLY_DRUM
 	db CROSS_CHOP
 	db FLARE_BLITZ
-	db FOCUS_ENERGY
+	db BULK_UP
 	db KARATE_CHOP
 	db MACH_PUNCH
 	db SCREECH
@@ -1167,7 +1167,7 @@ MiltankEggSpeciesMoves:
 LarvitarEggSpeciesMoves:
 	dp LARVITAR, PLAIN_FORM
 	db DRAGON_DANCE
-	db FOCUS_ENERGY
+	db BULK_UP
 	db PURSUIT
 	db STOMP
 	db OUTRAGE

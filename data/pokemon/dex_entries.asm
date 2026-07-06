@@ -2895,6 +2895,576 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
+SECTION "MadamePokedexEntry", ROMX
+MadamePokedexEntry::
+	db "Wild Duck@"
+	text "A disciplined"
+	next "warrior whose"
+	next "spirit cannot"
+	page "be swayed once"
+	next "it has chosen"
+	next "its strike.@"
+
+SECTION "RaltsPokedexEntry", ROMX
+RaltsPokedexEntry::
+	db "Ralts@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "KirliaPokedexEntry", ROMX
+KirliaPokedexEntry::
+	db "Kirlia@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "GardevoirPokedexEntry", ROMX
+GardevoirPokedexEntry::
+	db "Gardevoir@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "GalladePokedexEntry", ROMX
+GalladePokedexEntry::
+	db "Gallade@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "PoochyenaPokedexEntry", ROMX
+PoochyenaPokedexEntry::
+	db "Poochyena@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "MightyenaPokedexEntry", ROMX
+MightyenaPokedexEntry::
+	db "Mightyena@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "ZigzagoonPokedexEntry", ROMX
+ZigzagoonPokedexEntry::
+	db "Zigzagoon@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LinoonePokedexEntry", ROMX
+LinoonePokedexEntry::
+	db "Linoone@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "AronPokedexEntry", ROMX
+AronPokedexEntry::
+	db "Aron@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LaironPokedexEntry", ROMX
+LaironPokedexEntry::
+	db "Lairon@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "AggronPokedexEntry", ROMX
+AggronPokedexEntry::
+	db "Aggron@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "TrapinchPokedexEntry", ROMX
+TrapinchPokedexEntry::
+	db "Trapinch@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "VibravaPokedexEntry", ROMX
+VibravaPokedexEntry::
+	db "Vibrava@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "FlygonPokedexEntry", ROMX
+FlygonPokedexEntry::
+	db "Flygon@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "CacneaPokedexEntry", ROMX
+CacneaPokedexEntry::
+	db "Cacnea@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "CacturnePokedexEntry", ROMX
+CacturnePokedexEntry::
+	db "Cacturne@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BaltoyPokedexEntry", ROMX
+BaltoyPokedexEntry::
+	db "Baltoy@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "ClaydolPokedexEntry", ROMX
+ClaydolPokedexEntry::
+	db "Claydol@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "AbsolPokedexEntry", ROMX
+AbsolPokedexEntry::
+	db "Absol@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BagonPokedexEntry", ROMX
+BagonPokedexEntry::
+	db "Bagon@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "ShelgonPokedexEntry", ROMX
+ShelgonPokedexEntry::
+	db "Shelgon@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "SalamencePokedexEntry", ROMX
+SalamencePokedexEntry::
+	db "Salamence@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BeldumPokedexEntry", ROMX
+BeldumPokedexEntry::
+	db "Beldum@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "MetangPokedexEntry", ROMX
+MetangPokedexEntry::
+	db "Metang@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "MetagrossPokedexEntry", ROMX
+MetagrossPokedexEntry::
+	db "Metagross@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "ShinxPokedexEntry", ROMX
+ShinxPokedexEntry::
+	db "Shinx@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LuxioPokedexEntry", ROMX
+LuxioPokedexEntry::
+	db "Luxio@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LuxrayPokedexEntry", ROMX
+LuxrayPokedexEntry::
+	db "Luxray@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "StunkyPokedexEntry", ROMX
+StunkyPokedexEntry::
+	db "Stunky@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "SkuntankPokedexEntry", ROMX
+SkuntankPokedexEntry::
+	db "Skuntank@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BronzorPokedexEntry", ROMX
+BronzorPokedexEntry::
+	db "Bronzor@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BronzongPokedexEntry", ROMX
+BronzongPokedexEntry::
+	db "Bronzong@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "RioluPokedexEntry", ROMX
+RioluPokedexEntry::
+	db "Riolu@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LucarioPokedexEntry", ROMX
+LucarioPokedexEntry::
+	db "Lucario@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "SkorupiPokedexEntry", ROMX
+SkorupiPokedexEntry::
+	db "Skorupi@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "DrapionPokedexEntry", ROMX
+DrapionPokedexEntry::
+	db "Drapion@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "CroagunkPokedexEntry", ROMX
+CroagunkPokedexEntry::
+	db "Croagunk@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "ToxicroakPokedexEntry", ROMX
+ToxicroakPokedexEntry::
+	db "Toxicroak@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "RotomPokedexEntry", ROMX
+RotomPokedexEntry::
+	db "Rotom@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LillipupPokedexEntry", ROMX
+LillipupPokedexEntry::
+	db "Lillipup@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "HerdierPokedexEntry", ROMX
+HerdierPokedexEntry::
+	db "Herdier@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "StoutlandPokedexEntry", ROMX
+StoutlandPokedexEntry::
+	db "Stoutland@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "PurrloinPokedexEntry", ROMX
+PurrloinPokedexEntry::
+	db "Purrloin@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "LiepardPokedexEntry", ROMX
+LiepardPokedexEntry::
+	db "Liepard@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "AudinoPokedexEntry", ROMX
+AudinoPokedexEntry::
+	db "Audino@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "TrubbishPokedexEntry", ROMX
+TrubbishPokedexEntry::
+	db "Trubbish@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "GarbodorPokedexEntry", ROMX
+GarbodorPokedexEntry::
+	db "Garbodor@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "KlinkPokedexEntry", ROMX
+KlinkPokedexEntry::
+	db "Klink@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "KlangPokedexEntry", ROMX
+KlangPokedexEntry::
+	db "Klang@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "KlinklangPokedexEntry", ROMX
+KlinklangPokedexEntry::
+	db "Klinklang@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "ElgyemPokedexEntry", ROMX
+ElgyemPokedexEntry::
+	db "Elgyem@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BeheeyemPokedexEntry", ROMX
+BeheeyemPokedexEntry::
+	db "Beheeyem@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "PawniardPokedexEntry", ROMX
+PawniardPokedexEntry::
+	db "Pawniard@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "BisharpPokedexEntry", ROMX
+BisharpPokedexEntry::
+	db "Bisharp@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "KingambitPokedexEntry", ROMX
+KingambitPokedexEntry::
+	db "Kingambit@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
+SECTION "HawluchaPokedexEntry", ROMX
+HawluchaPokedexEntry::
+	db "Hawlucha@"
+	text "Placeholder"
+	next "dex entry."
+	next "Graphics will"
+	page "be updated"
+	next "in a future"
+	next "release.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

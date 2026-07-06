@@ -35,24 +35,24 @@
 	; morn
 	wildmon 12, NIDORAN_M
 	wildmon 12, NIDORAN_F
-	wildmon 12, YANMA
-	wildmon 14, YANMA
-	wildmon 14, PIDGEY
+	wildmon 12, NATU
+	wildmon 14, NATU
+	wildmon 14, HOOTHOOT
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; day
 	wildmon 12, NIDORAN_M
 	wildmon 12, NIDORAN_F
-	wildmon 12, YANMA
-	wildmon 14, YANMA
-	wildmon 14, PIDGEY
+	wildmon 12, NATU
+	wildmon 14, NATU
+	wildmon 14, HOOTHOOT
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; nite
 	wildmon 12, NIDORAN_M
 	wildmon 12, NIDORAN_F
-	wildmon 12, YANMA
-	wildmon 14, YANMA
+	wildmon 12, NATU
+	wildmon 14, NATU
 	wildmon 14, HOOTHOOT
 	wildmon 10, DITTO
 	wildmon 10, DITTO

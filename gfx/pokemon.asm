@@ -1749,6 +1749,291 @@ SirfetchDFrontpic: INCBIN "gfx/pokemon/sirfetch_d/front.animated.2bpp.lzp"
 SirfetchDBackpic:  INCBIN "gfx/pokemon/sirfetch_d/back.2bpp.lzp"
 SirfetchDFrames:   INCLUDE "gfx/pokemon/sirfetch_d/frames.asm"
 
+SECTION "Ralts Pics", ROMX
+RaltsFrontpic: INCBIN "gfx/pokemon/ralts/front.animated.2bpp.lzp"
+RaltsBackpic:  INCBIN "gfx/pokemon/ralts/back.2bpp.lzp"
+RaltsFrames:   INCLUDE "gfx/pokemon/ralts/frames.asm"
+
+SECTION "Kirlia Pics", ROMX
+KirliaFrontpic: INCBIN "gfx/pokemon/kirlia/front.animated.2bpp.lzp"
+KirliaBackpic:  INCBIN "gfx/pokemon/kirlia/back.2bpp.lzp"
+KirliaFrames:   INCLUDE "gfx/pokemon/kirlia/frames.asm"
+
+SECTION "Gardevoir Pics", ROMX
+GardevoirFrontpic: INCBIN "gfx/pokemon/gardevoir/front.animated.2bpp.lzp"
+GardevoirBackpic:  INCBIN "gfx/pokemon/gardevoir/back.2bpp.lzp"
+GardevoirFrames:   INCLUDE "gfx/pokemon/gardevoir/frames.asm"
+
+SECTION "Gallade Pics", ROMX
+GalladeFrontpic: INCBIN "gfx/pokemon/gallade/front.animated.2bpp.lzp"
+GalladeBackpic:  INCBIN "gfx/pokemon/gallade/back.2bpp.lzp"
+GalladeFrames:   INCLUDE "gfx/pokemon/gallade/frames.asm"
+
+SECTION "Poochyena Pics", ROMX
+PoochyenaFrontpic: INCBIN "gfx/pokemon/poochyena/front.animated.2bpp.lzp"
+PoochyenaBackpic:  INCBIN "gfx/pokemon/poochyena/back.2bpp.lzp"
+PoochyenaFrames:   INCLUDE "gfx/pokemon/poochyena/frames.asm"
+
+SECTION "Mightyena Pics", ROMX
+MightyenaFrontpic: INCBIN "gfx/pokemon/mightyena/front.animated.2bpp.lzp"
+MightyenaBackpic:  INCBIN "gfx/pokemon/mightyena/back.2bpp.lzp"
+MightyenaFrames:   INCLUDE "gfx/pokemon/mightyena/frames.asm"
+
+SECTION "Zigzagoon Pics", ROMX
+ZigzagoonFrontpic: INCBIN "gfx/pokemon/zigzagoon/front.animated.2bpp.lzp"
+ZigzagoonBackpic:  INCBIN "gfx/pokemon/zigzagoon/back.2bpp.lzp"
+ZigzagoonFrames:   INCLUDE "gfx/pokemon/zigzagoon/frames.asm"
+
+SECTION "Linoone Pics", ROMX
+LinooneFrontpic: INCBIN "gfx/pokemon/linoone/front.animated.2bpp.lzp"
+LinooneBackpic:  INCBIN "gfx/pokemon/linoone/back.2bpp.lzp"
+LinooneFrames:   INCLUDE "gfx/pokemon/linoone/frames.asm"
+
+SECTION "Aron Pics", ROMX
+AronFrontpic: INCBIN "gfx/pokemon/aron/front.animated.2bpp.lzp"
+AronBackpic:  INCBIN "gfx/pokemon/aron/back.2bpp.lzp"
+AronFrames:   INCLUDE "gfx/pokemon/aron/frames.asm"
+
+SECTION "Lairon Pics", ROMX
+LaironFrontpic: INCBIN "gfx/pokemon/lairon/front.animated.2bpp.lzp"
+LaironBackpic:  INCBIN "gfx/pokemon/lairon/back.2bpp.lzp"
+LaironFrames:   INCLUDE "gfx/pokemon/lairon/frames.asm"
+
+SECTION "Aggron Pics", ROMX
+AggronFrontpic: INCBIN "gfx/pokemon/aggron/front.animated.2bpp.lzp"
+AggronBackpic:  INCBIN "gfx/pokemon/aggron/back.2bpp.lzp"
+AggronFrames:   INCLUDE "gfx/pokemon/aggron/frames.asm"
+
+SECTION "Trapinch Pics", ROMX
+TrapinchFrontpic: INCBIN "gfx/pokemon/trapinch/front.animated.2bpp.lzp"
+TrapinchBackpic:  INCBIN "gfx/pokemon/trapinch/back.2bpp.lzp"
+TrapinchFrames:   INCLUDE "gfx/pokemon/trapinch/frames.asm"
+
+SECTION "Vibrava Pics", ROMX
+VibravaFrontpic: INCBIN "gfx/pokemon/vibrava/front.animated.2bpp.lzp"
+VibravaBackpic:  INCBIN "gfx/pokemon/vibrava/back.2bpp.lzp"
+VibravaFrames:   INCLUDE "gfx/pokemon/vibrava/frames.asm"
+
+SECTION "Flygon Pics", ROMX
+FlygonFrontpic: INCBIN "gfx/pokemon/flygon/front.animated.2bpp.lzp"
+FlygonBackpic:  INCBIN "gfx/pokemon/flygon/back.2bpp.lzp"
+FlygonFrames:   INCLUDE "gfx/pokemon/flygon/frames.asm"
+
+SECTION "Cacnea Pics", ROMX
+CacneaFrontpic: INCBIN "gfx/pokemon/cacnea/front.animated.2bpp.lzp"
+CacneaBackpic:  INCBIN "gfx/pokemon/cacnea/back.2bpp.lzp"
+CacneaFrames:   INCLUDE "gfx/pokemon/cacnea/frames.asm"
+
+SECTION "Cacturne Pics", ROMX
+CacturneFrontpic: INCBIN "gfx/pokemon/cacturne/front.animated.2bpp.lzp"
+CacturneBackpic:  INCBIN "gfx/pokemon/cacturne/back.2bpp.lzp"
+CacturneFrames:   INCLUDE "gfx/pokemon/cacturne/frames.asm"
+
+SECTION "Baltoy Pics", ROMX
+BaltoyFrontpic: INCBIN "gfx/pokemon/baltoy/front.animated.2bpp.lzp"
+BaltoyBackpic:  INCBIN "gfx/pokemon/baltoy/back.2bpp.lzp"
+BaltoyFrames:   INCLUDE "gfx/pokemon/baltoy/frames.asm"
+
+SECTION "Claydol Pics", ROMX
+ClaydolFrontpic: INCBIN "gfx/pokemon/claydol/front.animated.2bpp.lzp"
+ClaydolBackpic:  INCBIN "gfx/pokemon/claydol/back.2bpp.lzp"
+ClaydolFrames:   INCLUDE "gfx/pokemon/claydol/frames.asm"
+
+SECTION "Absol Pics", ROMX
+AbsolFrontpic: INCBIN "gfx/pokemon/absol/front.animated.2bpp.lzp"
+AbsolBackpic:  INCBIN "gfx/pokemon/absol/back.2bpp.lzp"
+AbsolFrames:   INCLUDE "gfx/pokemon/absol/frames.asm"
+
+SECTION "Bagon Pics", ROMX
+BagonFrontpic: INCBIN "gfx/pokemon/bagon/front.animated.2bpp.lzp"
+BagonBackpic:  INCBIN "gfx/pokemon/bagon/back.2bpp.lzp"
+BagonFrames:   INCLUDE "gfx/pokemon/bagon/frames.asm"
+
+SECTION "Shelgon Pics", ROMX
+ShelgonFrontpic: INCBIN "gfx/pokemon/shelgon/front.animated.2bpp.lzp"
+ShelgonBackpic:  INCBIN "gfx/pokemon/shelgon/back.2bpp.lzp"
+ShelgonFrames:   INCLUDE "gfx/pokemon/shelgon/frames.asm"
+
+SECTION "Salamence Pics", ROMX
+SalamenceFrontpic: INCBIN "gfx/pokemon/salamence/front.animated.2bpp.lzp"
+SalamenceBackpic:  INCBIN "gfx/pokemon/salamence/back.2bpp.lzp"
+SalamenceFrames:   INCLUDE "gfx/pokemon/salamence/frames.asm"
+
+SECTION "Beldum Pics", ROMX
+BeldumFrontpic: INCBIN "gfx/pokemon/beldum/front.animated.2bpp.lzp"
+BeldumBackpic:  INCBIN "gfx/pokemon/beldum/back.2bpp.lzp"
+BeldumFrames:   INCLUDE "gfx/pokemon/beldum/frames.asm"
+
+SECTION "Metang Pics", ROMX
+MetangFrontpic: INCBIN "gfx/pokemon/metang/front.animated.2bpp.lzp"
+MetangBackpic:  INCBIN "gfx/pokemon/metang/back.2bpp.lzp"
+MetangFrames:   INCLUDE "gfx/pokemon/metang/frames.asm"
+
+SECTION "Metagross Pics", ROMX
+MetagrossFrontpic: INCBIN "gfx/pokemon/metagross/front.animated.2bpp.lzp"
+MetagrossBackpic:  INCBIN "gfx/pokemon/metagross/back.2bpp.lzp"
+MetagrossFrames:   INCLUDE "gfx/pokemon/metagross/frames.asm"
+
+SECTION "Shinx Pics", ROMX
+ShinxFrontpic: INCBIN "gfx/pokemon/shinx/front.animated.2bpp.lzp"
+ShinxBackpic:  INCBIN "gfx/pokemon/shinx/back.2bpp.lzp"
+ShinxFrames:   INCLUDE "gfx/pokemon/shinx/frames.asm"
+
+SECTION "Luxio Pics", ROMX
+LuxioFrontpic: INCBIN "gfx/pokemon/luxio/front.animated.2bpp.lzp"
+LuxioBackpic:  INCBIN "gfx/pokemon/luxio/back.2bpp.lzp"
+LuxioFrames:   INCLUDE "gfx/pokemon/luxio/frames.asm"
+
+SECTION "Luxray Pics", ROMX
+LuxrayFrontpic: INCBIN "gfx/pokemon/luxray/front.animated.2bpp.lzp"
+LuxrayBackpic:  INCBIN "gfx/pokemon/luxray/back.2bpp.lzp"
+LuxrayFrames:   INCLUDE "gfx/pokemon/luxray/frames.asm"
+
+SECTION "Stunky Pics", ROMX
+StunkyFrontpic: INCBIN "gfx/pokemon/stunky/front.animated.2bpp.lzp"
+StunkyBackpic:  INCBIN "gfx/pokemon/stunky/back.2bpp.lzp"
+StunkyFrames:   INCLUDE "gfx/pokemon/stunky/frames.asm"
+
+SECTION "Skuntank Pics", ROMX
+SkuntankFrontpic: INCBIN "gfx/pokemon/skuntank/front.animated.2bpp.lzp"
+SkuntankBackpic:  INCBIN "gfx/pokemon/skuntank/back.2bpp.lzp"
+SkuntankFrames:   INCLUDE "gfx/pokemon/skuntank/frames.asm"
+
+SECTION "Bronzor Pics", ROMX
+BronzorFrontpic: INCBIN "gfx/pokemon/bronzor/front.animated.2bpp.lzp"
+BronzorBackpic:  INCBIN "gfx/pokemon/bronzor/back.2bpp.lzp"
+BronzorFrames:   INCLUDE "gfx/pokemon/bronzor/frames.asm"
+
+SECTION "Bronzong Pics", ROMX
+BronzongFrontpic: INCBIN "gfx/pokemon/bronzong/front.animated.2bpp.lzp"
+BronzongBackpic:  INCBIN "gfx/pokemon/bronzong/back.2bpp.lzp"
+BronzongFrames:   INCLUDE "gfx/pokemon/bronzong/frames.asm"
+
+SECTION "Riolu Pics", ROMX
+RioluFrontpic: INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lzp"
+RioluBackpic:  INCBIN "gfx/pokemon/riolu/back.2bpp.lzp"
+RioluFrames:   INCLUDE "gfx/pokemon/riolu/frames.asm"
+
+SECTION "Lucario Pics", ROMX
+LucarioFrontpic: INCBIN "gfx/pokemon/lucario/front.animated.2bpp.lzp"
+LucarioBackpic:  INCBIN "gfx/pokemon/lucario/back.2bpp.lzp"
+LucarioFrames:   INCLUDE "gfx/pokemon/lucario/frames.asm"
+
+SECTION "Skorupi Pics", ROMX
+SkorupiFrontpic: INCBIN "gfx/pokemon/skorupi/front.animated.2bpp.lzp"
+SkorupiBackpic:  INCBIN "gfx/pokemon/skorupi/back.2bpp.lzp"
+SkorupiFrames:   INCLUDE "gfx/pokemon/skorupi/frames.asm"
+
+SECTION "Drapion Pics", ROMX
+DrapionFrontpic: INCBIN "gfx/pokemon/drapion/front.animated.2bpp.lzp"
+DrapionBackpic:  INCBIN "gfx/pokemon/drapion/back.2bpp.lzp"
+DrapionFrames:   INCLUDE "gfx/pokemon/drapion/frames.asm"
+
+SECTION "Croagunk Pics", ROMX
+CroagunkFrontpic: INCBIN "gfx/pokemon/croagunk/front.animated.2bpp.lzp"
+CroagunkBackpic:  INCBIN "gfx/pokemon/croagunk/back.2bpp.lzp"
+CroagunkFrames:   INCLUDE "gfx/pokemon/croagunk/frames.asm"
+
+SECTION "Toxicroak Pics", ROMX
+ToxicroakFrontpic: INCBIN "gfx/pokemon/toxicroak/front.animated.2bpp.lzp"
+ToxicroakBackpic:  INCBIN "gfx/pokemon/toxicroak/back.2bpp.lzp"
+ToxicroakFrames:   INCLUDE "gfx/pokemon/toxicroak/frames.asm"
+
+SECTION "Rotom Pics", ROMX
+RotomFrontpic: INCBIN "gfx/pokemon/rotom/front.animated.2bpp.lzp"
+RotomBackpic:  INCBIN "gfx/pokemon/rotom/back.2bpp.lzp"
+RotomFrames:   INCLUDE "gfx/pokemon/rotom/frames.asm"
+
+SECTION "Lillipup Pics", ROMX
+LillipupFrontpic: INCBIN "gfx/pokemon/lillipup/front.animated.2bpp.lzp"
+LillipupBackpic:  INCBIN "gfx/pokemon/lillipup/back.2bpp.lzp"
+LillipupFrames:   INCLUDE "gfx/pokemon/lillipup/frames.asm"
+
+SECTION "Herdier Pics", ROMX
+HerdierFrontpic: INCBIN "gfx/pokemon/herdier/front.animated.2bpp.lzp"
+HerdierBackpic:  INCBIN "gfx/pokemon/herdier/back.2bpp.lzp"
+HerdierFrames:   INCLUDE "gfx/pokemon/herdier/frames.asm"
+
+SECTION "Stoutland Pics", ROMX
+StoutlandFrontpic: INCBIN "gfx/pokemon/stoutland/front.animated.2bpp.lzp"
+StoutlandBackpic:  INCBIN "gfx/pokemon/stoutland/back.2bpp.lzp"
+StoutlandFrames:   INCLUDE "gfx/pokemon/stoutland/frames.asm"
+
+SECTION "Purrloin Pics", ROMX
+PurrloinFrontpic: INCBIN "gfx/pokemon/purrloin/front.animated.2bpp.lzp"
+PurrloinBackpic:  INCBIN "gfx/pokemon/purrloin/back.2bpp.lzp"
+PurrloinFrames:   INCLUDE "gfx/pokemon/purrloin/frames.asm"
+
+SECTION "Liepard Pics", ROMX
+LiepardFrontpic: INCBIN "gfx/pokemon/liepard/front.animated.2bpp.lzp"
+LiepardBackpic:  INCBIN "gfx/pokemon/liepard/back.2bpp.lzp"
+LiepardFrames:   INCLUDE "gfx/pokemon/liepard/frames.asm"
+
+SECTION "Audino Pics", ROMX
+AudinoFrontpic: INCBIN "gfx/pokemon/audino/front.animated.2bpp.lzp"
+AudinoBackpic:  INCBIN "gfx/pokemon/audino/back.2bpp.lzp"
+AudinoFrames:   INCLUDE "gfx/pokemon/audino/frames.asm"
+
+SECTION "Trubbish Pics", ROMX
+TrubbishFrontpic: INCBIN "gfx/pokemon/trubbish/front.animated.2bpp.lzp"
+TrubbishBackpic:  INCBIN "gfx/pokemon/trubbish/back.2bpp.lzp"
+TrubbishFrames:   INCLUDE "gfx/pokemon/trubbish/frames.asm"
+
+SECTION "Garbodor Pics", ROMX
+GarbodorFrontpic: INCBIN "gfx/pokemon/garbodor/front.animated.2bpp.lzp"
+GarbodorBackpic:  INCBIN "gfx/pokemon/garbodor/back.2bpp.lzp"
+GarbodorFrames:   INCLUDE "gfx/pokemon/garbodor/frames.asm"
+
+SECTION "Klink Pics", ROMX
+KlinkFrontpic: INCBIN "gfx/pokemon/klink/front.animated.2bpp.lzp"
+KlinkBackpic:  INCBIN "gfx/pokemon/klink/back.2bpp.lzp"
+KlinkFrames:   INCLUDE "gfx/pokemon/klink/frames.asm"
+
+SECTION "Klang Pics", ROMX
+KlangFrontpic: INCBIN "gfx/pokemon/klang/front.animated.2bpp.lzp"
+KlangBackpic:  INCBIN "gfx/pokemon/klang/back.2bpp.lzp"
+KlangFrames:   INCLUDE "gfx/pokemon/klang/frames.asm"
+
+SECTION "Klinklang Pics", ROMX
+KlinklangFrontpic: INCBIN "gfx/pokemon/klinklang/front.animated.2bpp.lzp"
+KlinklangBackpic:  INCBIN "gfx/pokemon/klinklang/back.2bpp.lzp"
+KlinklangFrames:   INCLUDE "gfx/pokemon/klinklang/frames.asm"
+
+SECTION "Elgyem Pics", ROMX
+ElgyemFrontpic: INCBIN "gfx/pokemon/elgyem/front.animated.2bpp.lzp"
+ElgyemBackpic:  INCBIN "gfx/pokemon/elgyem/back.2bpp.lzp"
+ElgyemFrames:   INCLUDE "gfx/pokemon/elgyem/frames.asm"
+
+SECTION "Beheeyem Pics", ROMX
+BeheeyemFrontpic: INCBIN "gfx/pokemon/beheeyem/front.animated.2bpp.lzp"
+BeheeyemBackpic:  INCBIN "gfx/pokemon/beheeyem/back.2bpp.lzp"
+BeheeyemFrames:   INCLUDE "gfx/pokemon/beheeyem/frames.asm"
+
+SECTION "Pawniard Pics", ROMX
+PawniardFrontpic: INCBIN "gfx/pokemon/pawniard/front.animated.2bpp.lzp"
+PawniardBackpic:  INCBIN "gfx/pokemon/pawniard/back.2bpp.lzp"
+PawniardFrames:   INCLUDE "gfx/pokemon/pawniard/frames.asm"
+
+SECTION "Bisharp Pics", ROMX
+BisharpFrontpic: INCBIN "gfx/pokemon/bisharp/front.animated.2bpp.lzp"
+BisharpBackpic:  INCBIN "gfx/pokemon/bisharp/back.2bpp.lzp"
+BisharpFrames:   INCLUDE "gfx/pokemon/bisharp/frames.asm"
+
+SECTION "Kingambit Pics", ROMX
+KingambitFrontpic: INCBIN "gfx/pokemon/kingambit/front.animated.2bpp.lzp"
+KingambitBackpic:  INCBIN "gfx/pokemon/kingambit/back.2bpp.lzp"
+KingambitFrames:   INCLUDE "gfx/pokemon/kingambit/frames.asm"
+
+SECTION "Hawlucha Pics", ROMX
+HawluchaFrontpic: INCBIN "gfx/pokemon/hawlucha/front.animated.2bpp.lzp"
+HawluchaBackpic:  INCBIN "gfx/pokemon/hawlucha/back.2bpp.lzp"
+HawluchaFrames:   INCLUDE "gfx/pokemon/hawlucha/frames.asm"
+
+SECTION "Madame Pics", ROMX
+MadameFrontpic: INCBIN "gfx/pokemon/madame/front.animated.2bpp.lzp"
+MadameBackpic:  INCBIN "gfx/pokemon/madame/back.2bpp.lzp"
+MadameFrames:   INCLUDE "gfx/pokemon/madame/frames.asm"
+
 SECTION "WeezingPlain Pics", ROMX
 WeezingPlainFrontpic: INCBIN "gfx/pokemon/weezing_plain/front.animated.2bpp.lzp"
 WeezingPlainBackpic:  INCBIN "gfx/pokemon/weezing_plain/back.2bpp.lzp"

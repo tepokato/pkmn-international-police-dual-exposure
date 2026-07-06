@@ -23,6 +23,16 @@ DoEncoreDisable:
 	and $f
 	jr nz, .failed
 
+	call GetOpponentIgnorableAbility
+	cp BUSHIDO
+	jr nz, .not_immune
+	farcall BeginAbility
+	farcall ShowEnemyAbilityActivation
+	ld hl, DoesntAffectText
+	call StdBattleTextbox
+	farjp EndAbility
+
+.not_immune
 	ld a, BATTLE_VARS_LAST_COUNTER_MOVE_OPP
 	call GetBattleVar
 	and a
@@ -96,6 +106,18 @@ DoEncoreDisable:
 	ld [de], a
 	call AnimateCurrentMove
 	call StdBattleTextbox
+
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .mental_done
+	ld a, b
+	cp DISABLE
+	ld a, MENTAL_F_DISABLED_F
+	jr z, .register_mental
+	ld a, MENTAL_F_ENCORED_F
+.register_mental
+	call RegisterPlayerMentalEffect
+.mental_done
 
 	; Returns z if we had a mental herb.
 	jmp CheckOpponentMentalHerb

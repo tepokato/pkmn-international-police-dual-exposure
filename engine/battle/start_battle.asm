@@ -195,6 +195,11 @@ ClearBattleRAM:
 	ld [wEnemyTurnsTaken], a
 	ld [wEvolvableFlags], a
 
+	ld hl, wMentalEffectFlags
+	ld bc, PARTY_LENGTH
+	xor a
+	rst ByteFill
+
 	ld hl, wPlayerHPPal
 	ld [hli], a
 	ld [hl], a

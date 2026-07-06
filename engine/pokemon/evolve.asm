@@ -109,6 +109,8 @@ CheckHowToEvolve:
 	ld a, b
 	cp EVOLVE_CRIT
 	jmp z, .crit
+	cp EVOLVE_MENTAL
+	jmp z, .mental
 	cp EVOLVE_HOLDING
 	jmp z, .holding
 	cp EVOLVE_LOCATION
@@ -347,6 +349,39 @@ endr
 	cp 3
 	pop bc
 	pop hl
+	jr c, .dont_evolve_3
+	jr .proceed
+
+.mental
+	ld a, [hli]
+	ld b, a
+	ld a, [wTempMonLevel]
+	cp b
+	jr c, .dont_evolve_3
+	call IsMonHoldingEverstone
+	jr z, .dont_evolve_3
+	push hl
+	ld hl, wMentalEffectFlags
+	ld a, [wCurPartyMon]
+	ld c, a
+	ld b, 0
+	add hl, bc
+	ld a, [hl]
+	ld b, 0
+	ld c, a
+.popcount_loop
+	ld a, c
+	or a
+	jr z, .popcount_done
+	inc b
+	dec a
+	and c
+	ld c, a
+	jr .popcount_loop
+.popcount_done
+	ld a, b
+	pop hl
+	cp 2
 	jr c, .dont_evolve_3
 	jr .proceed
 

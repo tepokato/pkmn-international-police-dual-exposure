@@ -367,15 +367,6 @@ AskTeachTMHM:
 	call GetMoveName
 	call CopyName1
 	ld hl, Text_BootedTM ; Booted up a TM
-	ld a, [wCurTMHM]
-	cp HM01 + 1 ; off by one error?
-	jr c, .TM
-
-	; allow full PP restore for HMs
-	ld hl, wForgettingMove
-	res LEARNING_TM_F, [hl]
-	ld hl, Text_BootedHM ; Booted up an HM
-.TM:
 	call PrintText
 	ld de, SFX_CHOOSE_PC_OPTION
 	call WaitPlaySFX
@@ -501,17 +492,9 @@ _GetTMHMName::
 	push af
 
 ; TM/HM prefix
-	cp HM01
-	push af
-	jr c, .TM
-
-	ld hl, .HMText
-	ld bc, .HMTextEnd - .HMText
-	jr .copy
-
-.TM:
 	ld hl, .TMText
 	ld bc, .TMTextEnd - .TMText
+	jr .copy
 
 .copy
 	ld de, wStringBuffer1
@@ -520,13 +503,6 @@ _GetTMHMName::
 ; TM/HM number
 	ld a, [wNamedObjectIndex]
 	ld c, a
-
-; HM numbers start from 51, not 1
-	pop af
-	ld a, c
-	jr c, .not_hm
-	sub NUM_TMS
-.not_hm
 	inc a
 
 ; Divide and mod by 10 to get the top and bottom digits respectively
@@ -573,11 +549,7 @@ _GetTMHMName::
 	db "@"
 
 IsHM::
-	cp HM01
-	jr c, .NotHM
-	scf
-	ret
-.NotHM:
+; HMs were merged into TMs; nothing is an HM anymore.
 	and a
 	ret
 

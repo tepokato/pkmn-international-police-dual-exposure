@@ -296,4 +296,61 @@ endc
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
-	assert_table_length NUM_SPECIES
+	db  36, 100 ; Madame
+		db   5, 100 ; RALTS
+	db   5, 100 ; KIRLIA
+	db   5, 100 ; GARDEVOIR
+	db   5, 100 ; GALLADE
+	db   5, 100 ; POOCHYENA
+	db   5, 100 ; MIGHTYENA
+	db   5, 100 ; ZIGZAGOON
+	db   5, 100 ; LINOONE
+	db   5, 100 ; ARON
+	db   5, 100 ; LAIRON
+	db   5, 100 ; AGGRON
+	db   5, 100 ; TRAPINCH
+	db   5, 100 ; VIBRAVA
+	db   5, 100 ; FLYGON
+	db   5, 100 ; CACNEA
+	db   5, 100 ; CACTURNE
+	db   5, 100 ; BALTOY
+	db   5, 100 ; CLAYDOL
+	db   5, 100 ; ABSOL
+	db   5, 100 ; BAGON
+	db   5, 100 ; SHELGON
+	db   5, 100 ; SALAMENCE
+	db   5, 100 ; BELDUM
+	db   5, 100 ; METANG
+	db   5, 100 ; METAGROSS
+	db   5, 100 ; SHINX
+	db   5, 100 ; LUXIO
+	db   5, 100 ; LUXRAY
+	db   5, 100 ; STUNKY
+	db   5, 100 ; SKUNTANK
+	db   5, 100 ; BRONZOR
+	db   5, 100 ; BRONZONG
+	db   5, 100 ; RIOLU
+	db   5, 100 ; LUCARIO
+	db   5, 100 ; SKORUPI
+	db   5, 100 ; DRAPION
+	db   5, 100 ; CROAGUNK
+	db   5, 100 ; TOXICROAK
+	db   5, 100 ; ROTOM
+	db   5, 100 ; LILLIPUP
+	db   5, 100 ; HERDIER
+	db   5, 100 ; STOUTLAND
+	db   5, 100 ; PURRLOIN
+	db   5, 100 ; LIEPARD
+	db   5, 100 ; AUDINO
+	db   5, 100 ; TRUBBISH
+	db   5, 100 ; GARBODOR
+	db   5, 100 ; KLINK
+	db   5, 100 ; KLANG
+	db   5, 100 ; KLINKLANG
+	db   5, 100 ; ELGYEM
+	db   5, 100 ; BEHEEYEM
+	db   5, 100 ; PAWNIARD
+	db   5, 100 ; BISHARP
+	db   5, 100 ; KINGAMBIT
+	db   5, 100 ; HAWLUCHA
+assert_table_length NUM_SPECIES

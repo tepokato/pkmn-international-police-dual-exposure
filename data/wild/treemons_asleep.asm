@@ -9,13 +9,13 @@ AsleepTreeMons:
 	assert_table_length NUM_DAYTIMES
 .Nite
 .Eve
-	dp CATERPIE
-	dp METAPOD
-	dp BUTTERFREE
-	dp WEEDLE
-	dp KAKUNA
-	dp BEEDRILL
-	dp SPEAROW
+	dp LEDYBA
+	dp SPINARAK
+	dp LEDIAN
+	dp SPINARAK
+	dp SPINARAK
+	dp LEDIAN
+	dp HOOTHOOT
 	dp EKANS
 	dp EXEGGCUTE
 	dp LEDYBA

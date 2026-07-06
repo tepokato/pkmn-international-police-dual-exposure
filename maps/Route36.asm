@@ -190,7 +190,7 @@ Route36RockSmashGuyScript:
 
 	text "That happens to be"
 if DEF(FAITHFUL)
-	line "Rock Smash."
+	line "Brick Break."
 else
 	line "Brick Break."
 endc

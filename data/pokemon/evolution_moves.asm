@@ -227,7 +227,7 @@ endc
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; REMORAID
-	db OCTAZOOKA    ; OCTILLERY
+	db WATER_PULSE    ; OCTILLERY
 	db NO_MOVE      ; DELIBIRD
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY
@@ -295,7 +295,64 @@ endc
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
-	assert_table_length NUM_SPECIES
+	db SACRED_SWORD  ; MADAME
+		db NO_MOVE      ; RALTS
+	db NO_MOVE      ; KIRLIA
+	db NO_MOVE      ; GARDEVOIR
+	db NO_MOVE      ; GALLADE
+	db NO_MOVE      ; POOCHYENA
+	db NO_MOVE      ; MIGHTYENA
+	db NO_MOVE      ; ZIGZAGOON
+	db NO_MOVE      ; LINOONE
+	db NO_MOVE      ; ARON
+	db NO_MOVE      ; LAIRON
+	db NO_MOVE      ; AGGRON
+	db NO_MOVE      ; TRAPINCH
+	db NO_MOVE      ; VIBRAVA
+	db NO_MOVE      ; FLYGON
+	db NO_MOVE      ; CACNEA
+	db NO_MOVE      ; CACTURNE
+	db NO_MOVE      ; BALTOY
+	db NO_MOVE      ; CLAYDOL
+	db NO_MOVE      ; ABSOL
+	db NO_MOVE      ; BAGON
+	db NO_MOVE      ; SHELGON
+	db NO_MOVE      ; SALAMENCE
+	db NO_MOVE      ; BELDUM
+	db NO_MOVE      ; METANG
+	db NO_MOVE      ; METAGROSS
+	db NO_MOVE      ; SHINX
+	db NO_MOVE      ; LUXIO
+	db NO_MOVE      ; LUXRAY
+	db NO_MOVE      ; STUNKY
+	db NO_MOVE      ; SKUNTANK
+	db NO_MOVE      ; BRONZOR
+	db NO_MOVE      ; BRONZONG
+	db NO_MOVE      ; RIOLU
+	db NO_MOVE      ; LUCARIO
+	db NO_MOVE      ; SKORUPI
+	db NO_MOVE      ; DRAPION
+	db NO_MOVE      ; CROAGUNK
+	db NO_MOVE      ; TOXICROAK
+	db NO_MOVE      ; ROTOM
+	db NO_MOVE      ; LILLIPUP
+	db NO_MOVE      ; HERDIER
+	db NO_MOVE      ; STOUTLAND
+	db NO_MOVE      ; PURRLOIN
+	db NO_MOVE      ; LIEPARD
+	db NO_MOVE      ; AUDINO
+	db NO_MOVE      ; TRUBBISH
+	db NO_MOVE      ; GARBODOR
+	db NO_MOVE      ; KLINK
+	db NO_MOVE      ; KLANG
+	db NO_MOVE      ; KLINKLANG
+	db NO_MOVE      ; ELGYEM
+	db NO_MOVE      ; BEHEEYEM
+	db NO_MOVE      ; PAWNIARD
+	db NO_MOVE      ; BISHARP
+	db NO_MOVE      ; KINGAMBIT
+	db NO_MOVE      ; HAWLUCHA
+assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
 

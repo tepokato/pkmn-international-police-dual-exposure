@@ -41,33 +41,26 @@
 ; MonMenuOptions indexes (see data/mon_menu.asm)
 ; used by PokemonActionSubmenu (see engine/pokemon/mon_menu.asm)
 	const_def 1
-	; moves
-	const MONMENUITEM_CUT        ; 1
-	const MONMENUITEM_FLY        ; 2
-	const MONMENUITEM_SURF       ; 3
-	const MONMENUITEM_STRENGTH   ; 4
-	const MONMENUITEM_WATERFALL  ; 5
-	const MONMENUITEM_FLASH      ; 6
-	const MONMENUITEM_WHIRLPOOL  ; 7
-	const MONMENUITEM_DIG        ; 8
-	const MONMENUITEM_TELEPORT   ; 9
-	const MONMENUITEM_FRESHSNACK ; 10
-	const MONMENUITEM_HEADBUTT   ; 11
-	const MONMENUITEM_ROCKSMASH  ; 12
+	; field moves (HMs use key items instead)
+	const MONMENUITEM_DIG        ; 1
+	const MONMENUITEM_TELEPORT   ; 2
+	const MONMENUITEM_FRESHSNACK ; 3
+	const MONMENUITEM_HEADBUTT   ; 4
+	const MONMENUITEM_ROCKSMASH  ; 5
 	; options
-	const MONMENUITEM_SUMMARY    ; 13
-	const MONMENUITEM_SWITCH     ; 14
-	const MONMENUITEM_ITEM       ; 15
-	const MONMENUITEM_CANCEL     ; 16
-	const MONMENUITEM_MAIL       ; 17
-	const MONMENUITEM_ERROR      ; 18
+	const MONMENUITEM_SUMMARY    ; 6
+	const MONMENUITEM_SWITCH     ; 7
+	const MONMENUITEM_ITEM       ; 8
+	const MONMENUITEM_CANCEL     ; 9
+	const MONMENUITEM_MAIL       ; 10
+	const MONMENUITEM_ERROR      ; 11
 DEF NUM_MONMENUITEMS EQU const_value - 1
 
 ; MonMenuOptions categories
 DEF MONMENU_FIELD_MOVE EQU 0
 DEF MONMENU_MENUOPTION EQU 1
 
-DEF NUM_MONMENU_ITEMS EQU 8
+DEF NUM_MONMENU_ITEMS EQU 5
 
 ; start/select menu return values
 DEF HMENURETURN_SCRIPT EQU %10000000

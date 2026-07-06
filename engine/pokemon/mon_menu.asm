@@ -98,17 +98,10 @@ PokemonActionSubmenu:
 	ret
 
 .Actions:
-	dbw MONMENUITEM_CUT,        MonMenu_Cut
-	dbw MONMENUITEM_FLY,        MonMenu_Fly
-	dbw MONMENUITEM_SURF,       MonMenu_Surf
-	dbw MONMENUITEM_STRENGTH,   MonMenu_Strength
-	dbw MONMENUITEM_FLASH,      MonMenu_Flash
-	dbw MONMENUITEM_WHIRLPOOL,  MonMenu_Whirlpool
 	dbw MONMENUITEM_DIG,        MonMenu_Dig
 	dbw MONMENUITEM_TELEPORT,   MonMenu_Teleport
 	dbw MONMENUITEM_FRESHSNACK, MonMenu_FreshSnack
 	dbw MONMENUITEM_HEADBUTT,   MonMenu_Headbutt
-	dbw MONMENUITEM_WATERFALL,  MonMenu_Waterfall
 	dbw MONMENUITEM_ROCKSMASH,  MonMenu_RockSmash
 	dbw MONMENUITEM_SUMMARY,    OpenPartySummary
 	dbw MONMENUITEM_SWITCH,     SwitchPartyMons
@@ -1063,57 +1056,6 @@ MoveScreenLoop:
 	add hl, bc
 	ld a, [hl]
 	ld [wMoveScreenSelectedMove], a
-
-	push de
-	push bc
-	ld a, [wMoveScreenMode]
-	cp MOVESCREEN_NEWMOVE
-	jr nz, .ok
-	ld a, c
-	cp 4 ; selected new move
-	jr z, .ok
-
-	; Certain HMs introduce potential for accidental softlocks if forgotten
-	; at bad spots. There are other softlock situations, but they require
-	; releasing Pokémon, and isn't really something the player does by accident.
-	; This failsafe only kicks in if the player doesn't carry the HM.
-	; Players can skip HM acquisition by trade or New Game+. Some Pokémon also
-	; learn HMs naturally (notably Machamp with Strength).
-	ld a, [hl]
-
-	; Player flies somewhere, forgets Fly and gets stuck on the island.
-	cp FLY
-	ld e, HM_FLY
-	jr z, .checkhm
-
-	; Player surfs to a tiny island, forgets surf, can't re-surf.
-	cp SURF
-	ld e, HM_SURF
-	jr z, .checkhm
-
-	; Players forgetting Strength mid-puzzle.
-	cp STRENGTH
-	ld e, HM_STRENGTH
-	jr z, .checkhm
-
-	; Whirlpool implies surf, but not all water have wild encounters.
-	; This is just in case a whirlpool is added to one such location.
-	cp WHIRLPOOL
-	ld e, HM_WHIRLPOOL
-	jr nz, .ok
-	; Other HMs (Cut, Fly, Flash, Waterfall) can't softlock the player.
-
-.checkhm
-	call _CheckTMHM
-	jr c, .ok
-	pop bc
-	pop de
-	ld hl, Text_CantForgetHM
-	call PrintTextNoBox
-	jmp .outer_loop
-.ok
-	pop bc
-	pop de
 	ld a, c
 	inc a
 	and a
@@ -1338,11 +1280,6 @@ MoveScreenLoop:
 	ld a, b
 	ld [de], a
 	ret
-
-.HMMoves:
-	db SURF, HM_SURF ; can leave players stuck at tiny islands w/o encounters
-	db STRENGTH, HM_STRENGTH ; problem spots have wilds, but just in case
-	db WHIRLPOOL, HM_WHIRLPOOL ; just in case there are wild-less whirlpools
 
 .MustSaveFirst:
 	text "Please save the"

@@ -320,6 +320,7 @@ DEF NUM_HOF_TEAMS EQU 10
 	const EVOLVE_LOCATION
 	const EVOLVE_MOVE
 	const EVOLVE_CRIT ; only for Galarian Farfetch'd
+	const EVOLVE_MENTAL ; Farfetch'd → Madame
 	const EVOLVE_PARTY ; only for Mantyke
 ; multi_evo types for Lyra's info (used in data/pokemon/multi_evos.asm)
 	const EVOLVE_EGG

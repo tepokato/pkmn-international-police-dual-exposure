@@ -298,4 +298,61 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
-	assert_table_length NUM_SPECIES
+	mon_cry CRY_FARFETCH_D,  $0e0,  $0c7 ; Madame
+		mon_cry CRY_ABRA,      $000,  $100 ; RALTS
+	mon_cry CRY_ABRA,      $000,  $100 ; KIRLIA
+	mon_cry CRY_ABRA,      $000,  $100 ; GARDEVOIR
+	mon_cry CRY_ABRA,      $000,  $100 ; GALLADE
+	mon_cry CRY_ABRA,      $000,  $100 ; POOCHYENA
+	mon_cry CRY_ABRA,      $000,  $100 ; MIGHTYENA
+	mon_cry CRY_ABRA,      $000,  $100 ; ZIGZAGOON
+	mon_cry CRY_ABRA,      $000,  $100 ; LINOONE
+	mon_cry CRY_ABRA,      $000,  $100 ; ARON
+	mon_cry CRY_ABRA,      $000,  $100 ; LAIRON
+	mon_cry CRY_ABRA,      $000,  $100 ; AGGRON
+	mon_cry CRY_ABRA,      $000,  $100 ; TRAPINCH
+	mon_cry CRY_ABRA,      $000,  $100 ; VIBRAVA
+	mon_cry CRY_ABRA,      $000,  $100 ; FLYGON
+	mon_cry CRY_ABRA,      $000,  $100 ; CACNEA
+	mon_cry CRY_ABRA,      $000,  $100 ; CACTURNE
+	mon_cry CRY_ABRA,      $000,  $100 ; BALTOY
+	mon_cry CRY_ABRA,      $000,  $100 ; CLAYDOL
+	mon_cry CRY_ABRA,      $000,  $100 ; ABSOL
+	mon_cry CRY_ABRA,      $000,  $100 ; BAGON
+	mon_cry CRY_ABRA,      $000,  $100 ; SHELGON
+	mon_cry CRY_ABRA,      $000,  $100 ; SALAMENCE
+	mon_cry CRY_ABRA,      $000,  $100 ; BELDUM
+	mon_cry CRY_ABRA,      $000,  $100 ; METANG
+	mon_cry CRY_ABRA,      $000,  $100 ; METAGROSS
+	mon_cry CRY_ABRA,      $000,  $100 ; SHINX
+	mon_cry CRY_ABRA,      $000,  $100 ; LUXIO
+	mon_cry CRY_ABRA,      $000,  $100 ; LUXRAY
+	mon_cry CRY_ABRA,      $000,  $100 ; STUNKY
+	mon_cry CRY_ABRA,      $000,  $100 ; SKUNTANK
+	mon_cry CRY_ABRA,      $000,  $100 ; BRONZOR
+	mon_cry CRY_ABRA,      $000,  $100 ; BRONZONG
+	mon_cry CRY_ABRA,      $000,  $100 ; RIOLU
+	mon_cry CRY_ABRA,      $000,  $100 ; LUCARIO
+	mon_cry CRY_ABRA,      $000,  $100 ; SKORUPI
+	mon_cry CRY_ABRA,      $000,  $100 ; DRAPION
+	mon_cry CRY_ABRA,      $000,  $100 ; CROAGUNK
+	mon_cry CRY_ABRA,      $000,  $100 ; TOXICROAK
+	mon_cry CRY_ABRA,      $000,  $100 ; ROTOM
+	mon_cry CRY_ABRA,      $000,  $100 ; LILLIPUP
+	mon_cry CRY_ABRA,      $000,  $100 ; HERDIER
+	mon_cry CRY_ABRA,      $000,  $100 ; STOUTLAND
+	mon_cry CRY_ABRA,      $000,  $100 ; PURRLOIN
+	mon_cry CRY_ABRA,      $000,  $100 ; LIEPARD
+	mon_cry CRY_ABRA,      $000,  $100 ; AUDINO
+	mon_cry CRY_ABRA,      $000,  $100 ; TRUBBISH
+	mon_cry CRY_ABRA,      $000,  $100 ; GARBODOR
+	mon_cry CRY_ABRA,      $000,  $100 ; KLINK
+	mon_cry CRY_ABRA,      $000,  $100 ; KLANG
+	mon_cry CRY_ABRA,      $000,  $100 ; KLINKLANG
+	mon_cry CRY_ABRA,      $000,  $100 ; ELGYEM
+	mon_cry CRY_ABRA,      $000,  $100 ; BEHEEYEM
+	mon_cry CRY_ABRA,      $000,  $100 ; PAWNIARD
+	mon_cry CRY_ABRA,      $000,  $100 ; BISHARP
+	mon_cry CRY_ABRA,      $000,  $100 ; KINGAMBIT
+	mon_cry CRY_ABRA,      $000,  $100 ; HAWLUCHA
+assert_table_length NUM_SPECIES

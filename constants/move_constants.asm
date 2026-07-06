@@ -1,3 +1,12 @@
+DEF CUT EQU TAUNT
+DEF STRENGTH EQU TORMENT
+DEF SURF EQU STEALTH_ROCK
+DEF CRABHAMMER EQU DEFOG
+DEF BONEMERANG EQU YAWN
+DEF OCTAZOOKA EQU TAILWIND
+DEF ZAP_CANNON EQU HEAL_BLOCK
+DEF WHIRLPOOL EQU SACRED_SWORD
+
 ; move ids
 ; indexes for:
 ; - Moves (see data/moves/moves.asm)
@@ -20,7 +29,7 @@
 	const NIGHT_SLASH   ; $0c
 	const AIR_SLASH     ; $0d
 	const SWORDS_DANCE  ; $0e
-	const CUT           ; $0f
+	const TAUNT          ; $0f (was CUT)
 	const GUST          ; $10
 	const WING_ATTACK   ; $11
 	const SUCKER_PUNCH  ; $12
@@ -62,7 +71,7 @@
 	const CALM_MIND     ; $36
 	const WATER_GUN     ; $37
 	const HYDRO_PUMP    ; $38
-	const SURF          ; $39
+	const STEALTH_ROCK  ; $39 (was SURF)
 	const ICE_BEAM      ; $3a
 	const BLIZZARD      ; $3b
 	const PSYBEAM       ; $3c
@@ -75,7 +84,7 @@
 	const LOW_KICK      ; $43
 	const COUNTER       ; $44
 	const SEISMIC_TOSS  ; $45
-	const STRENGTH      ; $46
+	const TORMENT        ; $46 (was STRENGTH)
 	const ABSORB        ; $47
 	const MEGA_DRAIN    ; $48
 	const LEECH_SEED    ; $49
@@ -121,7 +130,7 @@
 	const LIGHT_SCREEN  ; $71
 	const HAZE          ; $72
 	const REFLECT       ; $73
-	const FOCUS_ENERGY  ; $74
+	const FAKE_OUT        ; $74 (was FOCUS_ENERGY / DEAD_MOVE)
 	const FLASH_CANNON  ; $75
 	const METRONOME     ; $76
 	const SCALD         ; $77
@@ -149,7 +158,7 @@
 	const LEECH_LIFE    ; $8d
 	const DRAINING_KISS ; $8e
 	const BRAVE_BIRD    ; $8f
-	const TRANSFORM     ; $90
+	const FEINT         ; $90 (was TRANSFORM)
 	const WATER_PULSE   ; $91
 	const DIZZY_PUNCH   ; $92
 	const SPORE         ; $93
@@ -157,13 +166,13 @@
 	const EXTRASENSORY  ; $95
 	const SPLASH        ; $96
 	const DRAGON_DANCE  ; $97
-	const CRABHAMMER    ; $98
+	const DEFOG         ; $98 (was CRABHAMMER)
 	const EXPLOSION     ; $99
 	const FURY_STRIKES  ; $9a
-	const BONEMERANG    ; $9b
+	const YAWN          ; $9b (was BONEMERANG)
 	const REST          ; $9c
 	const ROCK_SLIDE    ; $9d
-	const HYPER_FANG    ; $9e
+	const PAYBACK       ; $9e (was HYPER_FANG)
 	const BULK_UP       ; $9f
 	const CONVERSION    ; $a0
 	const TRI_ATTACK    ; $a1
@@ -182,7 +191,7 @@
 	const CURSE         ; $ae
 	const GYRO_BALL     ; $af
 	const ENERGY_BALL   ; $b0
-	const AEROBLAST     ; $b1
+	const BRICK_BREAK   ; $b1 (was AEROBLAST)
 	const SEED_BOMB     ; $b2
 	const REVERSAL      ; $b3
 	const ASTONISH      ; $b4
@@ -195,9 +204,9 @@
 	const BELLY_DRUM    ; $bb
 	const SLUDGE_BOMB   ; $bc
 	const MUD_SLAP      ; $bd
-	const OCTAZOOKA     ; $be
+	const TAILWIND      ; $be (was OCTAZOOKA)
 	const SPIKES        ; $bf
-	const ZAP_CANNON    ; $c0
+	const HEAL_BLOCK    ; $c0 (was ZAP_CANNON)
 	const FORESIGHT     ; $c1
 	const DESTINY_BOND  ; $c2
 	const PERISH_SONG   ; $c3
@@ -222,11 +231,11 @@
 	const SLEEP_TALK    ; $d6
 	const HEAL_BELL     ; $d7
 	const RETURN        ; $d8
-	const PSYSTRIKE     ; $d9
+	const FOCUS_ENERGY  ; $d9 (was PSYSTRIKE)
 	const BUG_BUZZ      ; $da
 	const SAFEGUARD     ; $db
 	const PAIN_SPLIT    ; $dc
-	const SACRED_FIRE   ; $dd
+	const DISCHARGE     ; $dd (was SACRED_FIRE)
 	const MAGNITUDE     ; $de
 	const DYNAMICPUNCH  ; $df
 	const MEGAHORN      ; $e0
@@ -254,11 +263,8 @@
 	const ANCIENTPOWER  ; $f6
 	const SHADOW_BALL   ; $f7
 	const FUTURE_SIGHT  ; $f8
-	const ROCK_SMASH    ; $f9
-if !DEF(FAITHFUL)
-DEF BRICK_BREAK EQU ROCK_SMASH
-endc
-	const WHIRLPOOL     ; $fa
+	const ROCK_TOMB      ; $f9 (was ROCK_SMASH)
+	const SACRED_SWORD  ; $fa (was WHIRLPOOL)
 	const DARK_PULSE    ; $fb
 	const MOONBLAST     ; $fc
 	const PLAY_ROUGH    ; $fd

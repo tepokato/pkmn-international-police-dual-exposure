@@ -153,4 +153,12 @@ MoveEffectsPointers:
 	dw LowKick
 	dw BrickBreak
 	dw TrickRoom
+	dw Taunt
+	dw Torment
+	dw StealthRock
+	dw Defog
+	dw Yawn
+	dw Tailwind
+	dw HealBlock
+	dw SacredSword
 	assert_table_length NUM_MOVE_EFECTS

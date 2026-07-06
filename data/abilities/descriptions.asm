@@ -160,6 +160,7 @@ AbilityDescriptions:
 	dw ArmorTailDescription
 	dw MindsEyeDescription
 	dw MegaSolDescription
+	dw BushidoDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -944,4 +945,10 @@ MindsEyeDescription:
 MegaSolDescription:
 	text "Uses moves as if"
 	next "harsh sun is up."
+	done
+
+BushidoDescription:
+	text "Immune to mental"
+	next "effects. Locked to"
+	next "one move."
 	done

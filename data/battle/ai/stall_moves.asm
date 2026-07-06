@@ -11,7 +11,7 @@ StallMoves:
 	db DEFENSE_CURL
 	db DISABLE
 	db DRAGON_DANCE
-	db FOCUS_ENERGY
+	db BULK_UP
 	db GROWL
 	db GROWTH
 	db HAZE
@@ -27,6 +27,5 @@ StallMoves:
 	db STRING_SHOT
 	db SUBSTITUTE
 	db SWORDS_DANCE
-	db TRANSFORM
 	db TRICK
 	db -1 ; end

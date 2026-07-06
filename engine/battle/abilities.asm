@@ -73,6 +73,7 @@ StatusHealAbilities:
 	dbw VITAL_SPIRIT, VitalSpiritAbility
 	dbw OWN_TEMPO, OwnTempoAbility
 	dbw OBLIVIOUS, ObliviousAbility
+	dbw BUSHIDO, BushidoAbility
 	dbw -1, -1
 
 CloudNineAbility:
@@ -153,6 +154,39 @@ ObliviousAbility:
 	call GetBattleVar
 	bit SUBSTATUS_IN_LOVE, a
 	ret z ; not infatuated
+	call BeginAbility
+	call ShowAbilityActivation
+	ld a, BATTLE_VARS_SUBSTATUS1
+	call GetBattleVarAddr
+	res SUBSTATUS_IN_LOVE, [hl]
+	ld hl, NoLongerInfatuatedText
+	call StdBattleTextbox
+	jmp EndAbility
+
+BushidoAbility:
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVar
+	bit SUBSTATUS_CONFUSED, a
+	jr nz, .clear_confusion
+	ld a, BATTLE_VARS_SUBSTATUS1
+	call GetBattleVar
+	bit SUBSTATUS_IN_LOVE, a
+	ret z
+	jr .clear_infatuation
+.clear_confusion
+	call BeginAbility
+	call ShowAbilityActivation
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVarAddr
+	res SUBSTATUS_CONFUSED, [hl]
+	ld hl, ConfusedNoMoreText
+	call StdBattleTextbox
+	call EndAbility
+	ld a, BATTLE_VARS_SUBSTATUS1
+	call GetBattleVar
+	bit SUBSTATUS_IN_LOVE, a
+	ret z
+.clear_infatuation
 	call BeginAbility
 	call ShowAbilityActivation
 	ld a, BATTLE_VARS_SUBSTATUS1
@@ -258,6 +292,16 @@ IntimidateAbility:
 	call BeginAbility
 	ld b, ATTACK
 	farcall ForceLowerOppStat
+
+	ld a, [wFailedMessage]
+	and a
+	jr nz, .no_mental_track
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .no_mental_track
+	ld a, MENTAL_F_INTIMIDATED_F
+	farcall RegisterPlayerMentalEffect
+.no_mental_track
 
 	; if stat decrease happened, proc Rattled
 	call SwitchTurn

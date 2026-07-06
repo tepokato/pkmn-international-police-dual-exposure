@@ -491,25 +491,15 @@ ConvertMonIndexesTo9Bit:
 	unlockpos
 
 .done_loop
-	; Special case for Pikachu, need to set fly form or surf form
-	ifne #result, 0x19, .not_pikachu ; mons like Sirfetch'd ($119) didn't exist yet, so there's no conflicts
-	jumpz #4, .not_pikachu ; HoF mons don't have move data
+	; Reset removed Pikachu cosmetic forms (keep gender)
+	ifne #result, 0x19, .not_pikachu
 	pushpos
-	readhalfword #temp ; species -> moves
-	readword #temp ; all four moves
-.move_loop
-	and #1, #temp, 0xff
-	jumpz #1, .not_pikachu_form
-	set #2, 2 ; FLY_FORM
-	ifeq #1, 0x13, .got_form
-	increment #2 ; SURF_FORM
-	shiftright #temp, 8
-	ifne #1, 0x39, .move_loop
-.got_form
-	seekfwd 15 ; (ID -> form)
+	seekfwd FORM_OFFSET
 	getfilebyte #1
+	and #temp, #1, FORM_MASK
+	iflt #temp, 2, .not_pikachu_form
 	and #1, 0xe0 ; ~FORM_MASK
-	or #1, #2
+	or #1, 1 ; PLAIN_FORM
 	writebyte #1
 .not_pikachu_form
 	poppos
@@ -644,11 +634,6 @@ ConvertMonIndexesTo9Bit:
 	db 0x18, 3 ; ARBOK, KOGA
 	db 0x18, 4 ; ARBOK, AGATHA
 	db 0x18, 5 ; ARBOK, ARIANA
-	db 0x19, 2 ; PIKACHU, FLY
-	db 0x19, 3 ; PIKACHU, SURF
-	db 0x19, 4 ; PIKACHU, RED
-	db 0x19, 5 ; PIKACHU, YELLOW
-	db 0x19, 6 ; PIKACHU, SPARK
 	db 0xac, 2 ; PICHU, SPIKY_EARED
 	db 0x81, 2 ; MAGIKARP, SKELLY
 	db 0x81, 3 ; MAGIKARP, CALICO1

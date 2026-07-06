@@ -163,4 +163,5 @@
 	const ARMOR_TAIL
 	const MINDS_EYE
 	const MEGA_SOL
+	const BUSHIDO
 DEF NUM_ABILITIES EQU const_value

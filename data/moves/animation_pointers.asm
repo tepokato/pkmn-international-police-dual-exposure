@@ -59,7 +59,7 @@ BattleAnimations::
 	fardw BattleAnim_CalmMind
 	fardw BattleAnim_WaterGun
 	fardw BattleAnim_HydroPump
-	fardw BattleAnim_Surf
+	fardw BattleAnim_Spikes
 	fardw BattleAnim_IceBeam
 	fardw BattleAnim_Blizzard
 	fardw BattleAnim_Psybeam
@@ -118,7 +118,7 @@ BattleAnimations::
 	fardw BattleAnim_LightScreen
 	fardw BattleAnim_Haze
 	fardw BattleAnim_Reflect
-	fardw BattleAnim_FocusEnergy
+	fardw BattleAnim_QuickAttack
 	fardw BattleAnim_FlashCannon
 	fardw BattleAnim_Metronome
 	fardw BattleAnim_Scald
@@ -146,7 +146,7 @@ BattleAnimations::
 	fardw BattleAnim_LeechLife
 	fardw BattleAnim_DrainKiss
 	fardw BattleAnim_BraveBird
-	fardw BattleAnim_Transform
+	fardw BattleAnim_FeintAttack
 	fardw BattleAnim_WaterPulse
 	fardw BattleAnim_DizzyPunch
 	fardw BattleAnim_Spore
@@ -154,13 +154,13 @@ BattleAnimations::
 	fardw BattleAnim_Extrasensory
 	fardw BattleAnim_Splash
 	fardw BattleAnim_DragonDance
-	fardw BattleAnim_Crabhammer
+	fardw BattleAnim_Gust
 	fardw BattleAnim_Explosion
 	fardw BattleAnim_FuryStrikes
-	fardw BattleAnim_Bonemerang
+	fardw BattleAnim_Slp
 	fardw BattleAnim_Rest
 	fardw BattleAnim_RockSlide
-	fardw BattleAnim_HyperFang
+	fardw BattleAnim_Pursuit
 	fardw BattleAnim_BulkUp
 	fardw BattleAnim_Conversion
 	fardw BattleAnim_TriAttack
@@ -179,7 +179,7 @@ BattleAnimations::
 	fardw BattleAnim_Curse
 	fardw BattleAnim_GyroBall
 	fardw BattleAnim_EnergyBall
-	fardw BattleAnim_Aeroblast
+	fardw BattleAnim_BrickBreak
 	fardw BattleAnim_SeedBomb
 	fardw BattleAnim_Reversal
 	fardw BattleAnim_Astonish
@@ -192,9 +192,9 @@ BattleAnimations::
 	fardw BattleAnim_BellyDrum
 	fardw BattleAnim_SludgeBomb
 	fardw BattleAnim_MudSlap
-	fardw BattleAnim_Octazooka
+	fardw BattleAnim_Gust
 	fardw BattleAnim_Spikes
-	fardw BattleAnim_ZapCannon
+	fardw BattleAnim_Safeguard
 	fardw BattleAnim_Foresight
 	fardw BattleAnim_DestinyBond
 	fardw BattleAnim_PerishSong
@@ -219,11 +219,11 @@ BattleAnimations::
 	fardw BattleAnim_SleepTalk
 	fardw BattleAnim_HealBell
 	fardw BattleAnim_Return
-	fardw BattleAnim_Psystrike
+	fardw BattleAnim_FocusEnergy
 	fardw BattleAnim_BugBuzz
 	fardw BattleAnim_Safeguard
 	fardw BattleAnim_PainSplit
-	fardw BattleAnim_SacredFire
+	fardw BattleAnim_Spark
 	fardw BattleAnim_Magnitude
 	fardw BattleAnim_Dynamicpunch
 	fardw BattleAnim_Megahorn
@@ -251,12 +251,8 @@ BattleAnimations::
 	fardw BattleAnim_Ancientpower
 	fardw BattleAnim_ShadowBall
 	fardw BattleAnim_FutureSight
-if !DEF(FAITHFUL)
-	fardw BattleAnim_BrickBreak
-else
-	fardw BattleAnim_RockSmash
-endc
-	fardw BattleAnim_Whirlpool
+	fardw BattleAnim_RockSlide
+	fardw BattleAnim_CrossChop
 	fardw BattleAnim_DarkPulse
 	fardw BattleAnim_Moonblast
 	fardw BattleAnim_PlayRough

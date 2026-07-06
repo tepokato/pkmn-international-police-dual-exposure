@@ -22,21 +22,21 @@ ENDM
 MACRO tmhm
 	; initialize bytes to 0
 	for n, (NUM_TM_HM_TUTOR + 7) / 8
-		def _tm{d:n} = 0
+	def _tm{d:n} = 0
 	endr
 	; set bits of bytes
 	for i, 1, _NARG + 1
-		if DEF(\<i>_TMNUM)
-			def n = (\<i>_TMNUM - 1) / 8
-			def t = (\<i>_TMNUM - 1) % 8
-			def _tm{d:n} |= 1 << t
-		else
-			fail "\<i> is not a TM, HM, or tutor move"
-		endc
+	if DEF(\<i>_TMNUM)
+		def n = (\<i>_TMNUM - 1) / 8
+		def t = (\<i>_TMNUM - 1) % 8
+		def _tm{d:n} |= 1 << t
+	else
+		fail "\<i> is not a TM, HM, or tutor move"
+	endc
 	endr
 	; output bytes
 	for n, (NUM_TM_HM_TUTOR + 7) / 8
-		db _tm{d:n}
+	db _tm{d:n}
 	endr
 ENDM
 
@@ -333,7 +333,64 @@ INCLUDE "data/pokemon/base_stats/dudunsparce.asm"
 INCLUDE "data/pokemon/base_stats/farigiraf.asm"
 INCLUDE "data/pokemon/base_stats/clodsire.asm"
 INCLUDE "data/pokemon/base_stats/annihilape.asm"
-	assert_table_length NUM_SPECIES
+INCLUDE "data/pokemon/base_stats/madame.asm"
+	INCLUDE "data/pokemon/base_stats/ralts.asm"
+INCLUDE "data/pokemon/base_stats/kirlia.asm"
+INCLUDE "data/pokemon/base_stats/gardevoir.asm"
+INCLUDE "data/pokemon/base_stats/gallade.asm"
+INCLUDE "data/pokemon/base_stats/poochyena.asm"
+INCLUDE "data/pokemon/base_stats/mightyena.asm"
+INCLUDE "data/pokemon/base_stats/zigzagoon.asm"
+INCLUDE "data/pokemon/base_stats/linoone.asm"
+INCLUDE "data/pokemon/base_stats/aron.asm"
+INCLUDE "data/pokemon/base_stats/lairon.asm"
+INCLUDE "data/pokemon/base_stats/aggron.asm"
+INCLUDE "data/pokemon/base_stats/trapinch.asm"
+INCLUDE "data/pokemon/base_stats/vibrava.asm"
+INCLUDE "data/pokemon/base_stats/flygon.asm"
+INCLUDE "data/pokemon/base_stats/cacnea.asm"
+INCLUDE "data/pokemon/base_stats/cacturne.asm"
+INCLUDE "data/pokemon/base_stats/baltoy.asm"
+INCLUDE "data/pokemon/base_stats/claydol.asm"
+INCLUDE "data/pokemon/base_stats/absol.asm"
+INCLUDE "data/pokemon/base_stats/bagon.asm"
+INCLUDE "data/pokemon/base_stats/shelgon.asm"
+INCLUDE "data/pokemon/base_stats/salamence.asm"
+INCLUDE "data/pokemon/base_stats/beldum.asm"
+INCLUDE "data/pokemon/base_stats/metang.asm"
+INCLUDE "data/pokemon/base_stats/metagross.asm"
+INCLUDE "data/pokemon/base_stats/shinx.asm"
+INCLUDE "data/pokemon/base_stats/luxio.asm"
+INCLUDE "data/pokemon/base_stats/luxray.asm"
+INCLUDE "data/pokemon/base_stats/stunky.asm"
+INCLUDE "data/pokemon/base_stats/skuntank.asm"
+INCLUDE "data/pokemon/base_stats/bronzor.asm"
+INCLUDE "data/pokemon/base_stats/bronzong.asm"
+INCLUDE "data/pokemon/base_stats/riolu.asm"
+INCLUDE "data/pokemon/base_stats/lucario.asm"
+INCLUDE "data/pokemon/base_stats/skorupi.asm"
+INCLUDE "data/pokemon/base_stats/drapion.asm"
+INCLUDE "data/pokemon/base_stats/croagunk.asm"
+INCLUDE "data/pokemon/base_stats/toxicroak.asm"
+INCLUDE "data/pokemon/base_stats/rotom.asm"
+INCLUDE "data/pokemon/base_stats/lillipup.asm"
+INCLUDE "data/pokemon/base_stats/herdier.asm"
+INCLUDE "data/pokemon/base_stats/stoutland.asm"
+INCLUDE "data/pokemon/base_stats/purrloin.asm"
+INCLUDE "data/pokemon/base_stats/liepard.asm"
+INCLUDE "data/pokemon/base_stats/audino.asm"
+INCLUDE "data/pokemon/base_stats/trubbish.asm"
+INCLUDE "data/pokemon/base_stats/garbodor.asm"
+INCLUDE "data/pokemon/base_stats/klink.asm"
+INCLUDE "data/pokemon/base_stats/klang.asm"
+INCLUDE "data/pokemon/base_stats/klinklang.asm"
+INCLUDE "data/pokemon/base_stats/elgyem.asm"
+INCLUDE "data/pokemon/base_stats/beheeyem.asm"
+INCLUDE "data/pokemon/base_stats/pawniard.asm"
+INCLUDE "data/pokemon/base_stats/bisharp.asm"
+INCLUDE "data/pokemon/base_stats/kingambit.asm"
+INCLUDE "data/pokemon/base_stats/hawlucha.asm"
+assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red
 
