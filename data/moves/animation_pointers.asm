@@ -51,7 +51,7 @@ BattleAnimations::
 	fardw BattleAnim_Roar
 	fardw BattleAnim_Sing
 	fardw BattleAnim_Supersonic
-	fardw BattleAnim_Sonicboom
+	fardw BattleAnim_AquaTail
 	fardw BattleAnim_Disable
 	fardw BattleAnim_Acid
 	fardw BattleAnim_Ember
@@ -137,7 +137,7 @@ BattleAnimations::
 	fardw BattleAnim_Bulldoze
 	fardw BattleAnim_Amnesia
 	fardw BattleAnim_Roost
-	fardw BattleAnim_FreshSnack
+	fardw BattleAnim_PoisonJab
 	fardw BattleAnim_HiJumpKick
 	fardw BattleAnim_Glare
 	fardw BattleAnim_DreamEater
@@ -149,7 +149,7 @@ BattleAnimations::
 	fardw BattleAnim_FeintAttack
 	fardw BattleAnim_WaterPulse
 	fardw BattleAnim_DizzyPunch
-	fardw BattleAnim_Spore
+	fardw BattleAnim_Flamethrower
 	fardw BattleAnim_Flash
 	fardw BattleAnim_Extrasensory
 	fardw BattleAnim_Splash
@@ -219,7 +219,7 @@ BattleAnimations::
 	fardw BattleAnim_SleepTalk
 	fardw BattleAnim_HealBell
 	fardw BattleAnim_Return
-	fardw BattleAnim_FocusEnergy
+	fardw BattleAnim_NightSlash
 	fardw BattleAnim_BugBuzz
 	fardw BattleAnim_Safeguard
 	fardw BattleAnim_PainSplit

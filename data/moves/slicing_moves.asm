@@ -9,4 +9,7 @@ SlicingMoves:
 	db SHADOW_CLAW
 	db SLASH
 	db X_SCISSOR
+	db PSYCHO_CUT
+	db AQUA_CUTTER
+	db CROSS_POISON
 	db -1

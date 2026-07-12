@@ -49,7 +49,7 @@ MoveDescriptions::
 	dw RoarDescription
 	dw SingDescription
 	dw SupersonicDescription
-	dw SonicboomDescription
+	dw AquaCutterDescription
 	dw DisableDescription
 	dw AcidDescription
 	dw EmberDescription
@@ -135,7 +135,7 @@ MoveDescriptions::
 	dw BulldozeDescription
 	dw AmnesiaDescription
 	dw RoostDescription
-	dw FreshSnackDescription
+	dw CrossPoisonDescription
 	dw HiJumpKickDescription
 	dw GlareDescription
 	dw DreamEaterDescription
@@ -147,7 +147,7 @@ MoveDescriptions::
 	dw FeintDescription
 	dw WaterPulseDescription
 	dw DizzyPunchDescription
-	dw SporeDescription
+	dw BitterBladeDescription
 	dw FlashDescription
 	dw ExtrasensoryDescription
 	dw SplashDescription
@@ -217,7 +217,7 @@ MoveDescriptions::
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
-	dw FocusEnergyDescription
+	dw PsychoCutDescription
 	dw BugBuzzDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
@@ -519,9 +519,10 @@ OctazookaDescription:
 	next "lower accuracy."
 	done
 
-SonicboomDescription:
-	text "Always inflicts"
-	next "20HP damage."
+AquaCutterDescription:
+	text "The user cuts with"
+	next "a high-crit blade"
+	next "of water."
 	done
 
 DragonRageDescription:
@@ -563,9 +564,10 @@ HypnosisDescription:
 	next "to fall asleep."
 	done
 
-SporeDescription:
-	text "A move that puts"
-	next "the foe to sleep."
+BitterBladeDescription:
+	text "A fiery blade that"
+	next "restores the user's"
+	next "HP by half damage."
 	done
 
 ToxicDescription:
@@ -590,9 +592,10 @@ DoubleTeamDescription:
 	next "evasiveness."
 	done
 
-FocusEnergyDescription:
-	text "Raises the criti-"
-	next "cal hit ratio."
+PsychoCutDescription:
+	text "The user tears at"
+	next "the foe with a"
+	next "high-crit blade."
 	done
 
 SwordsDanceDescription:
@@ -711,9 +714,9 @@ RecoverDescription:
 	next "the max HP."
 	done
 
-FreshSnackDescription:
-	text "Restores HP by 1/2"
-	next "the user's max HP."
+CrossPoisonDescription:
+	text "A slash that may"
+	next "poison the foe."
 	done
 
 RoostDescription:

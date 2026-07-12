@@ -6809,10 +6809,6 @@ CheckBattleAnimSubstitution:
 	ret nz
 
 	ld a, [wFXAnimIDLo]
-	cp FRESH_SNACK
-	ld de, ANIM_MILK_DRINK
-	ld hl, .MilkDrinkUsers
-	jr z, .check_species_list
 	cp FURY_STRIKES
 	ld de, ANIM_FURY_ATTACK
 	ld hl, FuryAttackUsers

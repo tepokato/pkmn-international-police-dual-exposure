@@ -795,7 +795,7 @@ endc
 	learnset 6, POISONPOWDER
 	learnset 6, STUN_SPORE
 	learnset 11, ABSORB
-	learnset 22, SPORE
+	learnset 22, SLEEP_POWDER
 	learnset 27, SLASH
 	learnset 33, GROWTH
 	learnset 38, GIGA_DRAIN
@@ -805,7 +805,7 @@ endc
 	learnset 1, POISONPOWDER
 	learnset 1, SCRATCH
 	learnset 1, STUN_SPORE
-	learnset 22, SPORE
+	learnset 22, SLEEP_POWDER
 	learnset 29, SLASH
 	learnset 37, GROWTH
 	learnset 44, GIGA_DRAIN
@@ -1177,7 +1177,7 @@ endc
 	learnset 21, PSYBEAM
 	learnset 23, NIGHT_SHADE ; Miracle Eye → LGPE move
 	learnset 26, REFLECT
-	learnset 28, LIGHT_SCREEN ; Psycho Cut → egg move
+	learnset 28, PSYCHO_CUT
 	learnset 31, RECOVER
 	learnset 33, BARRIER ; Telekinesis → egg move
 	learnset 36, BATON_PASS ; Ally Switch → new move
@@ -1195,7 +1195,7 @@ endc
 	learnset 21, PSYBEAM
 	learnset 23, NIGHT_SHADE ; Miracle Eye → LGPE move
 	learnset 26, REFLECT
-	learnset 28, LIGHT_SCREEN ; Psycho Cut → egg move
+	learnset 28, PSYCHO_CUT
 	learnset 31, RECOVER
 	learnset 33, BARRIER ; Telekinesis → egg move
 	learnset 36, BATON_PASS ; Ally Switch → new move
@@ -1827,7 +1827,7 @@ endc
 	learnset 1, TACKLE
 	learnset 1, THUNDERSHOCK ; LGPE move
 	learnset 1, ABSORB ; new move
-	learnset 4, SONIC_BOOM
+	learnset 4, AQUA_CUTTER
 	learnset 6, AGILITY ; Eerie Impulse → event move
 	learnset 9, SPARK
 	learnset 11, ROLLOUT
@@ -1847,7 +1847,7 @@ endc
 	learnset 1, TACKLE
 	learnset 1, THUNDERSHOCK ; LGPE move
 	learnset 1, ABSORB ; new move
-	learnset 4, SONIC_BOOM
+	learnset 4, AQUA_CUTTER
 	learnset 6, AGILITY ; Eerie Impulse → event move
 	learnset 9, SPARK
 	learnset 11, ROLLOUT
@@ -1972,7 +1972,6 @@ endc
 	learnset 1, FAKE_OUT
 	learnset 1, TACKLE
 	learnset 4, MACH_PUNCH
-	learnset 7, FOCUS_ENERGY
 	learnset 16, BULLET_PUNCH
 	learnset 21, FEINT
 	learnset 24, FIRE_PUNCH
@@ -2187,7 +2186,6 @@ endc
 	learnset 17, AGILITY
 	learnset 21, WING_ATTACK
 	learnset 25, BUG_BITE ; Fury Cutter → similar move
-	learnset 29, FOCUS_ENERGY
 	learnset 29, SLASH
 	learnset 33, GLARE ; Razor Wind → new move
 	learnset 37, DOUBLE_TEAM
@@ -3276,7 +3274,7 @@ endc
 	learnset 1, BUG_BITE
 	learnset 6, QUICK_ATTACK
 	learnset 11, DOUBLE_TEAM
-	learnset 14, SONIC_BOOM
+	learnset 14, AQUA_CUTTER
 	learnset 17, PROTECT ; Detect → similar move
 	learnset 22, DRAGON_RAGE ; Supersonic → new move
 	learnset 27, SUPERSONIC ; Uproar → Supersonic
@@ -4026,7 +4024,6 @@ endc
 	learnset 1, TACKLE
 	learnset 6, QUICK_ATTACK
 	learnset 11, MACH_PUNCH
-	learnset 16, FOCUS_ENERGY
 	evos_attacks Hitmontop
 	learnset 1, FAKE_OUT
 	learnset 1, TACKLE
@@ -4488,7 +4485,7 @@ endc
 	learnset 1, BUG_BITE
 	learnset 6, QUICK_ATTACK
 	learnset 11, DOUBLE_TEAM
-	learnset 14, SONIC_BOOM
+	learnset 14, AQUA_CUTTER
 	learnset 17, PROTECT ; Detect → similar move
 	learnset 22, DRAGON_RAGE ; Supersonic → new move
 	learnset 27, SUPERSONIC ; Uproar → Supersonic
@@ -4646,33 +4643,25 @@ endc
 	learnset 70, GIGA_IMPACT ; Meteor Assault → similar move
 
 	evos_attacks Madame
-	learnset 1, SACRED_SWORD ; evolution move
-	learnset 1, CUT ; Fury Cutter → HM move
-	learnset 1, COUNTER ; Iron Defense → egg move
+	learnset 1, AIR_SLASH ; evolution move
 	learnset 1, QUICK_ATTACK ; First Impression → egg move
 	learnset 1, PECK
 	learnset 1, MUD_SLAP ; Sand Attack → similar move
 	learnset 1, LEER
-if DEF(FAITHFUL)
-	learnset 15, BRICK_BREAK
-else
-	learnset 15, REVERSAL ; Rock Smash → TM move
-endc
-	learnset 20, FEINT_ATTACK ; Brutal Swing → similar move
+	learnset 15, X_SCISSOR ; Fury Cutter → similar move
+	learnset 20, AQUA_CUTTER
 	learnset 25, PROTECT ; Detect → similar move
+	learnset 28, CROSS_POISON
 	learnset 30, KNOCK_OFF
+	learnset 32, PSYCHO_CUT
 	learnset 35, STEEL_WING ; Defog → TM move
-if DEF(FAITHFUL)
-	learnset 40, NIGHT_SLASH ; Brick Break → egg move
-else
-	learnset 40, BRICK_BREAK
-endc
+	learnset 40, NIGHT_SLASH
 	learnset 45, SWORDS_DANCE
+	learnset 47, BRAVE_BIRD
 	learnset 50, BODY_SLAM ; Slam → TR move
-	learnset 55, POISON_JAB ; Leaf Blade → TR move
-	learnset 60, CLOSE_COMBAT ; Final Gambit → TR move
-	learnset 65, BRAVE_BIRD
-	learnset 70, GIGA_IMPACT ; Meteor Assault → similar move
+	learnset 55, BITTER_BLADE
+	learnset 60, SACRED_SWORD
+	learnset 65, CLOSE_COMBAT ; Final Gambit → TR move
 
 	evos_attacks Ralts
 	evo_data EVOLVE_LEVEL, 20, KIRLIA
@@ -5088,7 +5077,6 @@ endc
 	evo_data EVOLVE_LEVEL, 25, LUCARIO
 	learnset 1, ENDURE
 	learnset 1, QUICK_ATTACK
-	learnset 6, FOCUS_ENERGY
 	learnset 8, METAL_CLAW
 	learnset 12, COUNTER
 	learnset 15, FEINT
@@ -5098,7 +5086,6 @@ endc
 	learnset 56, REVERSAL
 	evos_attacks Lucario
 	learnset 0, AURA_SPHERE
-	learnset 1, FOCUS_ENERGY
 	learnset 1, METAL_CLAW
 	learnset 1, QUICK_ATTACK
 	learnset 1, REVERSAL

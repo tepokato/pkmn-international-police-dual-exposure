@@ -63,7 +63,7 @@ DEF WHIRLPOOL EQU SACRED_SWORD
 	const ROAR          ; $2e
 	const SING          ; $2f
 	const SUPERSONIC    ; $30
-	const SONIC_BOOM    ; $31
+	const AQUA_CUTTER    ; $31 (was SONIC_BOOM)
 	const DISABLE       ; $32
 	const ACID          ; $33
 	const EMBER         ; $34
@@ -149,7 +149,7 @@ DEF WHIRLPOOL EQU SACRED_SWORD
 	const BULLDOZE      ; $84
 	const AMNESIA       ; $85
 	const ROOST         ; $86
-	const FRESH_SNACK   ; $87
+	const CROSS_POISON  ; $87 (was FRESH_SNACK)
 	const HI_JUMP_KICK  ; $88
 	const GLARE         ; $89
 	const DREAM_EATER   ; $8a
@@ -161,7 +161,7 @@ DEF WHIRLPOOL EQU SACRED_SWORD
 	const FEINT         ; $90 (was TRANSFORM)
 	const WATER_PULSE   ; $91
 	const DIZZY_PUNCH   ; $92
-	const SPORE         ; $93
+	const BITTER_BLADE  ; $93 (was SPORE)
 	const FLASH         ; $94
 	const EXTRASENSORY  ; $95
 	const SPLASH        ; $96
@@ -231,7 +231,7 @@ DEF WHIRLPOOL EQU SACRED_SWORD
 	const SLEEP_TALK    ; $d6
 	const HEAL_BELL     ; $d7
 	const RETURN        ; $d8
-	const FOCUS_ENERGY  ; $d9 (was PSYSTRIKE)
+	const PSYCHO_CUT    ; $d9 (was FOCUS_ENERGY / PSYSTRIKE)
 	const BUG_BUZZ      ; $da
 	const SAFEGUARD     ; $db
 	const PAIN_SPLIT    ; $dc

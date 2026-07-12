@@ -764,7 +764,7 @@ SpinarakEggSpeciesMoves:
 	db MEGAHORN
 	db PSYBEAM
 	db PURSUIT
-	db SONIC_BOOM
+	db AQUA_CUTTER
 	db POISON_JAB
 	db NIGHT_SLASH
 	db TOXIC_SPIKES
@@ -794,7 +794,7 @@ CleffaEggSpeciesMoves:
 	db BELLY_DRUM
 	db AMNESIA
 	db SPLASH
-	db FRESH_SNACK
+	db HEALINGLIGHT
 	db $ff
 
 IgglybuffEggSpeciesMoves:

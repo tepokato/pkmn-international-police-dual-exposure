@@ -295,7 +295,7 @@ endc
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
-	db SACRED_SWORD  ; MADAME
+	db AIR_SLASH      ; MADAME
 		db NO_MOVE      ; RALTS
 	db NO_MOVE      ; KIRLIA
 	db NO_MOVE      ; GARDEVOIR

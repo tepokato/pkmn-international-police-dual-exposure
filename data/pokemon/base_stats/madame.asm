@@ -1,4 +1,4 @@
-	bst 507,  62, 135,  95,  68,  82,  65
+	bst 507,  72, 100,  71,  63,  71, 130
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIGHTING, FIGHTING ; type
